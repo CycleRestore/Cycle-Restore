@@ -557,26 +557,26 @@ body {
 @media screen and (min-width:393px) and (max-width:955px)
 {
   .image-container{
-    margin-left:200px;
+    margin-left:170px;
   }
  .text-justify{
   width:1400px;
   font-size:35px;
-  margin-left:100px;
+  margin-left:50px;
  }
  .cover{
   width:1400px;
   font-family:Arial, Helvetica, sans-serif;
   font-size:35px;
-  margin-left: 100px;
+  margin-left: 50px;
  }
  .service{
   font-size:35px;
-  margin-left:100px;
+  margin-left:50px;
  }
  .font-weight-bold{
   width:1000px;
-  margin-left:100px;
+  margin-left:50px;
   font-size: 40px;
 }
 .side{

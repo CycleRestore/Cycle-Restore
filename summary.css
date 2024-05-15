@@ -8,7 +8,7 @@ padding-left:15px;
 padding-right:15px;
 margin-right:15px;
 }
-p
+#font p
 {
     text-align: center;
 }
@@ -49,11 +49,11 @@ img
 width:20px;
 height:20px;
 }
-a
+#pages a
 {
 color:black;
 }
-a:hover
+#pages a:hover
 {
 color:red;
 }
@@ -165,11 +165,110 @@ h1
 {
     margin-right:100px;
 }
- 
 
- 
-@media (max-width:1200px)
+#footer
 {
+    width:100%;
+    height:640px;
+    background-color: black;
+    font-family:Arial;
+    margin-top: 20px;
+    left: 0px;
+    bottom: 0px;
+}
+#icons img
+{
+    width:30px;
+    height:30px;
+   margin-right:20px;
+   margin-top: 80px;
+}
+#icons
+{
+    margin-left:1200px;
+    width:280px;  
+    height:40px;
+}
+#logo
+{
+    width:100px;
+    height:100px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+#all
+{
+    width:1350px;
+    color:white;
+    display:flex;
+    height:300px;
+    margin-left:80px;
+    justify-content: space-between;
+    margin-top:140px;
+}
+ul
+{
+    color:white;
+}
+#para
+{
+    width:310px;
+    height:150px;
+    margin-top:5px;
+}
+#para,#paraa,#paraaaa,#paraaa
+{
+    text-align: left;
+}
+ul,a
+{
+    color:white;
+}
+h4
+{
+    margin-left:22px;
+}
+li
+{
+    padding-bottom:17px;
+    text-decoration: underline;
+}
+#paraaaa img
+{
+     width:20px;
+     height:20px;
+     margin-right:5px;
+     vertical-align:text-bottom;
+}
+#paraaaa
+{
+    width:345px;
+    height:200px;
+}
+#paraaaa h4
+{
+    margin-left: 0px;
+}
+#downleft
+{
+    color:white;
+    text-align: left;
+    margin-left:20px;
+}
+#downright
+{
+ margin-right: 40px;
+    color: white;
+    text-align:right;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+@media (max-width:1200px)
+{ #footer
+    {
+      width: 1468px;
+    }
     #header img
     {
         margin-left:30px;
@@ -184,7 +283,7 @@ h1
     {
         margin-left:500px;
     }
-    p
+    #font p
     {
         width:300px;
         margin-left:460px;
@@ -224,12 +323,25 @@ h1
     width:320px;
     margin-left: 540px;
    }
+   h1 
+   {
+    margin-left: 170px;
+   }
+   #pages
+   {
+    margin-left: 250px;
+    margin-bottom: 10px;
+   }
+   #font
+   {
+    margin-left:150px;
+   }
 }
-
-
-
 @media (max-width:999px)
-{
+{ #footer
+    {
+      width: 1468px;
+    }
     #header img
     {
         margin-left:30px;
@@ -242,38 +354,38 @@ h1
     }
     #ut
     {
+        margin-left:500px;
+    }
+    #font p
+    {
+        width:300px;
+        margin-left:460px;
+    }
+    #cust
+    {
+        margin-left:540px;
+    }
+    #sad
+    {
+        margin-left:440px;
+        margin-right: 100px;
+        width:535px;
+    }
+    #serv
+    {
+        width:150px;
+    }
+    #dat
+    {
+        width:300px;
+    }
+    hr
+    {
         margin-left:400px;
     }
-    p
-    {
-        width:300px;
-        margin-left:360px;
-    }
-    #cust
-    {
-        margin-left:435px;
-    }
-    #sad
-    {
-        margin-left:350px;
-        margin-right: 100px;
-        width:535px;
-    }
-    #serv
-    {
-        width:150px;
-    }
-    #dat
-    {
-        width:300px;
-    }
-    hr
-    {
-        margin-left:310px;
-    }
     #summary
     {
-        margin-left:350px;
+        margin-left:440px;
     }
     #money
     {
@@ -282,52 +394,53 @@ h1
    #submit
    {
     width:320px;
-    margin-left: 440px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 350px;
+   }
+   #pages
+   {
+    margin-left: 300px;
+    margin-bottom: 10px;
+   }
+   #font
+   {
+    margin-left:150px;
    }
 }
-
-
 @media (max-width:768px)
-{
+{ #footer
+    {
+      width: 1468px;
+    }
     #header img
     {
         margin-left:30px;
-        text-align: left;
+        text-align:left;
         margin-right:210px;
     }
     #home a,#services a,#about us a,#contact us a
     {
         margin-left: 5px;
     }
-    h1
-    {
-       margin-left:160px;
-       margin-top:60px;
-       width:400px;
-    }
-    #pages
-    {
-        width:550px;
-        margin-left:100px;
-        margin-top:50px;
-    }
     #ut
     {
-        margin-left:260px;
-        margin-top:20px;
+        margin-left:500px;
     }
-    p
+    #font p
     {
-        width:350px;
-        margin-left:180px;
+        width:300px;
+        margin-left:400px;
     }
     #cust
     {
-        margin-left:285px;
+        margin-left:510px;
     }
     #sad
     {
-        margin-left:185px;
+        margin-left:440px;
         margin-right: 100px;
         width:535px;
     }
@@ -341,11 +454,11 @@ h1
     }
     hr
     {
-        margin-left:145px;
+        margin-left:400px;
     }
     #summary
     {
-        margin-left:185px;
+        margin-left:440px;
     }
     #money
     {
@@ -354,52 +467,60 @@ h1
    #submit
    {
     width:320px;
-    margin-left: 290px;
+    margin-left: 540px;
+   }
+   h1 
+   {
+    margin-left: 390px;
+    width:400px;
+   }
+   #pages
+   {
+    margin-left: 310px;
+    margin-bottom: 10px;
+    width:550px;
+   }
+   #font
+   {
+    margin-left:150px;
+    font-size: larger;
+   }
+   #body p
+   {
+    width:400px;
    }
 }
-
-
 @media (max-width:600px)
-{
+{ #footer
+    {
+      width: 1468px;
+    }
     #header img
     {
         margin-left:30px;
-        text-align: left;
+        text-align:left;
         margin-right:210px;
     }
     #home a,#services a,#about us a,#contact us a
     {
         margin-left: 5px;
     }
-    h1
-    {
-       margin-left:160px;
-       margin-top:60px;
-       width:400px;
-    }
-    #pages
-    {
-        width:550px;
-        margin-left:100px;
-        margin-top:50px;
-    }
     #ut
     {
-        margin-left:260px;
-        margin-top:20px;
+        margin-left:500px;
     }
-    p
+    #font p
     {
-        width:350px;
-        margin-left:180px;
+        width:300px;
+        margin-left:400px;
     }
     #cust
     {
-        margin-left:285px;
+        margin-left:510px;
     }
     #sad
     {
-        margin-left:185px;
+        margin-left:440px;
         margin-right: 100px;
         width:535px;
     }
@@ -413,11 +534,11 @@ h1
     }
     hr
     {
-        margin-left:145px;
+        margin-left:400px;
     }
     #summary
     {
-        margin-left:185px;
+        margin-left:440px;
     }
     #money
     {
@@ -426,7 +547,26 @@ h1
    #submit
    {
     width:320px;
-    margin-left: 290px;
+    margin-left: 540px;
    }
-
+   h1 
+   {
+    margin-left: 390px;
+    width:400px;
+   }
+   #pages
+   {
+    margin-left: 310px;
+    margin-bottom: 10px;
+    width:550px;
+   }
+   #font
+   {
+    margin-left:150px;
+    font-size: larger;
+   }
+   #body p
+   {
+    width:400px;
+   }
 }

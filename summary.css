@@ -264,6 +264,10 @@ li
     font-size: 20px;
 }
 
+
+/********************************************************************************************************************************/
+
+
 @media (max-width:1200px)
 { #footer
     {
@@ -337,6 +341,11 @@ li
     margin-left:150px;
    }
 }
+
+
+/********************************************************************************************************************************/
+
+
 @media (max-width:999px)
 { #footer
     {
@@ -410,6 +419,11 @@ li
     margin-left:150px;
    }
 }
+
+
+/********************************************************************************************************************************/
+
+
 @media (max-width:768px)
 { #footer
     {
@@ -462,7 +476,7 @@ li
     }
     #money
     {
-        margin-left: 185px;
+        margin-left: 175px;
     }
    #submit
    {
@@ -490,6 +504,11 @@ li
     width:400px;
    }
 }
+
+
+/********************************************************************************************************************************/
+
+
 @media (max-width:600px)
 { #footer
     {
@@ -570,3 +589,383 @@ li
     width:400px;
    }
 }
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:377px) and (max-width:426px)
+{ 
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:290px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 190px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:410px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 120px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 170px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+}
+
+
+/********************************************************************************************************************************/
+
+
+
+@media (min-width:321px) and (max-width:376px)
+{ 
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:290px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 190px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:410px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 120px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 170px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+}
+
+
+@media (max-width:320px)
+{  
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+        margin-left:30px;
+        text-align:left;
+        margin-right:210px;
+    }
+    #header
+  {
+    height:5%;
+    width:100%;
+  }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+    #ut
+    {
+        margin-left:250px;
+        width:500px;
+        height: 400px;
+        margin-top:60px;
+        margin-bottom:30px;
+    }
+    #font p
+    {
+        width:700px;
+        margin-left: 150px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    #cust
+    {
+        margin-left:370px;
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+    #sad
+    {
+        margin-left:280px;
+        margin-right: 100px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+    #serv
+    {
+        width:200px;
+    }
+    #dat
+    {
+        width:450px;
+    }
+    hr
+    {
+        margin-left:280px;
+        margin-top:30px;
+        margin-bottom:30px;
+    }
+    #summary
+    {
+        margin-left:280px;
+        font-size: 28px;
+    }
+    #money
+    {
+        margin-left: 200px;
+    }
+   #submit
+   {
+    margin-left: 400px;
+    margin-top: 60px;
+   }
+   #submit button
+    {
+        width:150px;
+        height:70px;
+    }  
+     #downright
+   {
+     margin-right: 16px;
+   }
+   #icons
+   {
+     margin-left: 970px;
+   }
+   h1{
+     margin-left: 80px;
+     width:850px;
+     margin-bottom:80px;
+     margin-top: 150px;
+     font-size: 68px;
+   }
+   
+   #pages
+   {
+     width: 750px;
+     margin-left: 130px;
+     height:60px;
+     font-size: x-large;
+   }
+   #all
+   {
+     margin-left: 0px;
+    justify-content:space-evenly;
+   }
+  
+   
+}
+
+
+

@@ -306,6 +306,9 @@ li
 }
 
 
+/********************************************************************************************************************************/
+
+
 @media (max-width:1200px)
 {   #footer
     {
@@ -336,8 +339,14 @@ li
     #all
     {
         margin-left: 240px;
+        margin-bottom: 60px;
     }    
 }
+
+
+/********************************************************************************************************************************/
+
+
 @media (max-width:999px)
 {   #footer
     {
@@ -368,8 +377,13 @@ li
     #all
     {
         margin-left: 240px;
+        margin-bottom: 60px;
     }    
 }
+
+
+/********************************************************************************************************************************/
+
 
 @media (max-width:768px)
 {   #footer
@@ -401,8 +415,12 @@ li
     #all
     {
         margin-left: 240px;
+        margin-bottom: 60px;
     }    
 }
+
+
+/********************************************************************************************************************************/
 
 
 @media (max-width:600px)
@@ -462,6 +480,7 @@ li
     {
         width:700px;
         margin-left: 400px;
+        margin-bottom: 60px;
     }
     h3
     {
@@ -473,3 +492,317 @@ li
    }
     
 }
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:377px) and (max-width:475px)
+{   
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 180px;
+    width:850px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    font-size: 44px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages
+   {
+     width: 750px;
+     margin-left: 230px;
+     height:60px;
+     font-size: x-large;
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+    }
+    #ji1
+    {
+        margin-left: 105px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ji2
+    {
+        margin-top:55px;
+    }
+    #all
+    {
+        width:700px;
+        margin-left: 340px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:270px;
+    }
+   #last
+   {
+    margin-right:380px;
+   }
+    
+    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:321px) and (max-width:376px)
+{   #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 180px;
+    width:850px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    font-size: 44px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages
+   {
+     width: 750px;
+     margin-left: 230px;
+     height:60px;
+     font-size: x-large;
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+    }
+    #ji1
+    {
+        margin-left: 105px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ji2
+    {
+        margin-top:55px;
+    }
+    #all
+    {
+        width:700px;
+        margin-left: 340px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:270px;
+    }
+   #last
+   {
+    margin-right:380px;
+   }
+    
+    
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (max-width:320px)
+{   
+    #footer
+    {
+      width: 1350px;
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    #header img
+    {
+      margin-right: 450px;
+    }
+    #header
+    {
+      height:5%;
+      width:100%;
+    }
+  
+    #top,#paraa,#paraaa,#paraaaa
+    { 
+      margin-left:2px;
+      margin-right: 2px;
+    }
+    #allf
+  {
+    margin-left: 0px;
+   justify-content:space-evenly;
+  }
+  #downright
+  {
+    margin-right: 16px;
+  }
+  #icons
+  {
+    margin-left: 970px;
+  }
+  h1{
+    margin-left: 140px;
+    width:850px;
+    margin-bottom:60px;
+    margin-top: 100px;
+    font-size: 44px;
+  }
+    #home a,#services a,#about us a,#contact us a
+    {
+        margin-left: 5px;
+    }
+  
+   #table2
+   {
+    padding-left: 90px;
+   }
+   #pages
+   {
+     width: 750px;
+     margin-left: 190px;
+     height:60px;
+     font-size: x-large;
+   }
+    #bsa,#bsa2
+    {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }  
+    #ji
+    {
+        margin-bottom: 0px;
+    }
+    #ji1
+    {
+        margin-left: 105px;
+    }
+    #ib
+    {
+        margin-top:20px;
+    }
+    #ji2
+    {
+        margin-top:55px;
+    }
+    #all
+    {
+        width:700px;
+        margin-left: 300px;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+    h3
+    {
+        margin-left:270px;
+    }
+   #last
+   {
+    margin-right:380px;
+   }
+    
+}
+

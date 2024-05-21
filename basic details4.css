@@ -32,35 +32,46 @@ color:black;
 #font
 {
 font-family:Rubik;
+align-items: flex-start;
 }
 #font1
 {
-    border: 1px solid black;
+border: 1px solid black;
 background-color: #000000;
 color: white;
-width:600px;
-margin: auto;
-border-radius: 10px;
-margin-top:80px;
-
+width:100%;
+margin-top:5px;
+position:absolute;
+left:0px;
+right:0px;
+scroll-behavior: auto;
 }
 #pages a:hover
 {
 color:red;
 }
-input[type],select
+input
 {
-border:2px solid black;
-border-radius:15px;
+border-radius:45px;
 cursor:pointer;
-letter-spacing: 0.05cm;
-height:35px;
+letter-spacing: 0.01cm;
+height:38px;
+width: 500px;
+color:rgba(0,0,0,1.0);
+font-size: 17px;
+border: 2px solid black;
 }
 select
 {
-  width: 300px;
-  height: 35px;
-  font-weight: bold;
+  cursor:pointer;
+  letter-spacing: 0.01cm;
+  width: 500px;
+  height: 38px;
+  border-radius:45px;
+  color:rgba(0,0,0,1.0);
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid black;
 }
 #hover
 {
@@ -68,14 +79,19 @@ box-shadow:0px 3px 5px rgba(0,0,0,0.6);
 }
 #addr
 {
-width:300px;
-height:50px;
+letter-spacing: 0.01cm;
+width:500px;
+height:48px;
+border-radius:35px;
+padding: 5px;
+font-size: 17px;
+border: 2px solid black;
 }
 
 ::placeholder
 {
   color:#000000;
-  font-weight: bold;
+  padding: 5px;
 }
 
 #header
@@ -117,10 +133,11 @@ h1,h2
     width:100%;
     height:640px;
     background-color: black;
-    font-family:Arial;
-    margin-top: 20px;
+    font-family:Rubik;
+    margin-top: 50px;
     left: 0px;
-    bottom: 0px;
+    position:absolute;
+    scroll-behavior: auto;
 }
 #icons img
 {
@@ -214,6 +231,8 @@ li
   border:1px solid black;
   width:7%;
   height:7%;
+  margin-top: 600px;
+  margin-bottom: 50px;
   margin-left:auto;
   margin-right:auto;
   background-color:#000000;

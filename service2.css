@@ -3,18 +3,6 @@
 width:20px;
 height:20px;
 }
-#ji2 a
-{
-    color:#000000;
-}
-#ji a
-{
-    color:#000000;
-}
-#ji1 a
-{
-    color: #000000;
-}
 #pages a
 {
 color:black;
@@ -56,6 +44,18 @@ border-radius:15px;
 margin-bottom:20px;
 cursor:pointer;
 margin-left: 5px; 
+}
+#ji2 a
+{
+    color:#000000;
+}
+#ji a
+{
+    color:#000000;
+}
+#ji1 a
+{
+    color: #000000;
 }
 #all
 {
@@ -103,10 +103,35 @@ margin-left:70px;
 {
 color:white;
 }
-#ji:hover img,#ji1:hover img,#ji2:hover img
-{
-    background-color:white;
-}
+    #ji:hover img.image{
+    display:none;
+    }
+    #ji img.hover{
+    display:none;
+    }
+    #ji:hover img.hover{
+    display:block;
+    }
+
+    #ji1:hover img.image{
+        display:none;
+        }
+        #ji1 img.hover{
+        display:none;
+        }
+        #ji1:hover img.hover{
+        display:block;
+        }
+
+        #ji2:hover img.image{
+            display:none;
+            }
+            #ji2 img.hover{
+            display:none;
+            }
+            #ji2:hover img.hover{
+            display:block;
+            }
 #hover
 {
 box-shadow:0px 3px 5px rgba(0,0,0,0.6);

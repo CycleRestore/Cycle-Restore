@@ -236,6 +236,9 @@
     hr{
         display: none;
     }
+    .hero-right img {
+        display: none;
+    }
 }
 
 

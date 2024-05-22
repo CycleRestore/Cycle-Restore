@@ -343,4 +343,7 @@
     .service-container{
         margin-top: 60px;
     }
+    .company-logo img {
+        width: 100px;
+    }
 }

@@ -91,7 +91,8 @@ margin-bottom: 0px;
 }
 body
 {
-  background-image: url('/th.jpg');
+  background: url(/th\ \(1\).jpeg);
+  background-repeat:repeat;
 }
 ::placeholder
 {

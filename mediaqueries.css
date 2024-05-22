@@ -329,7 +329,7 @@
     }
 }
 
-@media (min-width: 220px) and (max-width:480px) {
+@media (min-width: 120px) and (max-width:480px) {
     .hero-back img {
         margin-top: -420px;
         height: 550px;

@@ -41,7 +41,7 @@ position:absolute;
 left:0px;
 right:0px;
 scroll-behavior: auto;
-height:780px;
+height:795px;
 }
 #pages a:hover
 {
@@ -154,7 +154,7 @@ h1
     height:640px;
     background-color: black;
     font-family:Rubik;
-    margin-top: 800px;
+    margin-top: 870px;
     left: 0px;
     position:absolute;
     scroll-behavior: auto; 

@@ -1,153 +1,35 @@
 
-.calendar-container {
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    border: 2px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
+#hi1
+{
+margin-left:700px;
 }
-
-.calendar-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
+#ht
+{
+margin-left:560px;
+display:flex;
 }
-
-.calendar-body {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    border:1px solid black;
+#addr
+{
+padding-bottom:10px;
+padding-top:10px;
+padding-left:15px;
 }
-
-
-.calendarday {
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    border: 1px solid #110202;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+img.a
+{
+vertical-align:sub;
 }
-
-.dot-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    width: 100%;
-    position: relative;
-    bottom: 5px;
-    left: 0;
-}
-
-
 #font
 {
 font-family:Rubik;
 }
-
-
-.calendarday:hover {
-    background-color: #0c0b0b;
-    color:#FFFFFF;
-}
-
-
-.past-day {
-    color: #aaa;
-    background-color: #f9f9f9;
-    cursor: not-allowed;
-}
-.calendar-container{
-max-width:1500px;
-margin-left:130px;
-border:2px solid black;
-}
-.bookingdate{
-display:flex;
-justify-content:space-between;
-align-items:center;
-margin-top:20px;
-}
-#time
+#jk
 {
-margin-right:50px;
-border-radius:5px;
+margin-right:70px;
+margin-left:60px;
 }
-#timings:hover
+#ad
 {
-    background-color: #000000;
-    color: #FFFFFF;
-}
-#timings{
-            padding:20px;
-            border:2px solid black;
-            text-align: center;
-            cursor:pointer;
-            border-radius: 5px;
-           }
-p{
-            margin-right:25px;
-            margin-left:25px;
-           }
-#time{
-            border:2px solid black;
-            width:500px;
-            height:300px;
-           }
-img#hover
-{
-box-shadow:0px 3px 5px rgba(0,0,0,0.6);
-}
-#header img
-{
-width:110px;
-height:100px;
-}
-#pages a
-{
-color:black;
-}
-#pages a:hover
-{
-color:red;
-}
-input[type=button]
-{
-background-color:black;
-}
-#submit1
-{
-margin-left:45px;
-margin-top:40px;
-margin-bottom:10px;
-display:flex;
-}
-#alldt
-{
-border:2px solid black;
-width:1200px;
-margin-left:150px;
-}
-button
-{
-background-color:black;
-color:white;
-border-radius:10px;
-}
-#submit1 button 
-{
-    height:45px;
-    width:100px;
-}
-#submit1 a
-{
-    color:white;
-    text-decoration:none;
-    font-size:17px;
+text-align:center;
 }
 #header
 {
@@ -158,13 +40,11 @@ border-radius:10px;
     width:100%;
     height: 11%;
 }
-
 #header a
 {
     color:#FFFFFF;
     text-decoration:None;
 }
-
 #pages
 {
     border:2px solid black;
@@ -174,20 +54,25 @@ border-radius:10px;
     margin-right:auto;
     border-radius:10px;
 }
-
-h1,h2
+#header img
+{
+width:110px;
+height:100px;
+}
+h1
 {
    text-align: center;
 }
-#pages img
+#pi
 {
-    width:20px;
-    height:20px;
+    margin-left:590px;
+  font-weight: lighter;
+  font-size:medium;
+  color:#0a0000;
 }
-::placeholder
+#font p
 {
-    color:#000000;
-    letter-spacing: 0.05cm;
+    margin-left: 660px;
 }
 #home a
 {
@@ -211,27 +96,17 @@ h1,h2
     margin-right:550px;
     text-align: left;
 }
-#bi
-{
-    margin-right: 900px;
-}
-#input
-{
-    margin-left:130;
-    border-radius:4px;
-    margin-top:30px;
-    border:1.7px solid black;
-}
 
 #footer
 {
     width:100%;
     height:640px;
     background-color: black;
-    font-family:Arial;
-    margin-top: 20px;
+    font-family:Rubik;
+    margin-top: 10px;
     left: 0px;
-    bottom: 0px;
+    position:absolute;
+    scroll-behavior: auto; 
 }
 #icons img
 {
@@ -340,53 +215,39 @@ li
     {
         margin-left: 5px;
     }
-    #pages
-    {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
-    }
     h1
     {
-       margin-left:440px;
-       margin-top:30px;
+       margin-left:453px;
+       margin-top:10px;
        width:600px;
-       margin-bottom: 10px;
     }
-    h2
+    #pi
     {
-        margin-left: 650px;
-        width:160px;
-        margin-top: 20px;
-        margin-bottom: 15px;
+       margin-left: 400px; 
     }
-    #alldt
+    #hi1
     {
-        margin-left:300px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
+        margin-left: 700px;
     }
-    .calendar-container
+    #pi
     {
-        margin-left:60px;
-        margin-right: 60px;
+        margin-left: 590px;
+        width:500px;
     }
-    #time
+    #ht
     {
-        margin-right:60px;
+        margin-left: 560px;
+        width:500px;
     }
-    #bi
+    #font p
     {
-        margin-right:580px;
+        width:200px;
+        margin-left:670px;
     }
-    #submit1
+    #ad
     {
-        margin-left: 60px;
-    }
-    #input
-    {
-        margin-left: 60px;
+        margin-left:615px;
+        width:310px;
     }
 }
 
@@ -409,53 +270,39 @@ li
     {
         margin-left: 5px;
     }
-    #pages
-    {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
-    }
     h1
     {
-       margin-left:440px;
-       margin-top:30px;
+       margin-left:453px;
+       margin-top:10px;
        width:600px;
-       margin-bottom: 10px;
     }
-    h2
+    #pi
     {
-        margin-left: 650px;
-        width:160px;
-        margin-top: 20px;
-        margin-bottom: 15px;
+       margin-left: 400px; 
     }
-    #alldt
+    #hi1
     {
-        margin-left:300px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
+        margin-left: 700px;
     }
-    .calendar-container
+    #pi
     {
-        margin-left:60px;
-        margin-right: 60px;
+        margin-left: 590px;
+        width:500px;
     }
-    #time
+    #ht
     {
-        margin-right:60px;
+        margin-left: 560px;
+        width:500px;
     }
-    #bi
+    #font p
     {
-        margin-right:580px;
+        width:200px;
+        margin-left:670px;
     }
-    #submit1
+    #ad
     {
-        margin-left: 60px;
-    }
-    #input
-    {
-        margin-left: 60px;
+        margin-left:615px;
+        width:310px;
     }
 }
 
@@ -478,53 +325,39 @@ li
     {
         margin-left: 5px;
     }
-    #pages
-    {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
-    }
     h1
     {
-       margin-left:440px;
-       margin-top:30px;
+       margin-left:453px;
+       margin-top:10px;
        width:600px;
-       margin-bottom: 10px;
     }
-    h2
+    #pi
     {
-        margin-left: 650px;
-        width:160px;
-        margin-top: 20px;
-        margin-bottom: 15px;
+       margin-left: 400px; 
     }
-    #alldt
+    #hi1
     {
-        margin-left:300px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
+        margin-left: 700px;
     }
-    .calendar-container
+    #pi
     {
-        margin-left:60px;
-        margin-right: 60px;
+        margin-left: 590px;
+        width:500px;
     }
-    #time
+    #ht
     {
-        margin-right:60px;
+        margin-left: 560px;
+        width:500px;
     }
-    #bi
+    #font p
     {
-        margin-right:580px;
+        width:200px;
+        margin-left:670px;
     }
-    #submit1
+    #ad
     {
-        margin-left: 60px;
-    }
-    #input
-    {
-        margin-left: 60px;
+        margin-left:615px;
+        width:310px;
     }
 }
 
@@ -547,53 +380,40 @@ li
     {
         margin-left: 5px;
     }
-    #pages
-    {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
-    }
     h1
     {
-       margin-left:440px;
-       margin-top:50px;
+       margin-left:453px;
+       margin-top:10px;
        width:600px;
-       margin-bottom: 10px;
     }
-    h2
+    #pi
     {
-        margin-left: 650px;
-        width:160px;
-        margin-top: 20px;
-        margin-bottom: 15px;
+       margin-left: 400px; 
     }
-    #alldt
+    #hi1
     {
-        margin-left:300px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
+        margin-left: 700px;
+        margin-top: 45px;
     }
-    .calendar-container
+    #pi
     {
-        margin-left:60px;
-        margin-right: 60px;
+        margin-left: 590px;
+        width:500px;
     }
-    #time
+    #ht
     {
-        margin-right:60px;
+        margin-left: 560px;
+        width:500px;
     }
-    #bi
+    #font p
     {
-        margin-right:580px;
+        width:200px;
+        margin-left:670px;
     }
-    #submit1
+    #ad
     {
-        margin-left: 60px;
-    }
-    #input
-    {
-        margin-left: 60px;
+        margin-left:615px;
+        width:310px;
     }
 }
 
@@ -601,7 +421,7 @@ li
 /********************************************************************************************************************************/
 
 
-@media (min-width:376px) and (max-width:426px)
+@media (min-width:377px) and (max-width:426px)
 { #footer
     {
       width: 1350px;
@@ -613,6 +433,12 @@ li
     height:5%;
     width:100%;
   }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+ 
     #header img
     {
         margin-left:30px;
@@ -622,18 +448,6 @@ li
     #home a,#services a,#about us a,#contact us a
     {
         margin-left: 5px;
-    }
-    #top,#paraa,#paraaa,#paraaaa
-    { 
-      margin-left:2px;
-      margin-right: 2px;
-    }
-    #pages
-    {
-      width: 750px;
-      margin-left: 300px;
-      height:60px;
-      font-size: x-large;
     }
     #all
     {
@@ -652,67 +466,44 @@ li
       margin-left: 260px;
       width:850px;
       margin-bottom:60px;
-      margin-top: 100px;
+      margin-top: 30px;
       font-size: 44px;
     }
-    
-    h2
+    #hi1
     {
-        margin-left: 520px;
-        width:260px;
-        margin-top: 70px;
-        margin-bottom: 50px;
-        font-size:36px;
+        margin-left: 580px;
+        margin-top: 45px;
+        margin-bottom: 0px;
     }
-    #time
+    #hi1 img
     {
-        width:625px;
-        margin-left: 60px;
-        margin-top: 70px;
+        width:150px;
+        height:110px;
     }
-    .bookingdate
+    #pi
     {
-        display:flex;
-        flex-direction: column;
-    }
-    #alldt
-    {
-        margin-left:220px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
-        height:1200px;
-        border-radius: 15px;
-    }
-    .calendar-container
-    {
-        margin-left:60px;
-        margin-right: 60px;
-        margin-top: 70px;
-        margin-bottom: 50px;
+        margin-left: 405px;
         width:600px;
+        font-size: 28px;
     }
-    #bi
+    #ht
     {
-        margin-right:580px;
+        margin-left: 400px;
+        width:800px;
+        padding-bottom: 80px;
+        font-size: 28px;
     }
-    #submit1
+    #font p
     {
-        margin-left: 60px;
-        margin-top: 100px;
+        width:200px;
+        margin-left:580px;
     }
-    #submit button 
+    #ad
     {
-        width: 100px;
-        height: 30px;
-    }
-    #input
-    {
-        margin-left: 140px;
-        width:620px;
-        height:50px;
-        margin-top: 120px;
-        font-size: 20px;
+        margin-left:310px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
     }
 }
 
@@ -732,6 +523,12 @@ li
     height:5%;
     width:100%;
   }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+ 
     #header img
     {
         margin-left:30px;
@@ -741,18 +538,6 @@ li
     #home a,#services a,#about us a,#contact us a
     {
         margin-left: 5px;
-    }
-    #top,#paraa,#paraaa,#paraaaa
-    { 
-      margin-left:2px;
-      margin-right: 2px;
-    }
-    #pages
-    {
-      width: 750px;
-      margin-left: 300px;
-      height:60px;
-      font-size: x-large;
     }
     #all
     {
@@ -771,67 +556,44 @@ li
       margin-left: 260px;
       width:850px;
       margin-bottom:60px;
-      margin-top: 100px;
+      margin-top: 30px;
       font-size: 44px;
     }
-    
-    h2
+    #hi1
     {
-        margin-left: 520px;
-        width:260px;
-        margin-top: 70px;
-        margin-bottom: 50px;
-        font-size:36px;
+        margin-left: 580px;
+        margin-top: 45px;
+        margin-bottom: 0px;
     }
-    #time
+    #hi1 img
     {
-        width:625px;
-        margin-left: 60px;
-        margin-top: 70px;
+        width:150px;
+        height:110px;
     }
-    .bookingdate
+    #pi
     {
-        display:flex;
-        flex-direction: column;
-    }
-    #alldt
-    {
-        margin-left:220px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
-        height:1200px;
-        border-radius: 15px;
-    }
-    .calendar-container
-    {
-        margin-left:60px;
-        margin-right: 60px;
-        margin-top: 70px;
-        margin-bottom: 50px;
+        margin-left: 405px;
         width:600px;
+        font-size: 28px;
     }
-    #bi
+    #ht
     {
-        margin-right:580px;
+        margin-left: 400px;
+        width:800px;
+        padding-bottom: 80px;
+        font-size: 28px;
     }
-    #submit1
+    #font p
     {
-        margin-left: 60px;
-        margin-top: 100px;
+        width:200px;
+        margin-left:600px;
     }
-    #submit button 
+    #ad
     {
-        width: 100px;
-        height: 30px;
-    }
-    #input
-    {
-        margin-left: 140px;
-        width:620px;
-        height:50px;
-        margin-top: 120px;
-        font-size: 20px;
+        margin-left:310px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
     }
 }
 
@@ -840,7 +602,7 @@ li
 
 
 @media (max-width:320px)
-{ #footer
+{  #footer
     {
       width: 1350px;
       margin-top: 100px;
@@ -851,6 +613,12 @@ li
     height:5%;
     width:100%;
   }
+  #top,#paraa,#paraaa,#paraaaa
+  { 
+    margin-left:2px;
+    margin-right: 2px;
+  }
+ 
     #header img
     {
         margin-left:30px;
@@ -860,18 +628,6 @@ li
     #home a,#services a,#about us a,#contact us a
     {
         margin-left: 5px;
-    }
-    #top,#paraa,#paraaa,#paraaaa
-    { 
-      margin-left:2px;
-      margin-right: 2px;
-    }
-    #pages
-    {
-      width: 750px;
-      margin-left: 280px;
-      height:60px;
-      font-size: x-large;
     }
     #all
     {
@@ -887,71 +643,46 @@ li
       margin-left: 970px;
     }
     h1{
-      margin-left: 240px;
+      margin-left: 220px;
       width:850px;
       margin-bottom:60px;
-      margin-top: 100px;
+      margin-top: 30px;
       font-size: 44px;
     }
-    
-    h2
+    #hi1
     {
-        margin-left: 500px;
-        width:260px;
-        margin-top: 70px;
-        margin-bottom: 50px;
-        font-size:36px;
+        margin-left: 540px;
+        margin-top: 45px;
+        margin-bottom: 0px;
     }
-    #time
+    #hi1 img
     {
-        width:625px;
-        margin-left: 60px;
-        margin-top: 70px;
+        width:150px;
+        height:110px;
     }
-    .bookingdate
+    #pi
     {
-        display:flex;
-        flex-direction: column;
-    }
-    #alldt
-    {
-        margin-left:200px;   
-        width: 900px;
-        margin-right: 45px;
-        margin-bottom: 70px;
-        height:1200px;
-        border-radius: 15px;
-    }
-    .calendar-container
-    {
-        margin-left:60px;
-        margin-right: 60px;
-        margin-top: 70px;
-        margin-bottom: 50px;
+        margin-left: 365px;
         width:600px;
+        font-size: 28px;
     }
-    #bi
+    #ht
     {
-        margin-right:580px;
+        margin-left: 360px;
+        width:800px;
+        padding-bottom: 80px;
+        font-size: 28px;
     }
-    #submit1
+    #font p
     {
-        margin-left: 60px;
-        margin-top: 100px;
+        width:200px;
+        margin-left:560px;
     }
-    #submit button 
+    #ad
     {
-        width: 100px;
-        height: 30px;
-    }
-    #input
-    {
-        margin-left: 140px;
-        width:620px;
-        height:50px;
-        margin-top: 120px;
-        font-size: 20px;
+        margin-left:270px;
+        width:800px;
+        font-size: 28px;
+        padding-bottom: 10px;
     }
 }
-
-

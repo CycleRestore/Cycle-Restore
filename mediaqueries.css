@@ -128,8 +128,7 @@
         width: 100%;
     }
     .tot{
-        align-items: center;
-        justify-content: center;
+        margin-left: 12px;
     }
 }
 
@@ -233,9 +232,6 @@
 @media screen and (max-width: 479px) {
     .sub-footer{
         margin-bottom: 0px;
-    }
-    .hero-right img {
-        display: none;
     }
     hr{
         display: none;

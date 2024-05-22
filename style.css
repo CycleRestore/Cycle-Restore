@@ -116,6 +116,11 @@ nav {
     z-index: 2;
 }
 
+.hero-left h1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .small-heading {
     margin-top: 20px;
     margin-left: 20px;
@@ -156,7 +161,6 @@ nav {
     height: 400px;
     width: 100%;
     margin-top: -500px;
-    border-radius: 6px;
 }
 
 /* line */

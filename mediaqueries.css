@@ -329,8 +329,18 @@
     }
 }
 
-@media screen and (min-width: 472px) {
+@media (min-width: 220px) and (max-width:480px) {
     .hero-back img {
-        margin-top: -320px;
+        margin-top: -420px;
+        height: 550px;
+    }
+    .hero-container{
+       padding: 0px;
+    }
+    .servicesall{
+        margin-top: -20px;
+    }
+    .service-container{
+        margin-top: 60px;
     }
 }

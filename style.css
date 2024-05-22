@@ -118,6 +118,8 @@ nav {
 
 .small-heading {
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .button-container button {
@@ -146,6 +148,15 @@ nav {
 
 .hero-right img {
     width: 100%;
+}
+
+
+/* backgroundimage */
+.hero-back img {
+    height: 400px;
+    width: 100%;
+    margin-top: -500px;
+    border-radius: 6px;
 }
 
 /* line */
@@ -293,7 +304,8 @@ hr {
 
 .total {
     margin-left: 100px;
-    width: 25%;
+    margin-right: 20px;
+    width: 20%;
 }
 
 .hours {

@@ -387,12 +387,16 @@ hr {
 .book-header {
     margin-top: 50px;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .book-subheader {
     text-align: center;
     font-weight: lighter;
     margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 

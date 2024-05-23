@@ -20,44 +20,54 @@
         width: 300px;
     }
 }
+
+@media screen and (max-width: 1205px) {
+    .sub-footer-collective {
+        gap: 360px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sub-footer-collective {
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1051px) {
+    .footer-container {
+        gap: 60px
+    }
+}
+
 @media screen and (max-width: 1039px) {
-    .total{
+    .total {
         width: 30%;
     }
 }
 
-@media screen and (max-width: 1126px) {
+@media screen and (max-width: 841px) {
+    .footer-container {
+        gap: 30px
+    }
+}
+
+@media screen and (max-width: 767px) {
     .footer-container {
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
+        gap: 60px;
     }
 
     .link {
         display: block;
     }
 
-    .socialicons {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .contact-1 {
-        justify-content: center;
-        align-items: center;
-    }
-
     .sub-footer-collective {
         margin-top: 30px;
         flex-direction: column;
         gap: 5px;
+        text-align: center;
         justify-content: center;
         align-items: center;
-    }
-
-    .sub-footer {
-        text-align: center;
     }
 
     .location {
@@ -65,9 +75,14 @@
         margin-right: -10px;
     }
 
-    .service-container {
-        max-width: 1100px;
-        gap: 67px;
+    .foot-links {
+        margin-left: 20px;
+    }
+
+    .sub-footer1 {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: -20px;
     }
 }
 
@@ -222,7 +237,7 @@
 }
 
 @media screen and (max-width: 640px) {
-    .total{
+    .total {
         width: 100%;
         align-items: center;
         margin-left: 130px;
@@ -253,7 +268,7 @@
 }
 
 @media screen and (max-width: 534px) {
-    .total{
+    .total {
         margin-left: 30px;
     }
 }
@@ -282,7 +297,7 @@
         margin-bottom: 0px;
     }
 
-    hr {
+    .hr-header {
         display: none;
     }
 
@@ -334,16 +349,20 @@
         margin-top: -420px;
         height: 550px;
     }
-    .hero-container{
-       padding: 0px;
+
+    .hero-container {
+        padding: 0px;
     }
-    .servicesall{
+
+    .servicesall {
         margin-top: -20px;
     }
-    .service-container{
+
+    .service-container {
         margin-top: 60px;
     }
-    .company-logo img {
+
+    .header-companylog img {
         width: 100px;
     }
 }

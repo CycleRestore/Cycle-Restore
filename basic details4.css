@@ -268,11 +268,10 @@ li
 
 @media (max-width:1200px)
 {
-  
   #footer
   {
-    width: 1500px;
-    margin-top: 100px;
+    width: 1350px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -291,12 +290,16 @@ li
   #font1
   {
     position:absolute;
-    height:1000px;
+    height:1480px;
     width:1350;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -312,10 +315,10 @@ li
     margin-left: 970px;
   }
   h1{
-    margin-left: 240px;
+    margin-left: 255px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -334,25 +337,30 @@ li
   #pages
   {
     width: 750px;
-    margin-left: 280px;
+    margin-left: 300px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:340px;
+  margin-top: 80px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 0px;
 }
 }
 
@@ -362,11 +370,10 @@ h2
 
 @media (max-width:999px)
 {
-  
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -385,12 +392,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
-    width:1400;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    height:1480px;
+    width:1350;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -408,8 +419,8 @@ h2
   h1{
     margin-left: 240px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -431,22 +442,27 @@ h2
     margin-left: 280px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:280px;
+  margin-top: 90px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 0px;
 }
 }
 
@@ -456,11 +472,10 @@ h2
 
 @media (max-width:768px)
 {
-  
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -479,12 +494,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
-    width:1360;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    height:1480px;
+    width:1350;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -500,10 +519,10 @@ h2
     margin-left: 970px;
   }
   h1{
-    margin-left: 240px;
+    margin-left: 248px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -522,25 +541,30 @@ h2
   #pages
   {
     width: 750px;
-    margin-left: 280px;
+    margin-left: 290px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:340px;
+  margin-top: 85px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 20px;
 }
 }
 
@@ -550,12 +574,10 @@ h2
 
 @media (max-width:600px)
 {
- 
-  
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -574,12 +596,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
-    width:1400;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    height:1480px;
+    width:1350;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -597,8 +623,8 @@ h2
   h1{
     margin-left: 240px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -620,22 +646,27 @@ h2
     margin-left: 280px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:280px;
+  margin-top: 90px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 0px;
 }
 }
 
@@ -645,11 +676,10 @@ h2
 
 @media (min-width:377px) and (max-width:426px)
 {
-  
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -668,12 +698,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
-    width:1370;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    height:1480px;
+    width:1350;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -691,8 +725,8 @@ h2
   h1{
     margin-left: 240px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -714,22 +748,27 @@ h2
     margin-left: 280px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:320px;
+  margin-top: 85px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 0px;
 }
 }
 
@@ -739,11 +778,10 @@ h2
 
 @media (min-width:321px) and (max-width:376px)
 {
-  
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -762,12 +800,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
-    width:1370;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    height:1480px;
+    width:1350;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -783,10 +825,10 @@ h2
     margin-left: 970px;
   }
   h1{
-    margin-left: 240px;
+    margin-left: 250px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -805,25 +847,30 @@ h2
   #pages
   {
     width: 750px;
-    margin-left: 280px;
+    margin-left: 300px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:330px;
+  margin-top: 85px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
+}
+form
+{
+  margin-left: 0px;
 }
 }
 
@@ -836,7 +883,7 @@ h2
   #footer
   {
     width: 1350px;
-    margin-top: 100px;
+    margin-top: 1600px;
   }
   #header img
   {
@@ -855,12 +902,16 @@ h2
   #font1
   {
     position:absolute;
-    height:1000px;
+    height:1480px;
     width:1350;
-    margin-top: 50px;
-   border: 1px solid pink;
-   margin-left: 0px;
-   margin-right: 0px;
+    margin-top: 0px;
+   border: 1px solid rgb(8, 7, 7);
+   left: 0px;
+   right: 0px;
+  }
+  .image
+  {
+    width:1363px;
   }
   #all
   {
@@ -878,8 +929,8 @@ h2
   h1{
     margin-left: 240px;
     width:850px;
-    margin-bottom:60px;
-    margin-top: 100px;
+    margin-bottom:30px;
+    margin-top: 40px;
     font-size: 44px;
   }
   input[type=text],select,input[type=email]
@@ -901,22 +952,26 @@ h2
     margin-left: 280px;
     height:60px;
     font-size: x-large;
+    margin-bottom: 30px;
   }
 h2
 {
-  width:300px;
-  margin-left:480px;
-  margin-top: 60px;
+  width:700px;
+  margin-left:300px;
+  margin-top: 90px;
   font-size:40px;
 }
 #ser
 {
   margin-left: 600px;
-  margin-top: 1100px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  height: 80px;
+  height: 60px;
   width:140px;
   font-size: large;
 }
+form
+{
+  margin-left: 0px;
 }
-
+}

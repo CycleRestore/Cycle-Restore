@@ -271,7 +271,7 @@ li
 @media (max-width:1200px)
 { #footer
     {
-      width: 1468px;
+      width: 1480px;
     }
     #header img
     {
@@ -329,11 +329,12 @@ li
    }
    h1 
    {
-    margin-left: 170px;
+    margin-left: 290px;
+    margin-bottom: 40px;
    }
    #pages
    {
-    margin-left: 250px;
+    margin-left: 300px;
     margin-bottom: 10px;
    }
    #font
@@ -427,7 +428,7 @@ li
 @media (max-width:768px)
 { #footer
     {
-      width: 1468px;
+      width: 1480px;
     }
     #header img
     {

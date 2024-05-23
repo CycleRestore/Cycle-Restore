@@ -330,7 +330,7 @@ li
 @media (max-width:1200px)
 { #footer
     {
-      width: 1468px;
+      width: 1480px;
     }
     #header img
     {
@@ -367,7 +367,7 @@ li
         margin-left:300px;   
         width: 900px;
         margin-right: 45px;
-        margin-bottom: 70px;
+        margin-bottom: 10px;
     }
     .calendar-container
     {
@@ -468,7 +468,7 @@ li
 @media (max-width:768px)
 { #footer
     {
-      width: 1468px;
+      width: 1480px;
     }
     #header img
     {
@@ -505,7 +505,7 @@ li
         margin-left:300px;   
         width: 900px;
         margin-right: 45px;
-        margin-bottom: 70px;
+        margin-bottom: 20px;
     }
     .calendar-container
     {

@@ -17,6 +17,7 @@ a {
 nav {
     background-color: black;
     padding: 20px;
+    height: 130px;
 }
 
 .main-nav {
@@ -71,7 +72,7 @@ nav {
         position: absolute;
         background-color:black;
         left: -110%;
-        top: 100%;
+        top:75%;
         width: 100%;
         padding-block: 20px;
         transition: 0.4s ease-in-out;
@@ -84,6 +85,9 @@ nav {
 
     .navlinks ul {
         flex-direction: column;
+    }
+    .nav{
+        height: 200px;
     }
 }
 
@@ -204,6 +208,7 @@ a {
 .link {
     color: white;
     margin-top: 20px;
+
 }
 
 
@@ -362,10 +367,13 @@ a {
         padding-left: 10px;
         padding-right: 10px;
     }
-
+    
     .navlinks ul {
         gap: 10px;
         margin-right: 10px;
+    }
+    .nav{
+        height: 200px;
     }
 
     .image-container {
@@ -401,6 +409,7 @@ a {
         margin: 0;
         padding: 0;
     }
+    
 }
 @media screen and (min-width: 375px)  and (max-width:425px){
    nav{

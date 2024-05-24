@@ -342,18 +342,27 @@ li
     {
         margin-left: 5px;
     }
-    #pages
+    #pages img
     {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
+      width: 40px;
+      height:40px;
     }
-    h1
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
+     h1
     {
-       margin-left:440px;
-       margin-top:30px;
-       width:600px;
-       margin-bottom: 10px;
+       margin-left:200px;
+       margin-top:40px;
+       width:1100px;
+       font-size: 58px;
+       margin-bottom: 20px;
     }
     h2
     {
@@ -411,12 +420,20 @@ li
     {
         margin-left: 5px;
     }
-    #pages
+    #pages img
     {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
+      width: 40px;
+      height:40px;
     }
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
     h1
     {
        margin-left:440px;
@@ -480,19 +497,28 @@ li
     {
         margin-left: 5px;
     }
-    #pages
+    #pages img
     {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
+      width: 40px;
+      height:40px;
     }
-    h1
-    {
-       margin-left:440px;
-       margin-top:30px;
-       width:600px;
-       margin-bottom: 10px;
-    }
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
+     h1
+     {
+        margin-left:200px;
+        margin-top:40px;
+        width:1100px;
+        font-size: 58px;
+        margin-bottom: 20px;
+     }
     h2
     {
         margin-left: 650px;
@@ -549,12 +575,20 @@ li
     {
         margin-left: 5px;
     }
-    #pages
+    #pages img
     {
-        width:580px;
-        margin-left:450px;
-        margin-top:0px;    
+      width: 40px;
+      height:40px;
     }
+     #pages
+     {
+       width: 950px;
+       margin-left: 270px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
     h1
     {
        margin-left:440px;
@@ -630,13 +664,20 @@ li
       margin-left:2px;
       margin-right: 2px;
     }
-    #pages
+    #pages img
     {
-      width: 750px;
-      margin-left: 300px;
-      height:60px;
-      font-size: x-large;
+      width: 40px;
+      height:40px;
     }
+     #pages
+     {
+       width: 950px;
+       margin-left: 230px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
     #all
     {
       margin-left: 0px;
@@ -651,13 +692,12 @@ li
       margin-left: 970px;
     }
     h1{
-      margin-left: 260px;
-      width:850px;
-      margin-bottom:60px;
-      margin-top: 100px;
-      font-size: 44px;
+        margin-left: 145px;
+        margin-bottom:45px;
+        margin-top: 40px;
+        width:1100px;
+        font-size: 58px;
     }
-    
     h2
     {
         margin-left: 520px;
@@ -749,13 +789,20 @@ li
       margin-left:2px;
       margin-right: 2px;
     }
-    #pages
+    #pages img
     {
-      width: 750px;
-      margin-left: 300px;
-      height:60px;
-      font-size: x-large;
+      width: 40px;
+      height:40px;
     }
+     #pages
+     {
+       width: 950px;
+       margin-left: 230px;
+       height:60px;
+       font-size: xx-large;
+       margin-bottom: 0px;
+       border: 1px solid rgb(15, 14, 14);
+     }
     #all
     {
       margin-left: 0px;
@@ -770,11 +817,11 @@ li
       margin-left: 970px;
     }
     h1{
-      margin-left: 260px;
-      width:850px;
-      margin-bottom:60px;
-      margin-top: 100px;
-      font-size: 44px;
+        margin-left: 155px;
+        margin-bottom:45px;
+        margin-top: 40px;
+        width:1100px;
+        font-size: 58px;
     }
     
     h2
@@ -890,13 +937,12 @@ li
       margin-left: 970px;
     }
     h1{
-      margin-left: 240px;
-      width:850px;
-      margin-bottom:60px;
-      margin-top: 100px;
-      font-size: 44px;
-    }
-    
+        margin-left: 120px;
+        margin-bottom:60px;
+        margin-top: 100px;
+        width:1100px;
+        font-size: 44px;
+      }
     h2
     {
         margin-left: 500px;

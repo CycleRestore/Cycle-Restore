@@ -94,6 +94,8 @@ nav {
     padding: 20px;
     padding-left: 0px;
     padding-right: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-toggle {
@@ -108,10 +110,6 @@ nav {
     background-image: url(background-image-3.png);
     background-position: bottom;
     background-size: cover;
-}
-
-.hero-left{
-    margin-top: 150px;
 }
 
 .small-heading{

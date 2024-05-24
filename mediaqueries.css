@@ -341,10 +341,18 @@
     }
 }
 
+@media screen and (max-width: 1053px) {
+
+    .hero-left{
+        margin-top:250px;
+    }
+}
+
+
 @media screen and (max-width: 421px) {
 
     .hero-left{
-        margin-top:125px;
+        margin-top:200px;
     }
 }
 
@@ -461,7 +469,7 @@
 
 @media (max-width:347px) {
     .hero-left{
-        margin-top: 120px;
+        margin-top: 180px;
     }
 }
 

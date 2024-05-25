@@ -7,6 +7,7 @@
 body {
     font-family: Arial, sans-serif !important;
     color: black;
+   
 }
 
 a {
@@ -17,12 +18,12 @@ a {
 nav {
     background-color: black;
     padding: 20px;
-    height: 130px;
+    height: 110px;
 }
 
 .main-nav {
     justify-content: space-between;
-    position: relative;
+   
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -33,11 +34,15 @@ nav {
 }
 
 .company-logo img {
-    width: 150px;
+   height:150px;
+   width: auto;
+   margin-top: -30px;
+  
 }
 
 .navlinks {
     z-index: 4;
+    margin-bottom: 50px;
 }
 
 .navlinks ul {
@@ -71,11 +76,12 @@ nav {
     .navlinks {
         position: absolute;
         background-color:black;
-        left: -110%;
-        top:75%;
+        left: -140%;
+        top:15%;
         width: 100%;
         padding-block: 20px;
         transition: 0.4s ease-in-out;
+     
     }
     
 
@@ -86,9 +92,15 @@ nav {
     .navlinks ul {
         flex-direction: column;
     }
-    .nav{
-        height: 200px;
+    .company-logo{
+        height:100px;
+        margin-left: -30px;
+
     }
+
+    
+    
+    
 }
 
 .image-container {
@@ -170,23 +182,26 @@ a {
 }
 
 .company-logo img {
-    width: 150px;
+    width: 140px;
+    height: 150px;
 }
 
 .footer-companylog img{
-    margin-left: -15px;
+    margin-left: 15px;
     margin-top: -40px;
 }
 
 .footer-para {
     color: white;
     margin-top: -40px;
+    margin-left: 20px;
 }
 
 .socialicons {
     margin-top: 40px;
     display: flex;
     gap: 10px;
+    margin-left: 20px;
 }
 
 .link-column {
@@ -343,7 +358,11 @@ a {
     }
 }
 
-
+@media screen and (max-width:1070px){
+    .footer-para{
+        margin-bottom:-100px;
+    }
+}
 @media screen and (max-width: 1205px) {
     .sub-footer-collective {
         gap: 360px;
@@ -356,10 +375,18 @@ a {
     }
 }
 
+@media screen and (max-width:1070px)
+{
+    .footer-para{
+    margin-bottom: -70px;
+    margin-left: 20px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .sub-footer {
-        margin-bottom: 0px;
+        margin-bottom: -20px;
+       
     }
 }
 @media screen and (min-width: 320px) and (max-width:374px) {
@@ -367,19 +394,24 @@ a {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
+    .footer-para{
+        margin-left: -5px;
+    }
     .navlinks ul {
-        gap: 10px;
+        gap: 20px;
         margin-right: 10px;
     }
     .nav{
-        height: 200px;
+        height: 100px;
+    }
+    .socialicons{
+        margin-left: 5px;
     }
 
     .image-container {
         height: 150px; 
-        width:300px;
-        margin-bottom: 60px;
+        width:280px;
+        margin-bottom: 20px;
         border-radius: 10px;
     }
     .text-justify{
@@ -409,11 +441,21 @@ a {
         margin: 0;
         padding: 0;
     }
+    .socialicons{
+        margin-top: 90px;
+    }
     
 }
 @media screen and (min-width: 375px)  and (max-width:425px){
    nav{
     width:450px;
+    left:-100%;
+   }
+   .navlinks{
+    width:120%;
+   }
+   .footer-para{
+    margin-left: -10px;
    }
 
     .image-container {
@@ -427,7 +469,9 @@ a {
         font-size: 20px;
         
     }
-
+    .socialicons{
+        margin-top: 90px;
+    }
     .overlay-content {
         font-size: 13px;
         margin-top: 40px;
@@ -459,6 +503,9 @@ a {
       
        
     }
+    .link{
+        font-size: 14px;
+    }
     .overlay-content{
         font-size: 20px;
       margin-top: 35px;
@@ -467,6 +514,7 @@ a {
     .text-justify{
         margin: 0;
         padding: 0;
+       
     }
     .font-weight-bold{
         margin: 0;
@@ -474,14 +522,18 @@ a {
     }
     .footer-para{
         font-size: 15px;
-        margin-top: -80px;
+        margin-top: -40px;
     }
     .link-column{
         margin-right: -30px;
         margin-top: 50px;
     }
     .footer-companylog{
-        margin-bottom: 50px;
+        margin-bottom:-30px;
+       margin-left: -5px;
+    }
+    .socialicons{
+        margin-top: 100px;
     }
 }
 @media screen and (min-width:1024px) and (max-width:1200px)
@@ -498,12 +550,21 @@ a {
         font-size: 20px;
         margin-top: 90px;
     }
-    .footer-para{
-        margin-top: -40px;
-    }
+    
     .link-column{
         margin-top: 50px;
     }
+    .colour{
+        margin-left: 30px;
+    }
+    .socialicons{
+        margin-top: 100px;
+    }
+    .company-logo{
+        margin-top: 20px;
+    }
+    
+   
 }
 @media screen and (min-width:425px) and (max-width:767px)
 {
@@ -528,8 +589,26 @@ a {
         font-size: 15px;
         margin-top: 140px;
     }
+    .socialicons{
+        margin-top: 100px;
+    }
+    .company-logo{
+        margin-left: -10px;
+    }
+    .footer-para{
+        margin-right: 20px;
+    }
 }
-
+@media screen and (min-width:571px) and (max-width:767px)
+{
+    .image-container{
+        width:500px;
+        height: 200px;
+    }
+    .colour{
+        margin-left: 0px;
+    }
+}
 
 
 

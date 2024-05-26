@@ -100,7 +100,7 @@ nav {
 
     
     
-    
+     
 }
 .image-container {
     position: static;
@@ -435,9 +435,10 @@ a {
 
     .image-container {
         height: 150px; 
-        width:280px;
+        width:310px;
         margin-bottom: 20px;
         border-radius: 10px;
+        margin-top: 15px;
     }
     .text-justify{
         font-size: 20px;
@@ -483,6 +484,9 @@ a {
     .nav{
         height: 120px;
     }
+    .nav-toggle{
+        margin-bottom: 30px;
+    }
     
 }
 @media screen and (min-width: 375px)  and (max-width:425px){
@@ -502,6 +506,7 @@ a {
         width:400px;
         margin-left: 25px;
         border-radius: 12px;
+        margin-top: 20px;
     }
 
     h2 {
@@ -544,10 +549,11 @@ a {
         margin-bottom: 70px;
     }
     .navlinks{
-        top:10%;
+        top:15%;
     }
     
 }
+
 @media screen  and (min-width:768px) and (max-width:1024px)
 {
     .image-container{
@@ -601,6 +607,7 @@ a {
     .service{
         margin-left:20px
     }
+    
 }
 @media screen and (min-width:1024px) and (max-width:1200px)
 {
@@ -630,7 +637,7 @@ a {
       margin-top: -10px;
     }
     .navlinks{
-        margin-top: -20px;
+        margin-top: -5px;
     }
    
 }

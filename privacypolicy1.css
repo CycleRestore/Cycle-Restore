@@ -18,7 +18,7 @@ a {
 nav {
     background-color: black;
     padding: 20px;
-    height: 110px;
+    height: 105px;
 }
 
 .main-nav {
@@ -33,12 +33,7 @@ nav {
     align-items: center;
 }
 
-.company-logo img {
-   height:150px;
-   width: auto;
-   margin-top: -30px;
-  
-}
+
 
 .navlinks {
     z-index: 4;
@@ -64,7 +59,16 @@ nav {
 .nav-toggle {
     display: none;
 }
+.company-logo{
+    margin-top: -30px;
+}
 
+@media screen and (min-width:120px) and (max-width:990px)
+{
+    .company-logo img{
+        height: 100px;
+    }
+}
 @media screen and (max-width: 991px) {
     .nav-toggle {
         display: inline-block;
@@ -93,7 +97,7 @@ nav {
         flex-direction: column;
     }
     .company-logo{
-        height:100px;
+     
         margin-left: -30px;
 
     }
@@ -181,14 +185,12 @@ a {
     gap: 130px;
 }
 
-.company-logo img {
-    width: 140px;
-    height: 150px;
-}
+
 
 .footer-companylog img{
     margin-left: 15px;
-    margin-top: -40px;
+    margin-top: -20px;
+    height: 150px;
 }
 
 .footer-para {
@@ -410,20 +412,23 @@ a {
 
     .image-container {
         height: 150px; 
-        width:280px;
+        width:300px;
         margin-bottom: 20px;
         border-radius: 10px;
+       
     }
     .text-justify{
         font-size: 20px;
        margin: 0;
        padding: 0;
        margin-bottom: 20px;
+       margin-left: -20px;
     }
     .font-weight-bold{
         font-size:20px ;
         margin: 0;
         padding: 0;
+        margin-left: -20px;
     }
 
     h2 {
@@ -440,9 +445,13 @@ a {
         font-size: 20px;
         margin: 0;
         padding: 0;
+        margin-left: -20px;
     }
     .socialicons{
         margin-top: 90px;
+    }
+    .company-logo{
+        margin-top: 0px;
     }
     
 }
@@ -480,10 +489,12 @@ a {
         margin: 0;
         padding: 0;
         width:400px;
+        margin-left: -10px;
     }
     .font-weight-bold{
         margin: 0;
         padding: 0;
+        margin-left: -10px;
     }
     footer{
         width:450px;
@@ -491,6 +502,10 @@ a {
     .colour{
         margin-left: -0px;
     }
+    .company-logo{
+        margin-top: 0px;
+    }
+    
 }
 @media screen  and (min-width:768px) and (max-width:1024px)
 {
@@ -535,11 +550,15 @@ a {
     .socialicons{
         margin-top: 100px;
     }
+    .company-logo{
+        margin-top: 0px;
+    }
+   
 }
 @media screen and (min-width:1024px) and (max-width:1200px)
 {
     .image-container{
-        width:900px;
+        width:1000px;
         height: 350px;
     }
     h2{
@@ -561,6 +580,9 @@ a {
         margin-top: 100px;
     }
     .company-logo{
+        margin-top: -25px;
+    }
+    .footer-companylog{
         margin-top: 20px;
     }
     
@@ -576,10 +598,13 @@ a {
     .text-justify{
         margin: 0;
         padding: 0;
+        font-size: 20px;
+        margin-left: -15px;
     }
     .font-weight-bold{
         margin: 0;
         padding: 0;
+        margin-left: -15px;
     }
     h2{
         font-size: 20px;
@@ -593,10 +618,11 @@ a {
         margin-top: 100px;
     }
     .company-logo{
-        margin-left: -10px;
+        margin-left: -25px;
+        margin-top: 0px;
     }
     .footer-para{
-        margin-right: 20px;
+        margin-left: -10px;
     }
 }
 @media screen and (min-width:571px) and (max-width:767px)

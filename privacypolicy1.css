@@ -68,6 +68,9 @@ nav {
     .company-logo img{
         height: 100px;
     }
+    .navlinks{
+        top:11%;
+    }
 }
 @media screen and (max-width: 991px) {
     .nav-toggle {

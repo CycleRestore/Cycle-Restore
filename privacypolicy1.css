@@ -38,6 +38,7 @@ nav {
 .navlinks {
     z-index: 4;
     margin-bottom: 50px;
+    top:10%;
 }
 
 .navlinks ul {

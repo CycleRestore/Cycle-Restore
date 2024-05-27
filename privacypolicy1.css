@@ -624,6 +624,9 @@ a {
     .footer-para{
         margin-left: -10px;
     }
+    .colour{
+        margin-left: -16px;
+    }
 }
 @media screen and (min-width:571px) and (max-width:767px)
 {

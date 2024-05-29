@@ -18,7 +18,7 @@ a {
 nav {
     background-color: black;
     padding: 20px;
-    height: 110px;
+    height: 105px;
 }
 
 .main-nav {
@@ -63,6 +63,11 @@ nav {
 
 .nav-toggle {
     display: none;
+}
+@media screen and (min-width:120px){
+    .company-logo img{
+       height: 100px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -133,7 +138,7 @@ h2 {
     
     font-size:25px;
     padding:10px;
-    line-height: 1.5em;;
+    line-height: 1.8em;;
   }
   .font-weight-bold{
     font-size:25px;
@@ -188,10 +193,7 @@ h2 {
         gap: 130px;
     }
     
-    .company-logo img {
-        width: 140px;
-        height: 150px;
-    }
+   
     
     .footer-companylog img{
         margin-left: 15px;
@@ -452,6 +454,12 @@ h2 {
         .socialicons{
             margin-top: 90px;
         }
+        .company-logo{
+            margin-top: 30px;
+        }
+        .nav-toggle{
+            margin-top: -20px;
+        }
         
     }
     @media screen and (min-width: 375px)  and (max-width:425px){
@@ -497,8 +505,11 @@ h2 {
         footer{
             width:450px;
         }
-        .colour{
-            margin-left: -0px;
+        .company-logo{
+            margin-top: 20px;
+        }
+        .nav-toggle{
+            margin-top: -30px;
         }
     }
     @media screen  and (min-width:768px) and (max-width:1024px)
@@ -544,6 +555,12 @@ h2 {
         .socialicons{
             margin-top: 100px;
         }
+        .company-logo{
+            margin-top: 25px;
+        }
+        .nav-toggle{
+            margin-top: -20px;
+        }
     }
     @media screen and (min-width:1024px) and (max-width:1200px)
     {
@@ -576,7 +593,10 @@ h2 {
             margin-top: 100px;
         }
         .company-logo{
-            margin-top: -5px;
+            margin-top: 20px;
+        }
+        .navlinks{
+            margin-top: 15px;
         }
         
        
@@ -614,6 +634,12 @@ h2 {
         }
         .footer-para{
             margin-left: -8px;
+        }
+        .company-logo{
+            margin-top: 25px;
+        }
+        .nav-toggle{
+            margin-top: -30px;
         }
     }
     @media screen and (min-width:571px) and (max-width:767px)

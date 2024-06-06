@@ -103,6 +103,18 @@ nav {
     
     
 }
+@media screen and (max-width:786px)
+{
+    .navlinks{
+    position: absolute;
+        background-color:black;
+        left: -140%;
+        top:11%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.4s ease-in-out;
+    }
+}
 
 .image-container {
     position: static;
@@ -166,6 +178,7 @@ nav {
     padding-block: 60px;
     margin-top: 60px;
     padding-bottom: 30px;
+
 }
 
 
@@ -201,7 +214,7 @@ a {
 
 .footer-para {
     color: white;
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: 20px;
 }
 
@@ -564,15 +577,15 @@ a {
     }
     .footer-para{
         font-size: 15px;
-        margin-top: -40px;
+        margin-top: -20px;
     }
     .link-column{
         margin-right: -30px;
         margin-top: 50px;
     }
-    .footer-companylog{
-        margin-bottom:-30px;
-       margin-left: -5px;
+    .footer-companylog img{
+       margin-top: 10px;
+       margin-left: 10px;
     }
     .socialicons{
         margin-top: 100px;
@@ -582,6 +595,9 @@ a {
     }
     .nav-toggle{
         margin-top: -60px;
+    }
+    .info{
+        margin-left: -15px;
     }
   
 }
@@ -612,6 +628,12 @@ a {
     }
     .navlinks{
         margin-top: -20px;
+    }
+    .footer-para{
+        margin-top: -10px;
+    }
+    .footer-companylog img{
+        margin-top: 20px;
     }
    
 }

@@ -548,10 +548,10 @@ h2 {
             margin-right: -30px;
             margin-top: 50px;
         }
-        .footer-companylog{
-            margin-bottom:-30px;
-           margin-left: -5px;
-        }
+        .footer-companylog img{
+            margin-top: -30px;
+            margin-left: 40px;
+         }
         .socialicons{
             margin-top: 100px;
         }
@@ -561,6 +561,10 @@ h2 {
         .nav-toggle{
             margin-top: -20px;
         }
+        .info{
+            margin-left: -15px;
+        }
+      
     }
     @media screen and (min-width:1024px) and (max-width:1200px)
     {

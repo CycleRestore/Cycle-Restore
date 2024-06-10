@@ -5,212 +5,387 @@
 </head>
 <body>
 <div id="font">
-<table id="header"><tr>
-<td><img src="/Cycle Restore Logo1.png"></td>
-<td><a href=" ">Home</a></td>
-<td><a href=" ">Services</a></td>
-<td><a href=" ">About Us</a></td>
-<td><a href=" ">Contact Us</a></td>
-</tr>
-</table>b
-<br><br><br><br><br><br><br><br>
-<h1>Schedule Your Bicycle Service Today!</h1><br><br>
-<table id="pages">
-<tr>
-<td align="right"><a href="index0.html"><img src="/Edit Property (3).png"></a></td>
-<td><a style="text-decoration:None;" href="index0.html">Basic Details</a></td>
-<td align="right"><a href="index1.html"><img src="/Tools.png"></a></td>
-<td><a style="text-decoration:None;" href="index1.html">Service</a></td>
-<td align="right"><a href="index2.html"><img id="hover" src="/main dat.png"></a></td>
-<td><a style="text-decoration:None;" href="index2.html">Date and time</a></td>
-<td align="right"><a href="index3.html"><img src="/Group 109.png"></a></td>
-<td><a style="text-decoration:None;" href="index3.html">Summary</a></td>
-</tr>
-</table><br>
-<h2>Date & Time</h2>
+    <nav>
+        <div class=" main-nav flex">
+                <img class="company-logo" src="/Cycle Restore Logo1.png" alt="logo">        
+            <div class="navlinks" id="nav-links">
+                <ul class="flex navlink-options">
+                    <li><a href="#" class="hover-links">Home</a></li>
+                    <li><a href="#" class="hover-links">Services</a></li>
+                    <li><a href="#" class="hover-links">About Us</a></li>
+                    <li><a href="#" class="hover-links">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href="#" class="hover-links nav-toggle" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="image">
+        <div class="content">
+          
+          <h2>Doorstep Service  @  Home</h2>
+        </div>
+      </div>
+
+<div id="hu">
+    <br><br><br>
+    <div id="pages">
+        <div id="q">
+            <img id="g" src="/bimg.png"><a href="index0.html">Basic Details</a>
+        </div>
+        <div id="r">
+            <img id="h" src="/simg.png"><a href="index1.html">Service</a>
+        </div>
+        <div id="s">
+            <img id="i" src="/mdimg.png"><a href="index2.html">Date and Time</a>
+        </div>
+        <div id="t">
+            <img id="j" src="/suimg.png"><a href="index3.html">Summary</a>
+        </div>
+     </div><br>
+     
+<h3>Date & Time</h3>
 <br><br>
+
 <div id="alldt">
-<input type="text" value="" placeholder="Date" id="input"></input><br><br>
+    <input type="text" value="" class="date" placeholder="Date" id="input"><br><br>
 <div class="bookingdate">
-<div class="calendar-container">
-                    <div class="calendar-header">
-                        <button id="prevMonth" class="lgt">&lt;</button>
-                        <div id="currentMonthYear"></div>
-                        <button id="nextMonth" class="lgt">&gt;</button>
-                    </div>
-                    <div id="calendarBody" class="calendar-body">
-                </div>   
+    <div class="calendar-container">
+                        <div class="calendar-header">
+                            <button id="prevMonth" class="lgt">&lt;</button>
+                            <div id="currentMonthYear">June 2024</div>
+                            <button id="nextMonth" class="lgt">&gt;</button>
+                        </div>
+                        <div id="calendarBody" class="calendar-body"><div class="calendarday"></div><div class="calendarday"></div><div class="calendarday"></div><div class="calendarday"></div><div class="calendarday"></div><div class="calendarday"></div><div class="calendarday past-day">1</div><div class="calendarday past-day">2</div><div class="calendarday past-day">3</div><div class="calendarday past-day">4</div><div class="calendarday past-day">5</div><div class="calendarday past-day">6</div><div class="calendarday past-day">7</div><div class="calendarday past-day">8</div><div class="calendarday past-day">9</div><div class="calendarday">10<div class="dot-container"></div></div><div class="calendarday">11<div class="dot-container"></div></div><div class="calendarday">12<div class="dot-container"></div></div><div class="calendarday">13<div class="dot-container"></div></div><div class="calendarday">14<div class="dot-container"></div></div><div class="calendarday">15<div class="dot-container"></div></div><div class="calendarday">16<div class="dot-container"></div></div><div class="calendarday">17<div class="dot-container"></div></div><div class="calendarday">18<div class="dot-container"></div></div><div class="calendarday">19<div class="dot-container"></div></div><div class="calendarday">20<div class="dot-container"></div></div><div class="calendarday">21<div class="dot-container"></div></div><div class="calendarday">22<div class="dot-container"></div></div><div class="calendarday">23<div class="dot-container"></div></div><div class="calendarday">24<div class="dot-container"></div></div><div class="calendarday">25<div class="dot-container"></div></div><div class="calendarday">26<div class="dot-container"></div></div><div class="calendarday">27<div class="dot-container"></div></div><div class="calendarday">28<div class="dot-container"></div></div><div class="calendarday">29<div class="dot-container"></div></div><div class="calendarday">30<div class="dot-container"></div></div></div>   
+        </div>
+    <table id="time">
+    
+                <tbody><tr>
+                    <td>      <p>Morning session</p>
+                               <p id="timings" onclick="localStorage.setItem('session','(9:00am-11:00am)')">9:00am-11:00am</p>
+                    </td>
+                    <td>
+                        <p>Afternoon session</p>
+                        <p id="timings" onclick="localStorage.setItem('session','(12:00pm-2:00pm)')">12:00pm-2:00pm</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Evening session</p>
+                        <p id="timings" onclick="localStorage.setItem('session','(3:00pm-5:00pm)')">3:00pm-5:00pm</p>
+                    </td>
+                    <td>
+                        <p>Night session</p>
+                        <p id="timings" onclick="localStorage.setItem('session','(6:00pm-8:00pm)')">6:00pm-8:00pm</p>
+                    </td>
+                </tr>
+    
+            </tbody></table>
     </div>
-<table id="time">
 
-            <tr>
-                <td>      <p>Morning session</p>
-                           <p id="timings" onclick="window.location.href='index3.html';">9:00am-11:00am</p>
-                </td>
-                <td>
-                    <p>Afternoon session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">12:00pm-2:00pm</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Evening session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">3:00pm-5:00pm</p>
-                </td>
-                <td>
-                    <p>Night session</p>
-                    <p id="timings" onclick="window.location.href='index3.html';">6:00pm-8:00pm</p>
-                </td>
-            </tr>
-
-        </table>
-</div>
-
-<script>
-
-// Global variables to track the currently displayed month and year
-let currentYear = new Date().getFullYear();
-let currentMonth = new Date().getMonth();
-const currentDate = new Date();
-
-   
-    function renderCalendar(year, month) {
-        const calendarBody = document.getElementById('calendarBody');
-        const currentMonthYear = document.getElementById('currentMonthYear');
-        const daysInMonth = new Date(year, month + 1, 0).getDate();
-        const firstDayOfMonth = new Date(year, month, 1).getDay();
+    <script>
+        // Global variables to track the currently displayed month and year
+        let currentYear = new Date().getFullYear();
+        let currentMonth = new Date().getMonth();
+        let selectedDate = null; // Variable to store the selected date
+        
+        const currentDate = new Date();
     
-        // Clear previous calendar
-        calendarBody.innerHTML = '';
+        function renderCalendar(year, month) {
+            const calendarBody = document.getElementById('calendarBody');
+            const currentMonthYear = document.getElementById('currentMonthYear');
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+            const firstDayOfMonth = new Date(year, month, 1).getDay();
+        
+            // Clear previous calendar
+            calendarBody.innerHTML = '';
+        
+            // Set the current month and year in the header
+            currentMonthYear.textContent = `${monthNames[month]} ${year}`;
+        
+            // Populate the grid with days
+            for (let i = 0; i < firstDayOfMonth; i++) {
+                const placeholderDay = document.createElement('div');
+                placeholderDay.classList.add('calendarday');
+                calendarBody.appendChild(placeholderDay);
+            }
+        
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dayElement = document.createElement('div');
+                dayElement.classList.add('calendarday');
+                dayElement.textContent = day;
+        
+                // Check if the day is a present day (not in the past)
+                const currentDate = new Date();
+                const dayDate = new Date(year, month, day);
+                if (dayDate >= currentDate) {
+                    // dayElement.classList.add('present-day');
+        
+                    // Create dot container and dots for present days
+                    const dotContainer = document.createElement('div');
+                    dotContainer.classList.add('dot-container');
+        
+                    // Append dot container to the day element
+                    dayElement.appendChild(dotContainer);
     
-        // Set the current month and year in the header
-        currentMonthYear.textContent = `${monthNames[month]} ${year}`;
-    
-        // Populate the grid with days
-        for (let i = 0; i < firstDayOfMonth; i++) {
-            const placeholderDay = document.createElement('div');
-            placeholderDay.classList.add('calendarday');
-            calendarBody.appendChild(placeholderDay);
+                    // Add click event listener to select the date
+                    dayElement.addEventListener('click', () => {
+                        selectDate(dayDate);
+                    });
+                } else {
+                    // Day is in the past
+                    dayElement.classList.add('past-day');
+                }
+        
+                // Append day element to the calendar body
+                calendarBody.appendChild(dayElement);
+            }
         }
     
-        for (let day = 1; day <= daysInMonth; day++) {
-            const dayElement = document.createElement('div');
-            dayElement.classList.add('calendarday');
-            dayElement.textContent = day;
-    
-            // Check if the day is a present day (not in the past)
-            const currentDate = new Date();
-            if (new Date(year, month, day) >= currentDate) {
-                // dayElement.classList.add('present-day');
-    
-                // Create dot container and dots for present days
-                const dotContainer = document.createElement('div');
-                dotContainer.classList.add('dot-container');
-    
-              
-    
-                // Append dot container to the day element
-                dayElement.appendChild(dotContainer);
-            } else {
-                // Day is in the past
-                dayElement.classList.add('past-day');
+        // Function to select a date
+        function selectDate(date) {
+            // Clear previous selection
+            const previousSelected = document.querySelector('.selected-day');
+            if (previousSelected) {
+                previousSelected.classList.remove('selected-day');
             }
     
-            // Append day element to the calendar body
-            calendarBody.appendChild(dayElement);
-        }
-    }
+            // Find the selected day element and highlight it
+            const dayElements = document.querySelectorAll('.calendarday');
+            dayElements.forEach(dayElement => {
+                const day = parseInt(dayElement.textContent, 10);
+                if (date.getDate() === day && date.getMonth() === currentMonth && date.getFullYear() === currentYear) {
+                    dayElement.classList.add('selected-day');
+                }
+            });
     
-
-// Function to navigate to the previous month
-function goToPreviousMonth() {
-    if (currentMonth === 0) {
-        currentMonth = 11;
-        currentYear--;
-    } else {
-        currentMonth--;
-    }
-    renderCalendar(currentYear, currentMonth);
-}
-
-// Function to navigate to the next month
-function goToNextMonth() {
-    if (currentMonth === 11) {
-        currentMonth = 0;
-        currentYear++;
-    } else {
-        currentMonth++;
-    }
-    renderCalendar(currentYear, currentMonth);
-}
-
-// Array of month names for display purposes
-const monthNames = [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December'
-];
-
-// Initial rendering of the calendar
-renderCalendar(currentYear, currentMonth);
-
-// Event listeners for navigation buttons
-document.getElementById('prevMonth').addEventListener('click', goToPreviousMonth);
-document.getElementById('nextMonth').addEventListener('click', goToNextMonth);
-</script>
+                // Store the selected date components in localStorage
+                localStorage.setItem('selectedDay', date.getDate());
+                localStorage.setItem('selectedMonth', monthNames[date.getMonth()]); // Months are 0-based
+                localStorage.setItem('selectedYear', date.getFullYear());
+                var date = date.getDate() + "-" + monthNames[date.getMonth()] + "-" +  date.getFullYear();
+                var d = document.querySelector(".date");
+                d.value =  date;
+                localStorage.setItem('selectedWeek', getWeekNumber(date));
+            
+        }
+        function getWeekNumber(date) {
+                const startOfYear = new Date(date.getFullYear(), 0, 1);
+                const days = Math.floor((date - startOfYear) / (24 * 60 * 60 * 1000));
+                return Math.ceil((days + startOfYear.getDay() + 1) / 7);
+        }
+        // Function to navigate to the previous month
+        function goToPreviousMonth() {
+            if (currentMonth === 0) {
+                currentMonth = 11;
+                currentYear--;
+            } else {
+                currentMonth--;
+            }
+            renderCalendar(currentYear, currentMonth);
+        }
+    
+        // Function to navigate to the next month
+        function goToNextMonth() {
+            if (currentMonth === 11) {
+                currentMonth = 0;
+                currentYear++;
+            } else {
+                currentMonth++;
+            }
+            renderCalendar(currentYear, currentMonth);
+        }
+    
+        // Array of month names for display purposes
+        const monthNames = [
+            'January', 'February', 'March', 'April', 'May', 'June',
+            'July', 'August', 'September', 'October', 'November', 'December'
+        ];
+    
+        // Initial rendering of the calendar
+        renderCalendar(currentYear, currentMonth);
+    
+        // Event listeners for navigation buttons
+        document.getElementById('prevMonth').addEventListener('click', goToPreviousMonth);
+        document.getElementById('nextMonth').addEventListener('click', goToNextMonth);
+    </script>
 <div id="submit1">
 <button id="bi"><a href="index1.html">Go back!</a></button>
-<button><a style="margin-left:7px;" href="index3.html">Next<img style="vertical-align:sub;width:32px;" src="/Service icon.png"></a></button><br><br>
+<button><a style="margin-left:7px;" href="index3.html">Next</a></button><br><br>
+</div><br><br><br>
+</div><br><br><br>
 </div>
-</div>
-</div>
-
-<div id="footer">
-    
-    <div id="icons">
-        <img src="/LinkedIn.png"><img src="/Instagram.png"><img src="/WhatsApp.png"><img src="/Facebook1.png"><img src="/Twitter.png">
+<section class="brands">
+    <div class="container1">
+        <h1 class="Services">Brands we serve</h1>
+        <div class="logos flex">
+            <h1 class="scroll"> < </h1>
+                    <img class="logo" src="/Rectangle_85-removebg-preview.png">
+                    <img class="logo" src="/Rectangle_86-removebg-preview.png">
+                    <img class="logo" src="/img-removebg-preview 1.png">
+                    <img class="logo" src="/Rectangle_95-removebg-preview (1).png">
+                    <img class="logo" src="/brand.png">
+                    <img class="logo" src="/brand2.png">
+            <h1 class="scroll1"> > </h1>
+        </div>
     </div>
-    
-    
-    <div id="all">
-        <div id="top">
-        <img id="logo" src="/Cycle Restore Logo1.png">
-        <div id="para">
-            <p>Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance, Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.</p>
+    </section>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left ">
+                <a href="#" class="company-logo footer-companylog">
+                    <img src="/Cycle Restore Logo1.png" alt="company logo">
+                </a>
+                <p class="footer-para">
+                    Your Trusted Fitness Equipment Service Provider across 25+ Indian Cities. Installation, Maintenance,
+                    Repair Services for Residential and Commercial Clients. Committed to Customer Satisfaction.
+                </p>
+
+                <div class="socialicons" style="cursor:pointer">
+
+                    <i class="fab fa-google" style="color: white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="white"
+                        class="bi bi-whatsapp" viewBox="0 0">
+                       <!--  <path
+                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                    </svg> -->
+                    </svg>
+
+                    <i class="fab fa-instagram" style="color: white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-facebook" viewBox="0 0 16 16">
+                       <!--  <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951">
+                        </path> -->
+                    </svg>
+
+                    <i class="fab fa-twitter" style="color: white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-twitter" viewBox="0 0 16 16">
+                        <!-- <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg> -->
+                    </svg>
+                </div>
+            </div>
+
+
+
+            <div class="link-column link-column2 flex">
+                <h4 class="footer-heading">SERVING IN</h4>
+                <div class="foot-links">
+                    <ul>
+                        <a href="#" class="link">
+                            <li>Visakhapatnam</li>
+                        </a>
+                        <a href="#" class="link">
+                            <li>Delhi</li>
+                        </a>
+                        <a href="#" class="link">
+                            <li>Hyderabad</li>
+                        </a>
+                        <a href="#" class="link">
+                            <li>Chennai</li>
+                        </a>
+                        <a href="#" class="link">
+                            <li>Coimbatore</li>
+                        </a>
+
+                        <a href="#" class="link">
+                            <li>Pune</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="link-column flex link-column2">
+                <h4 class="footer-heading">QUICK LINKS</h4>
+                <div class="foot-links">
+                    <ul>
+                        <a href="index7.html" class="link">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="index5.html" class="link">
+                            <li>Refund Policy</li>
+                        </a>
+                        <a href="index8.html" class="link">
+                            <li>Shipping Policy</li>
+                        </a>
+                        <a href="index6.html" class="link">
+                            <li>Terms and conditions</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="link-column footer-det">
+
+                <h4 class="footer-heading contact-footer-head">CONTACT</h4>
+                <div class="link-column">
+                <div class="contact-1 flex">
+                    <i class="fas fa-phone me-3" style="color:white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-telephone-fill" viewBox="0 0 16 16">                     
+                    </svg>
+                    <a href="#" class="link">08062177481</a>
+                </div>
+
+
+                <div class="contact-1 flex">
+                    <i class="fas fa-envelope me-3 " style="color:white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-envelope" viewBox="0 0 16 16">
+                    </svg>
+                    <a href="#" class="link">info@example.com</a>
+                </div>
+
+
+                <div class="contact-1 flex ">
+                    <i class=" fas fa-location-dot me-3 location" style="color:white"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                        class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                   </svg>
+                    <a href="#" class="link">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra
+                        Pradesh,India</a>
+                </div>
+                </div>
+
+            </div>
+
         </div>
+
+        <hr class="hr-footer">
+        <div class="sub-footer-collective container">
+            <div class="sub-footer sub-footer2">
+                <p class="copyright">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</p>
+            </div>
+
+            <div class="sub-footer1 sub-footer">
+                <p class="copyright">Cycle your way to happiness</p>
+            </div>
         </div>
-        
-        <div id="paraa">
-          <h4>SERVING IN</h4>
-          <ul>
-            <li>Visakhapatnam</li>
-            <li>Delhi</li>
-            <li>Pune</li>
-            <li>Hyderabad</li>
-            <li>Chennai</li>
-            <li>Coimbatore</li>
-         </ul>
-        </div>
-         <div id="paraaa">
-            <h4>QUICK LINKS</h4>
-         <ul>
-              <li><a href="index7.html">Privacy Policy</a></li>
-              <li><a href="index5.html">Refund Policy</a></li>
-              <li><a href="index8.html">Shipping Policy</a></li>
-              <li><a href="index6.html">Terms and Conditions</a></li>
-         </ul>
-        </div>
-        
-        <div id="paraaaa">
-          <h4>CONTACT</h4>
-          <p><img src="/Phone.png">08062177481</p>
-          <p><img src="/Gmail Logo.png">info@example.com</p>
-          <p><img src="/mdi_address-marker.png">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra Pradesh, India</p>
-        </div>
-        
-    
-  </div>
-  <div id="downright"><h5>Cycle your way to happiness</h5></div>
-  <div id="downleft">Copyright @ 2024, Cyclerestore Services. All Rights Reserved.</div>
+
+    </footer>
+
+    <div class="contact">
+        <a href="#">
+            <img id="contact-img" src="/whatsapp-removebg-preview.png" alt="">
+        </a>
+    </div>
+<script src="https://kit.fontawesome.com/ffd3adf992.js" crossorigin="anonymous"></script>
+
+    <script>
+        const toggleButton = document.getElementById('nav-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        toggleButton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        }
+
+        )
+    </script>
+
 </body>
 </html>
 

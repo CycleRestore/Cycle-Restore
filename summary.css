@@ -8,64 +8,77 @@ padding-left:15px;
 padding-right:15px;
 margin-right:15px;
 }
-#font p
+#hu p
 {
     text-align: center;
 }
 #summary
 {
-margin-left:620px;
+margin-left:450px;
 display:flex;
-}
-#submit
-{
-margin-left:700px;
-text-decoration:none;
-color:white;
 }
 #font
 {
 font-family:Rubik;
 }
+button
+{
+background-color:rgb(19, 18, 18);
+color:white;
+border-radius:5px;
+}
+#submit1 button 
+{
+    height:45px;
+    width:100px;
+}
+#bi
+{
+    margin-right: 900px;
+}
 input[type=button]
 {
 background-color:black;
-padding-top:20px;
-padding-bottom:20px;
-padding-left:20px;
-padding-right:20px;
-margin-right:150px;
 }
-button
+#submit1
 {
-background-color:black;
-border-radius:10px;
-margin-right:40px;
-height:40px;
-width:120px;
+margin-left:55px;
+margin-top:100px;
+margin-bottom:10px;
+display:flex;
+}
+#submit1 a
+{
+    color:white;
+    text-decoration:none;
+    font-size:17px;
 }
 img
 {
 width:20px;
 height:20px;
 }
-#pages a
-{
-color:black;
-}
+
 #pages a:hover
 {
 color:red;
 }
-hr
+#hu hr
 {
 width:520px;
-margin-left:545px;
+margin-left:400px;
+}
+#body
+{
+    background-color: #ffffff;
+    width:1200px;
+    margin-left: 150px;
+    border-radius: 7px;
 }
 #cust
 {
     display:flex;
-    margin-left: 680px;
+    margin-left: 530px;
 }
 img#hover
 {
@@ -79,7 +92,8 @@ box-shadow:0px 3px 5px rgba(0,0,0,0.6);
 {
 width:200px;
 height:150px;
-margin-left:650px;
+margin-left:515px;
+margin-top: 5px;
 }
 #serv
 {
@@ -94,52 +108,12 @@ text-align:left;
 #sad
 {
 display:flex;
-margin-left:620px;
+margin-left:450px;
 }
-#header
-{
-    background-color:#000000;
-    position:fixed;
-    top:0px;
-    left:0px;
-    width:100%;
-    height: 7%;
-}
-#header img
-{
-    margin-right:550px;
-    text-align: left;
-}
-#header a
-{
-    text-align: center;
-}
-
-#header a
-{
-    color:#FFFFFF;
-    text-decoration:None;
-}
-
-#pages
-{
-    border:2px solid black;
-    width:70%;
-    height:6%;
-    margin-left:auto;
-    margin-right:auto;
-    border-radius:10px;
-}
-
 h1
 {
    text-align: center;
    margin-top:50px;
-}
-#header img
-{
-    width:110px;
-    height:100px;
 }
 #submit a
 {
@@ -148,171 +122,418 @@ h1
     text-decoration:none;
 }
 
-#home a
-{
-    margin-left:25px;
-}
-#services a
-{
-    margin-left:25px;
-}
-#about us a
-{
-    margin-left:20px;
-    margin-right:15px;
-}
-#contact us a
-{
-    margin-right:100px;
-}
-#footer
-{
-    width:100%;
-    height:640px;
-    background-color: black;
-    font-family:Rubik;
-    margin-top: 50px;
+.navlinks a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  nav {
+    background-color: rgb(9, 9, 9);
+    position: absolute;
     left: 0px;
-    position:absolute;
-    scroll-behavior: auto; 
-}
-#icons img
-{
-    width:30px;
-    height:30px;
-   margin-right:20px;
-   margin-top: 80px;
-}
-#icons
-{
-    margin-left:1200px;
-    width:280px;  
-    height:40px;
-}
-#logo
-{
-    width:100px;
+    right: 0px;
+    top:0px;
     height:100px;
-    margin-top:0px;
-    margin-left: 0px;
-}
-#all
-{
-    width:1350px;
-    color:white;
-    display:flex;
-    height:300px;
-    margin-left:80px;
+    width:1520px;
+  }
+  .main-nav {
     justify-content: space-between;
-    margin-top:140px;
-}
-ul
-{
-    color:white;
-}
-#para
-{
-    width:310px;
-    height:150px;
-    margin-top:5px;
-}
-#para,#paraa,#paraaaa,#paraaa
-{
-    text-align: left;
-}
-ul,a
-{
-    color:white;
-}
-h4
-{
-    margin-left:22px;
-}
-li
-{
-    padding-bottom:17px;
-    text-decoration: underline;
-}
-#paraaaa img
-{
-     width:20px;
-     height:20px;
-     margin-right:5px;
-     vertical-align:text-bottom;
-}
-#paraaaa
-{
-    width:345px;
-    height:200px;
-}
-#paraaaa h4
-{
-    margin-left: 0px;
-}
-#downleft
-{
-    color:white;
-    text-align: left;
-    margin-left:20px;
-}
-#downright
-{
- margin-right: 40px;
+    position:relative;
+    left: 0px;
+    right: 0px;
+    height: 60px;
+    padding-top: 10px;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .company-logo {
+    width: 100px;
+    height:90px;
+    margin-top: 20px;
+  }
+  
+  .navlinks {
+    z-index: 4;
+  }
+  .navlinks ul {
+    justify-content: end;
+    gap: 70px;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+  }
+  
+  .navlink-options ul {
+    list-style: none;
+  }
+  .hover-links {
     color: white;
-    text-align:right;
-    text-decoration: underline;
-    font-size: 20px;
+  }
+  .nav-toggle {
+    display: none;
+  } 
+  .image {
+    position: absolute;
+    width:1532px;
+    height: 200px; 
+    background-image: url("/refund.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+    margin-left:-20px;
+    top: 100px;
+  }
+   h2{
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-family:Rubik;
+    margin-top: 70px;
+  }
+  h1
+  {
+     text-align: center;
+      color:rgb(246, 235, 235);
+      margin-top:20px;
+      margin-bottom: 40px ;
+  }
+  #pages
+  {   
+      width: 1200px;
+      margin-left: 150px;
+      margin-bottom: 40px;
+      background-color: white;
+      display:flex;
+      gap:50px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #pages a 
+  {
+      text-decoration:none;
+      color:black;
+      opacity:0.6;
+  }
+  #pages img 
+  {
+      width:30px;
+      height:30px;
+      vertical-align:middle;
+  }
+  #pages 
+  {
+       border:1px solid rgba(198, 196, 196, 0.777); 
+      border-radius: 5px;
+  }
+  #g,#h,#i,#j
+  {
+      width: 20px;
+      height: 20px;
+      padding-top:20px;
+      padding-right:10px;
+      padding-left:20px;
+      padding-bottom:20px;
+  }
+  #r,#s,#t,#q a
+  {
+      font-weight:700;
+  }
+  #q,#r,#s,#t
+  {
+      margin-top: 5px;
+  }
+  #hu
+  {
+      background-color: rgb(10, 9, 9);
+      position: absolute;
+      left:0px;
+      right:0px;
+      width:1520px;
+      top: 300px;
+  }
+h3
+{
+    color:rgb(17, 16, 16);
+    text-align: center;
+    margin-top: 10px;
+    font-size: x-large;
+}
+footer {
+  background-color: #050505fb;
+  padding-block: 60px;
+  top:1550px;
+  height:600px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  position: absolute;
+  font-family: Rubik;
+}
+.footer-container a{
+text-decoration: none;
+display: inline-block;
+}
+.container {
+position: absolute;
+width: 1285px;
+margin-inline: auto;
+padding: 20px;
+overflow: hidden;
+margin-left: 50px;
+
 }
 
+.footer-container {
+display: flex;
+align-items: center;
+}
+.footer-container {
+align-items: flex-start;
+gap: 130px;
+}
 
+.company-logo img {
+width: 120px;
+height:110px;
+margin-bottom:20px;
+}
+
+.footer-companylog img{
+margin-left: -15px;
+}
+.footer-para {
+color: rgb(252, 247, 247);
+margin-top: 30px;
+margin-left: 0px;
+}
+.socialicons {
+margin-top: 40px;
+display: flex;
+gap: 10px;
+}
+
+.link-column {
+flex-direction: column;
+align-items: flex-start;
+margin-top: 40px;
+}
+
+.link-column2 {
+min-width: 180px;
+}
+.footer-heading {
+color: white;
+}
+
+.foot-links {
+margin-left: 20px;
+margin-top: 0px;
+}
+.link {
+color: white;
+margin-top: 20px;
+}
+#ui
+{
+  margin-top: 20px;
+}
+.fas {
+margin-top: 15px;
+}
+
+.location{
+margin-top: -70px;
+padding-right: 20px;
+}
+
+.hr-footer{
+margin-top: 50px;
+margin-bottom: -50px;
+}
+
+.sub-footer-collective {
+display: flex;
+gap: 470px;
+}
+.sub-footer-collective p
+{
+margin-top:13px;
+}
+.sub-footer {
+color: white;
+margin-top: 50px;
+}
+
+.copyright {
+font-size: medium;
+}
+.contact
+{
+margin-top: 20px;
+}
+#contact-img{
+width: 40px;
+height: 40px;
+position: fixed;
+top:660px;
+margin-left: 1400px;
+scroll-behavior: auto;
+background-color: #2828f5;
+border-radius: 5px;
+}
+.hr-footer
+{
+margin-top: 550px;
+}
+.sub-footer-collective
+{
+margin-left: 40px;
+} 
+.Services {
+  margin-left: 570px;
+    margin-top: 1200px;
+ 
+    color:#000000;
+    width:250px;
+  }
+  .brands h1
+  {
+    color:#000000;
+   
+    
+  }
+   .scroll
+  {
+    margin-left: 20px;
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 55px;
+   
+  } 
+  .footer-heading
+  {
+    margin-left: 20px;
+  }
+  .scroll1
+  {
+    font-size: 30px;
+    padding: 0px;
+    margin-right: 0px; 
+    margin-left: 5px;
+   
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+   
+  }
+  .logo{
+    height: 100px;
+    margin-right: 35px;
+    margin-top: 0px;
+
+    width:190px;
+  }
+  .logos {
+    flex-wrap: wrap;
+
+  }
+  .foot-links
+  {
+    margin-left: 0px;
+  }
 /********************************************************************************************************************************/
 
 
-@media (max-width:1200px)
-{ #footer
-    {
-      width: 1480px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
+@media (min-width:769px) and (max-width:1025px)
+{  .image
+  {
+    width:2060px;
+   top: 150px;
+   left: 0px;
+    position: absolute;
+  }
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
+  }
+
+h2
+{
+  width:1200px;
+  margin-left:440px;
+  margin-top: 50px;
+  font-size:90px;
+  letter-spacing: 0.04cm;
+}
+
+#hu
+{
+  width:2040px;
+  margin-left: 0px;
+  border-radius:6px;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+ 
+nav
+{
+  width: 2040px;
+  height: 150px;
+}
+.main-nav img
+{
+  width: 280px;
+  height:250px;
+  margin-top: 80px;
+}
+
+
+h4
+{
+  margin-bottom: 20px;
+}
+
     #ut
     {
-        margin-left:500px;
+        margin-left:630px;
     }
     #font p
     {
-        width:300px;
-        margin-left:460px;
+        width:600px;
+        margin-left:450px;
     }
     #cust
     {
-        margin-left:540px;
+        margin-left:590px;
     }
     #sad
     {
         margin-left:440px;
         margin-right: 100px;
-        width:535px;
+        width:935px;
     }
     #serv
     {
-        width:150px;
+        width:250px;
     }
     #dat
     {
-        width:300px;
+        width:500px;
     }
-    hr
+    h3
     {
-        margin-left:400px;
+      font-size: 50px;
+    }
+    #font hr
+    {
+        margin-left:440px;
     }
     #summary
     {
@@ -320,77 +541,367 @@ li
     }
     #money
     {
-        margin-left: 185px;
+        margin-left: 235px;
     }
-   #submit
+    #font button  
+    {
+width:150px;
+height:60px;
+    }
+    #submit1 a 
+    {
+      font-size: 30px;
+    }
+   #submit1
    {
-    width:320px;
-    margin-left: 540px;
+    width:1520px;
+    margin-left: 130px;
    }
    h1 
    {
     margin-left: 260px;
+    font-size: xx-large;
    }
-   #pages
+   #font
    {
+    margin-left:0px;
+   }
+   #body
+   {
+    width:1445px;
     margin-left: 300px;
-    margin-bottom: 10px;
    }
-   #font
+   #pages img
    {
-    margin-left:150px;
+     width: 60px;
+     height:60px;
    }
+    #pages
+    {
+      width: 1445px;
+      margin-left:300px;
+      height:110px;
+      font-size: xx-large;
+      margin-bottom: 0px;
+      border: 1px solid rgb(15, 14, 14);
+      margin-top: 0px;
+    }
+
+
+.sub-footer-collective 
+{
+ margin-top: 2048px;
+ background-color: #000000;
+ width: 2000px;
+ margin-left: 0px;
+ height:180px;
 }
+.sub-footer-collective p 
+{
+font-size:28px;
+margin-top: 50px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.sub-footer
+{
+ margin-top: 0px;
+ margin-left:100px ;
+ height: 40px;
+}
+.sub-footer1
+{
+ margin-top: 0px;
+ margin-left:40px ;
+} 
+.socialicons
+{
+ margin-top: 20px;
+ margin-left: 30px;
+ margin-bottom: 60px;
+}
+.hr-footer{
+ margin-top: 1050px;
+ border:2px solid black;
+ color:#fdfcfc;
+}
+
+
+
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:2200px;
+  background-color: #090909;
+  font-size: 25px;
+  width: 2000px;
+  margin-left:0px;
+ height:800px;
+ flex-direction: row;
+}
+
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 90px;
+margin-top: 0px;
+padding-top: 0px;
+}
+.container1 {
+  max-width: 1490px;
+  margin-inline: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.brands
+{
+  
+  width:890px;
+  margin-top: 300px;
+  margin-left: 680px;
+}
+.Services {
+  text-align: center;
+  margin-top: 1420px;
+font-size: 78px;
+margin-left: 0px;
+width:650px;
+margin-bottom: 0px;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+.location
+{
+  margin-top: -110px;
+  margin-bottom: 40px;
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+#contact-img
+{
+  margin-top: 620px;
+  width:100px;
+  height:100px;
+  margin-left: 1890px;
+}
+.footer-para
+{
+  margin-top:250px;
+  height: 250px;
+  width:550px;
+  margin-left: 30px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column
+{
+  height:400px;
+  width:250px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column2
+{
+  height: 570px;
+  width:1180px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-det
+{
+  height: 570px;
+  width:1500px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-det a
+{
+  margin-left: 15px;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navlinks
+{
+  margin-top: 50px;
+  font-size: x-large;
+}
+.contact-1
+{
+  font-size:28px;
+  font-weight: bold;
+}
+}
+/********************************************************************************************************************************/
+
+
+
+@media (min-width:120px) and (max-width:990px) {
+  .header-companylog{
+    width: 10px;
+  }
+  }
+  
+  
+  @media screen and (max-width: 426px) {
+    .nav-toggle{
+        display: inline-block;
+        margin-right: 20px;
+        width:100px;
+        height: 40px;
+        margin-top: 70px;
+    }
+   
+    
+     .navlinks{
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        left: -110%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.4s ease-in-out;
+      
+    }
+    
+  
+    .navlinks.active{
+        left: 0;
+       
+    }
+  
+    .navlinks ul {
+        flex-direction: column;
+       
+    }
+  
+    
+  } 
+  /********************************************************************************************************************************/
+  
+  
 
 
 /********************************************************************************************************************************/
 
 
-@media (max-width:999px)
-{ #footer
-    {
-      width: 1468px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
+@media (min-width:426px) and (max-width:768px)
+{  .image
+  {
+    width:2060px;
+   top: 150px;
+   left: 0px;
+    position: absolute;
+  }
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
+  }
+
+h2
+{
+  width:1200px;
+  margin-left:440px;
+  margin-top: 50px;
+  font-size:90px;
+  letter-spacing: 0.04cm;
+}
+
+#hu
+{
+  width:2040px;
+  margin-left: 0px;
+  border-radius:6px;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+ 
+nav
+{
+  width: 2040px;
+  height: 150px;
+}
+.main-nav img
+{
+  width: 280px;
+  height:250px;
+  margin-top: 80px;
+}
+
+
+h4
+{
+  margin-bottom: 20px;
+}
+
     #ut
     {
-        margin-left:500px;
+        margin-left:630px;
     }
     #font p
     {
-        width:300px;
-        margin-left:460px;
+        width:600px;
+        margin-left:450px;
     }
     #cust
     {
-        margin-left:540px;
+        margin-left:590px;
     }
     #sad
     {
         margin-left:440px;
         margin-right: 100px;
-        width:535px;
+        width:935px;
     }
     #serv
     {
-        width:150px;
+        width:250px;
     }
     #dat
     {
-        width:300px;
+        width:500px;
     }
-    hr
+    h3
     {
-        margin-left:400px;
+      font-size: 50px;
+    }
+    #font hr
+    {
+        margin-left:440px;
     }
     #summary
     {
@@ -398,196 +909,227 @@ li
     }
     #money
     {
-        margin-left: 185px;
+        margin-left: 235px;
     }
-   #submit
+    #font button  
+    {
+width:150px;
+height:60px;
+    }
+    #submit1 a 
+    {
+      font-size: 30px;
+    }
+   #submit1
    {
-    width:320px;
-    margin-left: 540px;
+    width:1520px;
+    margin-left: 130px;
    }
    h1 
    {
-    margin-left: 350px;
+    margin-left: 260px;
+    font-size: xx-large;
    }
-   #pages
+   #font
    {
+    margin-left:0px;
+   }
+   #body
+   {
+    width:1445px;
     margin-left: 300px;
-    margin-bottom: 10px;
    }
-   #font
+   #pages img
    {
-    margin-left:150px;
+     width: 60px;
+     height:60px;
    }
+    #pages
+    {
+      width: 1445px;
+      margin-left:300px;
+      height:110px;
+      font-size: xx-large;
+      margin-bottom: 0px;
+      border: 1px solid rgb(15, 14, 14);
+      margin-top: 0px;
+    }
+
+
+.sub-footer-collective 
+{
+ margin-top: 2048px;
+ background-color: #000000;
+ width: 2000px;
+ margin-left: 0px;
+ height:180px;
+}
+.sub-footer-collective p 
+{
+font-size:28px;
+margin-top: 50px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+.sub-footer
+{
+ margin-top: 0px;
+ margin-left:100px ;
+ height: 40px;
+}
+.sub-footer1
+{
+ margin-top: 0px;
+ margin-left:40px ;
+} 
+.socialicons
+{
+ margin-top: 20px;
+ margin-left: 30px;
+ margin-bottom: 60px;
+}
+.hr-footer{
+ margin-top: 1050px;
+ border:2px solid black;
+ color:#fdfcfc;
 }
 
 
-/********************************************************************************************************************************/
 
-
-@media (max-width:768px)
-{ #footer
-    {
-      width: 1480px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
-    #ut
-    {
-        margin-left:500px;
-    }
-    #font p
-    {
-        width:300px;
-        margin-left:400px;
-    }
-    #cust
-    {
-        margin-left:510px;
-    }
-    #sad
-    {
-        margin-left:440px;
-        margin-right: 100px;
-        width:535px;
-    }
-    #serv
-    {
-        width:150px;
-    }
-    #dat
-    {
-        width:300px;
-    }
-    hr
-    {
-        margin-left:400px;
-    }
-    #summary
-    {
-        margin-left:440px;
-    }
-    #money
-    {
-        margin-left: 175px;
-    }
-   #submit
-   {
-    width:320px;
-    margin-left: 540px;
-   }
-   h1 
-   {
-    margin-left: 390px;
-    width:400px;
-   }
-   #pages
-   {
-    margin-left: 310px;
-    margin-bottom: 10px;
-    width:550px;
-   }
-   #font
-   {
-    margin-left:150px;
-    font-size: larger;
-   }
-   #body p
-   {
-    width:400px;
-   }
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:2200px;
+  background-color: #090909;
+  font-size: 25px;
+  width: 2000px;
+  margin-left:0px;
+ height:800px;
+ flex-direction: row;
 }
 
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+}
 
-/********************************************************************************************************************************/
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
 
+.logos {
+  flex-wrap: wrap;
+margin-left: 90px;
+margin-top: 0px;
+padding-top: 0px;
+}
+.container1 {
+  max-width: 1490px;
+  margin-inline: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.brands
+{
+  
+  width:890px;
+  margin-top: 300px;
+  margin-left: 680px;
+}
+.Services {
+  text-align: center;
+  margin-top: 1420px;
+font-size: 78px;
+margin-left: 0px;
+width:650px;
+margin-bottom: 0px;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+.location
+{
+  margin-top: -110px;
+  margin-bottom: 40px;
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+#contact-img
+{
+  margin-top: 1150px;
+  width:100px;
+  height:100px;
+  margin-left: 1890px;
+}
+.footer-para
+{
+  margin-top:250px;
+  height: 250px;
+  width:550px;
+  margin-left: 30px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column
+{
+  height:400px;
+  width:250px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column2
+{
+  height: 570px;
+  width:1180px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-det
+{
+  height: 570px;
+  width:1500px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.footer-det a
+{
+  margin-left: 15px;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
-@media (max-width:600px)
-{ #footer
-    {
-      width: 1468px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
-    #ut
-    {
-        margin-left:500px;
-    }
-    #font p
-    {
-        width:300px;
-        margin-left:400px;
-    }
-    #cust
-    {
-        margin-left:510px;
-    }
-    #sad
-    {
-        margin-left:440px;
-        margin-right: 100px;
-        width:535px;
-    }
-    #serv
-    {
-        width:150px;
-    }
-    #dat
-    {
-        width:300px;
-    }
-    hr
-    {
-        margin-left:400px;
-    }
-    #summary
-    {
-        margin-left:440px;
-    }
-    #money
-    {
-        margin-left: 185px;
-    }
-   #submit
-   {
-    width:320px;
-    margin-left: 540px;
-   }
-   h1 
-   {
-    margin-left: 390px;
-    width:400px;
-   }
-   #pages
-   {
-    margin-left: 310px;
-    margin-bottom: 10px;
-    width:550px;
-   }
-   #font
-   {
-    margin-left:150px;
-    font-size: larger;
-   }
-   #body p
-   {
-    width:400px;
-   }
+.navlinks
+{
+  margin-top: 50px;
+  font-size: x-large;
+}
+.contact-1
+{
+  font-size:28px;
+  font-weight: bold;
+}
 }
 
 
@@ -595,127 +1137,317 @@ li
 
 
 @media (min-width:377px) and (max-width:426px)
-{ 
-    #footer
-    {
-      width: 1350px;
-      margin-top: 100px;
-      margin-left: 0px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #header
+{  .image
   {
-    height:5%;
-    width:100%;
+    width:1720px;
+   top: 150px;
+   left: 0px;
+    position: absolute;
   }
-  #top,#paraa,#paraaa,#paraaaa
-  { 
-    margin-left:2px;
-    margin-right: 2px;
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
   }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
+
+h2
+{
+  width:1200px;
+  margin-left:280px;
+  margin-top: 50px;
+  font-size:90px;
+  letter-spacing: 0.04cm;
+}
+
+#hu
+{
+  width:1700px;
+  margin-left: 0px;
+  border-radius:6px;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+.sub-footer-collective {
+  display: flex;
+  flex-direction:row;
+  margin-top: 5860px;
+  background-color: #000000;
+  width: 1660px;
+  margin-left: 0px;
+  height:500px;
+}
+.sub-footer-collective p 
+{
+ font-size:58px;
+ margin-top: 20px;
+ font-weight: bold;
+}
+.sub-footer
+{
+  margin-top: 0px;
+  height: 40px;
+  margin-left: 150px;
+  width:760px;
+}
+.sub-footer1
+{
+  margin-top: 0px;
+  margin-bottom: 270px;
+  width:670px;
+}
+.socialicons
+{
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.hr-footer{
+  margin-top: 1050px;
+  border:2px solid black;
+  color:#fdfcfc;
+}
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:2800px;
+  background-color: #000000;
+  font-size: 50px;
+  width: 1660px;
+  margin-left:0px;
+ height:4000px;
+ display: flex;
+ flex-direction: column;
+}
+.contact-1
+{
+  font-size: 56px;
+}
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+  padding-top: 50px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 110px;
+margin-top: 0px;
+padding-top: 50px;
+}
+.navlinks
+{
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.bookingdate
+{
+  display: flex;
+  flex-direction: column;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+.location
+{
+  margin-top: -260px;
+  margin-bottom: 40px;
+  height:50px;
+  border:2px solid red;
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+}
+#contact-img
+{
+  margin-top: 1880px;
+  width:100px;
+  height:100px;
+  margin-left: 1460px;
+}
+.footer-para
+{
+  margin-top:350px;
+  height: 500px;
+  width:1350px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column
+{
+  height:900px;
+  width:750px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+
+}
+.link-column2
+{
+  height: 670px;
+  width:550px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 70px;
+ 
+}
+.footer-det
+{
+  height: 670px;
+  width:600px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
     #ut
     {
-        margin-left:290px;
-        width:500px;
-        height: 400px;
-        margin-top:60px;
-        margin-bottom:30px;
+        margin-left:730px;
     }
     #font p
     {
-        width:700px;
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        width:600px;
+        margin-left:550px;
     }
     #cust
     {
-        margin-left:410px;
-        font-size: 28px;
-        margin-bottom: 60px;
+        margin-left:690px;
     }
     #sad
     {
-        margin-left:280px;
+        margin-left:540px;
         margin-right: 100px;
-        width:800px;
-        font-size: 28px;
-        padding-bottom: 10px;
+        width:935px;
     }
     #serv
     {
-        width:200px;
+        width:250px;
     }
     #dat
     {
-        width:450px;
+        width:500px;
     }
-    hr
+    h3
     {
-        margin-left:280px;
-        margin-top:30px;
-        margin-bottom:30px;
+      font-size: 50px;
+      margin-left: 550px;
+      width: 500px;
+    }
+    #font hr
+    {
+        margin-left:540px;
     }
     #summary
     {
-        margin-left:280px;
-        font-size: 28px;
+        margin-left:540px;
     }
     #money
     {
-        margin-left: 200px;
+        margin-left: 235px;
     }
-   #submit
-   {
-    margin-left: 400px;
-    margin-top: 60px;
-   }
-   #submit button
+    #font button  
     {
-        width:150px;
-        height:70px;
-    }  
-     #downright
+width:150px;
+height:60px;
+    }
+    #submit1 a 
+    {
+      font-size: 30px;
+    }
+   #submit1
    {
-     margin-right: 16px;
+    width:1320px;
+    margin-left: 240px;
    }
-   #icons
+   h1 
    {
-     margin-left: 970px;
+    margin-left: 260px;
+    font-size: xx-large;
    }
-   h1{
-     margin-left: 120px;
-     width:850px;
-     margin-bottom:80px;
-     margin-top: 150px;
-     font-size: 68px;
-   }
-   
-   #pages
+   #font
    {
-     width: 750px;
-     margin-left: 170px;
+    margin-left:0px;
+   }
+   #body
+   {
+    width:1745px;
+    margin-left: 0px;
+   }
+   #pages img
+   {
+     width: 60px;
      height:60px;
-     font-size: x-large;
    }
-   #all
-   {
-     margin-left: 0px;
-    justify-content:space-evenly;
-   }
-  
-}
+    #pages
+    {
+      width: 1445px;
+      margin-left:127px;
+      height:110px;
+      font-size: xx-large;
+      margin-bottom: 0px;
+      border: 1px solid rgb(15, 14, 14);
+      margin-top: 0px;
+    }
+ nav
+ {
+   width: 1702px;
+   height: 150px;
+ }
+ .main-nav img
+ {
+   width: 280px;
+   height:250px;
+   margin-top: 80px;
+ }
+    .container1 {
+      max-width: 1490px;
+      margin-inline: auto;
+      padding: 20px;
+      overflow: hidden;
+    }
+    .brands
+    {
+      width:890px;
+      margin-top: 500px;
+      margin-left: 540px;
 
+    }
+    .Services {
+      text-align: center;
+      margin-top: 1420px;
+    font-size: 78px;
+    margin-left: 0px;
+    width:700px;
+    margin-bottom: 0px;
+  
+    }
+  }
 
 /********************************************************************************************************************************/
 
@@ -723,246 +1455,625 @@ li
 
 @media (min-width:321px) and (max-width:376px)
 { 
-    #footer
-    {
-      width: 1350px;
-      margin-top: 100px;
-      margin-left: 0px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #header
+  .image
   {
-    height:5%;
-    width:100%;
+    width:1520px;
+   top: 150px;
+   left: 0px;
+    position: absolute;
   }
-  #top,#paraa,#paraaa,#paraaaa
-  { 
-    margin-left:2px;
-    margin-right: 2px;
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
   }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
+
+h2
+{
+  width:1200px;
+  margin-left:180px;
+  margin-top: 50px;
+  font-size:90px;
+  letter-spacing: 0.04cm;
+}
+
+#hu
+{
+  width:1500px;
+  margin-left: 0px;
+  border-radius:6px;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+.sub-footer-collective {
+  display: flex;
+  flex-direction:row;
+  margin-top: 5860px;
+  background-color: #000000;
+  width: 1460px;
+  margin-left: 0px;
+  height:500px;
+}
+.sub-footer-collective p 
+{
+ font-size:58px;
+ margin-top: 20px;
+ font-weight: bold;
+}
+.sub-footer
+{
+  margin-top: 0px;
+  height: 40px;
+  margin-left: 150px;
+  width:660px;
+}
+.sub-footer1
+{
+  margin-top: 0px;
+  margin-bottom: 270px;
+  width:570px;
+}
+.socialicons
+{
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.hr-footer{
+  margin-top: 1050px;
+  border:2px solid black;
+  color:#fdfcfc;
+}
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:2800px;
+  background-color: #000000;
+  font-size: 50px;
+  width: 1460px;
+  margin-left:0px;
+ height:4000px;
+ display: flex;
+ flex-direction: column;
+}
+.contact-1
+{
+  font-size: 56px;
+}
+.footer-container ul 
+{
+  margin-left: 20px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+  padding-top: 50px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 100px;
+margin-top: 0px;
+padding-top: 50px;
+}
+.navlinks
+{
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.bookingdate
+{
+  display: flex;
+  flex-direction: column;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+.location
+{
+  margin-top: -260px;
+  margin-bottom: 40px;
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+}
+#contact-img
+{
+  margin-top: 1880px;
+  width:100px;
+  height:100px;
+  margin-left: 1310px;
+}
+.footer-para
+{
+  margin-top:350px;
+  height: 500px;
+  width:1350px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column
+{
+  height:900px;
+  width:750px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+
+}
+.link-column2
+{
+  height: 670px;
+  width:550px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 70px;
+ 
+}
+.footer-det
+{
+  height: 670px;
+  width:600px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
     #ut
     {
-        margin-left:290px;
-        width:500px;
-        height: 400px;
-        margin-top:60px;
-        margin-bottom:30px;
+        margin-left:630px;
     }
     #font p
     {
-        width:700px;
-        margin-left: 190px;
-        font-size: 30px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        width:600px;
+        margin-left:450px;
     }
     #cust
     {
-        margin-left:410px;
-        font-size: 28px;
-        margin-bottom: 60px;
+        margin-left:590px;
     }
     #sad
     {
-        margin-left:280px;
+        margin-left:440px;
         margin-right: 100px;
-        width:800px;
-        font-size: 28px;
-        padding-bottom: 10px;
+        width:935px;
     }
     #serv
     {
-        width:200px;
+        width:250px;
     }
     #dat
     {
-        width:450px;
+        width:500px;
     }
-    hr
+    h3
     {
-        margin-left:280px;
-        margin-top:30px;
-        margin-bottom:30px;
+      font-size: 50px;
+    }
+    #font hr
+    {
+        margin-left:440px;
     }
     #summary
     {
-        margin-left:280px;
-        font-size: 28px;
+        margin-left:440px;
     }
     #money
     {
-        margin-left: 200px;
+        margin-left: 235px;
     }
-   #submit
-   {
-    margin-left: 400px;
-    margin-top: 60px;
-   }
-   #submit button
+    #font button  
     {
-        width:150px;
-        height:70px;
-    }  
-     #downright
+width:150px;
+height:60px;
+    }
+    #submit1 a 
+    {
+      font-size: 30px;
+    }
+   #submit1
    {
-     margin-right: 16px;
+    width:1320px;
+    margin-left: 130px;
    }
-   #icons
+   h1 
    {
-     margin-left: 970px;
+    margin-left: 260px;
+    font-size: xx-large;
    }
-   h1{
-     margin-left: 120px;
-     width:850px;
-     margin-bottom:80px;
-     margin-top: 150px;
-     font-size: 68px;
-   }
-   
-   #pages
+   #font
    {
-     width: 750px;
-     margin-left: 170px;
+    margin-left:0px;
+   }
+   #body
+   {
+    width:1505px;
+    margin-left: 0px;
+   }
+   #pages img
+   {
+     width: 60px;
      height:60px;
-     font-size: x-large;
    }
-   #all
-   {
-     margin-left: 0px;
-    justify-content:space-evenly;
-   }
+    #pages
+    {
+      width: 1245px;
+      margin-left:137px;
+      height:110px;
+      font-size: xx-large;
+      margin-bottom: 20px;
+      border: 1px solid rgb(15, 14, 14);
+      margin-top: 0px;
+    }
+ nav
+ {
+   width: 1502px;
+   height: 150px;
+ }
+ .main-nav img
+ {
+   width: 280px;
+   height:250px;
+   margin-top: 80px;
+ }
+    .container1 {
+      max-width: 1490px;
+      margin-inline: auto;
+      padding: 20px;
+      overflow: hidden;
+    }
+    .brands
+    {
+      width:890px;
+      margin-top: 500px;
+      margin-left: 440px;
+
+    }
+    .Services {
+      text-align: center;
+      margin-top: 1420px;
+    font-size: 78px;
+    margin-left: 0px;
+    width:700px;
+    margin-bottom: 0px;
   
-}
+    }
+  }
+
+/****************************************************************************************************************************/
 
 
 @media (max-width:320px)
 {  
-    #footer
-    {
-      width: 1350px;
-      margin-top: 100px;
-      margin-left: 0px;
-    }
-    #header img
-    {
-        margin-left:30px;
-        text-align:left;
-        margin-right:210px;
-    }
-    #header
+  .image
   {
-    height:5%;
-    width:100%;
+    width:1720px;
+   top: 150px;
+   left: 0px;
+    position: absolute;
   }
-  #top,#paraa,#paraaa,#paraaaa
-  { 
-    margin-left:2px;
-    margin-right: 2px;
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
   }
-    #home a,#services a,#about us a,#contact us a
-    {
-        margin-left: 5px;
-    }
+
+h2
+{
+  width:1200px;
+  margin-left:280px;
+  margin-top: 50px;
+  font-size:90px;
+  letter-spacing: 0.04cm;
+}
+
+#hu
+{
+  width:1700px;
+  margin-left: 0px;
+  border-radius:6px;
+  font-size: xx-large;
+  margin-top: 50px;
+}
+.sub-footer-collective {
+  display: flex;
+  flex-direction:row;
+  margin-top: 5860px;
+  background-color: #000000;
+  width: 1660px;
+  margin-left: 0px;
+  height:500px;
+}
+.sub-footer-collective p 
+{
+ font-size:58px;
+ margin-top: 20px;
+ font-weight: bold;
+}
+.sub-footer
+{
+  margin-top: 0px;
+  height: 40px;
+  margin-left: 150px;
+  width:760px;
+}
+.sub-footer1
+{
+  margin-top: 0px;
+  margin-bottom: 270px;
+  width:670px;
+}
+.socialicons
+{
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.hr-footer{
+  margin-top: 1050px;
+  border:2px solid black;
+  color:#fdfcfc;
+}
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:2800px;
+  background-color: #000000;
+  font-size: 50px;
+  width: 1660px;
+  margin-left:0px;
+ height:4000px;
+ display: flex;
+ flex-direction: column;
+}
+.contact-1
+{
+  font-size: 56px;
+}
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+  padding-top: 50px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 110px;
+margin-top: 0px;
+padding-top: 50px;
+}
+.navlinks
+{
+  margin-top: 50px;
+  font-size: x-large;
+}
+
+.bookingdate
+{
+  display: flex;
+  flex-direction: column;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+.location
+{
+  margin-top: -260px;
+  margin-bottom: 40px;
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+}
+#contact-img
+{
+  margin-top: 1780px;
+  width:100px;
+  height:100px;
+  margin-left: 1100px;
+}
+.footer-para
+{
+  margin-top:350px;
+  height: 500px;
+  width:1350px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column
+{
+  height:900px;
+  width:750px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+
+}
+.link-column2
+{
+  height: 670px;
+  width:550px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 70px;
+ 
+}
+.footer-det
+{
+  height: 670px;
+  width:1200px;
+  margin-left: 0px;
+  font-size: larger;
+  font-weight: bold;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
     #ut
     {
-        margin-left:250px;
-        width:500px;
-        height: 400px;
-        margin-top:60px;
-        margin-bottom:30px;
+        margin-left:630px;
     }
     #font p
     {
-        width:700px;
-        margin-left: 150px;
-        font-size: 30px;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        width:600px;
+        margin-left:450px;
     }
     #cust
     {
-        margin-left:370px;
-        font-size: 28px;
-        margin-bottom: 60px;
+        margin-left:590px;
     }
     #sad
     {
-        margin-left:280px;
+        margin-left:440px;
         margin-right: 100px;
-        width:800px;
-        font-size: 28px;
-        padding-bottom: 10px;
+        width:935px;
     }
     #serv
     {
-        width:200px;
+        width:250px;
     }
     #dat
     {
-        width:450px;
+        width:500px;
     }
-    hr
+    h3
     {
-        margin-left:280px;
-        margin-top:30px;
-        margin-bottom:30px;
+      font-size: 50px;
+    }
+    #font hr
+    {
+        margin-left:440px;
     }
     #summary
     {
-        margin-left:280px;
-        font-size: 28px;
+        margin-left:440px;
     }
     #money
     {
-        margin-left: 200px;
+        margin-left: 235px;
     }
-   #submit
-   {
-    margin-left: 400px;
-    margin-top: 60px;
-   }
-   #submit button
+    #font button  
     {
-        width:150px;
-        height:70px;
-    }  
-     #downright
+width:150px;
+height:60px;
+    }
+    #submit1 a 
+    {
+      font-size: 30px;
+    }
+   #submit1
    {
-     margin-right: 16px;
+    width:1320px;
+    margin-left: 130px;
    }
-   #icons
+   h1 
    {
-     margin-left: 970px;
+    margin-left: 260px;
+    font-size: xx-large;
    }
-   h1{
-     margin-left: 80px;
-     width:850px;
-     margin-bottom:80px;
-     margin-top: 150px;
-     font-size: 68px;
-   }
-   
-   #pages
+   #font
    {
-     width: 750px;
-     margin-left: 130px;
+    margin-left:0px;
+   }
+   #body
+   {
+    width:1445px;
+    margin-left: 127px;
+   }
+   #pages img
+   {
+     width: 60px;
      height:60px;
-     font-size: x-large;
    }
-   #all
-   {
-     margin-left: 0px;
-    justify-content:space-evenly;
-   }
+    #pages
+    {
+      width: 1445px;
+      margin-left:127px;
+      height:110px;
+      font-size: xx-large;
+      margin-bottom: 0px;
+      border: 1px solid rgb(15, 14, 14);
+      margin-top: 0px;
+    }
+ nav
+ {
+   width: 1702px;
+   height: 150px;
+ }
+ .main-nav img
+ {
+   width: 280px;
+   height:250px;
+   margin-top: 80px;
+ }
+    .container1 {
+      max-width: 1490px;
+      margin-inline: auto;
+      padding: 20px;
+      overflow: hidden;
+    }
+    .brands
+    {
+      width:890px;
+      margin-top: 500px;
+      margin-left: 540px;
+
+    }
+    .Services {
+      text-align: center;
+      margin-top: 1420px;
+    font-size: 78px;
+    margin-left: 0px;
+    width:700px;
+    margin-bottom: 0px;
+  
+    }
   
    
 }

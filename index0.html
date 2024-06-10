@@ -1,7 +1,22 @@
-<html>
+<html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width" initial-scale="1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Details Form</title>
   <link rel="stylesheet" href="basic details4.css">
+  <style>
+    .error {
+      color: red;
+      display: none;
+    }
+    .Button {
+      cursor: pointer;
+    }
+    #pincode-error {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      color: rgb(65, 195, 76);
+    }
+  </style>
 </head>
 <body>
 <div id="font">
@@ -24,28 +39,29 @@
     </nav>
 <br><br><br><br><br>
     <div class="image">
-        <div class="content">
-          
+        <div class="content">       
           <h2>Doorstep Service  @  Home</h2>
         </div>
-      </div>
-<div id="font1"><br><br>
-   <h1>Schedule your Bike Service Today!</h1><br>
-<table id="pages">
-<tr>
-<td align="right"><a href="index0.html"><img  id="hover" src="/main bs.png"></a></td>
-<td><a style="text-decoration:None;" href="index0.html">Basic Details</a></td>
-<td align="right"><a href="index1.html"><img src="/main serv.png"></a></td>
-<td><a style="text-decoration:None;" href="index1.html">Service</a></td>
-<td align="right"><a href="index2.html"></a><img src="/main dat.png"></a></td>
-<td><a style="text-decoration:None;" href="index2.html">Date and time</a></td>
-<td align="right"><a href="index3.html"></a><img src="/main sum.png"></td>
-<td><a style="text-decoration:None;" href="index3.html">Summary</a></td>
-</tr>
-</table><br>
-<form align="center">
-<select>
-<option>
+    </div>
+<div id="font1"><br><br><br>
+        <div id="pages">
+            <div id="q">
+                <img id="g" src="/mbimg.png"><a href="index0.html">Basic Details</a>
+            </div>
+            <div id="r">
+                <img id="h" src="/simg.png"><a href="index1.html">Service</a>
+            </div>
+            <div id="s">
+                <img id="i" src="/dimg.png"><a href="index2.html">Date and Time</a>
+            </div>
+            <div id="t">
+                <img id="j" src="/suimg.png"><a href="index3.html">Summary</a>
+            </div>
+         </div><br>
+         <div id="hu"><br>
+<form align="center" name="contact-form" class="contact-form" onsubmit="return handleSubmit(event)">
+<select name="city" id="city" required="">
+<option value="">
   City
 </option>
 <option value="Visakhapatnam">Visakhapatnam</option>
@@ -59,25 +75,41 @@
 <option value="Anantapur">Anantapur</option>
 <option value="Eluru">Eluru</option>         
 </select><br><br>
-<input type="text" value="" placeholder=" Pincode" size="40"><br><br>  
-<input type="text" placeholder=" Brand" value="" size="40"><br><br>
-<select>
-<option>
+<input type="text" name="Pincode" id="Pincode" value="" placeholder=" Pincode" size="40" required=""><br><br>  
+<span class="error" id="pincode-error">Enter a vali pincode</span><br>
+<input type="text" name="Brand" id="Brand" placeholder=" Brand" value="" size="40" required=""><br><br>
+<select name="cycle" id="cycle" required="">
+    <option value="">Type of cycle</option>
   Type of cycle
 </option>
-<option>Geared</option>
-<option>Non-Geared</option>
+<option value="Geared">Geared</option>
+<option value="Non-Geared">Non-Geared</option>
 </select><br><br>
-<input type="text" value="" placeholder=" Name" name="Name" size="40"><br><br>
-<input type="email" value="" placeholder=" Email" size="40"><br><br>
-<input type="text" value="" placeholder=" Phone" size="40"><br><br>
-<input type="text" value="" placeholder=" Address" size="40" id="addr"><br></form><br>
-  <button id="ser"><a href="index1.html">Service<img src="/Group 120.png"></a></button><br><br>
-</div>
-</div>
-      <footer>
-        <div class="container flex footer-container">
-
+<input type="text" value="" placeholder="Name" name="Name" id="Name" size="40" required><br><br>
+    <input type="email" value="" placeholder="Email" name="Email" id="Email" size="40" required><br><br>
+    <input type="text" value="" placeholder="Phone" name="Phone" id="Phone" size="40" required><br><br>
+    <input type="text" value="" placeholder="Address" name="Address" id="Address" size="40" required><br>
+    <button type="submit" class="Button" id="ser" name="Button">Next</button>
+  </form><br>
+</div><br><br><br>
+</div></div>
+<section class="brands">
+    <div class="container1">
+        <h1 class="Services">Brands we serve</h1>
+        <div class="logos flex">
+            <h1 class="scroll"> < </h1>
+                    <img class="logo" src="/Rectangle_85-removebg-preview.png">
+                    <img class="logo" src="/Rectangle_86-removebg-preview.png">
+                    <img class="logo" src="/img-removebg-preview 1.png">
+                    <img class="logo" src="/Rectangle_95-removebg-preview (1).png">
+                    <img class="logo" src="/brand.png">
+                    <img class="logo" src="/brand2.png">
+            <h1 class="scroll1"> > </h1>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <div class="container footer-container">
             <div class="footer-left ">
                 <a href="#" class="company-logo footer-companylog">
                     <img src="/Cycle Restore Logo1.png" alt="company logo">
@@ -94,7 +126,7 @@
                         class="bi bi-whatsapp" viewBox="0 0">
                        <!--  <path
                             d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                    </svg> -->
+                       </path> -->
                     </svg>
 
                     <i class="fab fa-instagram" style="color: white"></i>
@@ -110,14 +142,14 @@
                         class="bi bi-twitter" viewBox="0 0 16 16">
                         <!-- <path
                             d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
-                    </svg> -->
+                        </path> -->
                     </svg>
                 </div>
             </div>
 
 
 
-            <div class="link-column flex  ">
+            <div class="link-column link-column2 ">
                 <h4 class="footer-heading">SERVING IN</h4>
                 <div class="foot-links">
                     <ul>
@@ -144,7 +176,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="link-column flex link-column2">
+            <div class="link-column  link-column2">
                 <h4 class="footer-heading">QUICK LINKS</h4>
                 <div class="foot-links">
                     <ul>
@@ -166,6 +198,7 @@
             <div class="link-column footer-det">
 
                 <h4 class="footer-heading contact-footer-head">CONTACT</h4>
+                <div class="link-column">
                 <div class="contact-1 flex">
                     <i class="fas fa-phone me-3" style="color:white"></i>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
@@ -192,7 +225,7 @@
                     <a href="#" class="link">A-hub, Andhra University, Maddilapalem, Visakhapatnam, 530003, Andhra
                         Pradesh,India</a>
                 </div>
-
+                </div>
 
             </div>
 
@@ -228,5 +261,146 @@
 
         )
     </script>
+
+
+<script>
+       
+    var set = 0;
+    document.getElementById('Pincode').addEventListener('input', validatePincode);
+     var btn1 = document.querySelector(".Button");
+    var form = document.querySelector('.contact-form');
+    btn1.addEventListener('click', function(event) {
+      event.preventDefault();
+      if (action2() && set === 1) {
+        action1();
+        action3();
+      }
+    });
+
+    function action3() {
+      const formData = new FormData(document.querySelector('.contact-form'));
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzd6UAxAv2ahIrabGQLdXoZgCpNxm1V6USHK7v7-zrH12Vi17pn3N8DhfeJORZqaMa-/exec';
+
+      fetch(scriptURL, { method: 'POST', body: formData })
+        .then(response => {
+          if (response.ok) {
+            window.location.href = "index1.html";
+          } else {
+            throw new Error('Network response was not ok.');
+          }
+        })
+        .catch(error => console.error('Error!', error.message));
+    }
+
+    function action1() {
+      const name = document.getElementById('Name').value;
+      const formData = new FormData(); 
+      formData.append('city', document.getElementById('city').value);
+      formData.append('Pincode', document.getElementById('Pincode').value);
+      formData.append('Brand', document.getElementById('Brand').value);
+      formData.append('cycle', document.getElementById('cycle').value);
+      formData.append('Name', document.getElementById('Name').value);
+      formData.append('phone', document.getElementById('Phone').value);
+      formData.append('Email', document.getElementById('Email').value);
+      localStorage.setItem('name', name);
+      localStorage.setItem('brand', document.getElementById('Brand').value);
+      localStorage.setItem('cycle', document.getElementById('cycle').value);
+      localStorage.setItem('pin', document.getElementById('Pincode').value);
+      localStorage.setItem('city', document.getElementById('city').value);
+      localStorage.setItem('address', document.getElementById('Address').value);
+      localStorage.setItem('phone', document.getElementById('Phone').value);
+      localStorage.setItem('email', document.getElementById('Email').value);
+    }
+
+    function action2() {
+      const city = document.getElementById('city').value.trim();
+      const pin = document.getElementById('Pincode').value.trim();
+      const brand = document.getElementById('Brand').value.trim();
+      const cycle = document.getElementById('cycle').value.trim();
+      const name = document.getElementById('Name').value.trim();
+      const phone = document.getElementById('Phone').value.trim();
+      const email = document.getElementById('Email').value.trim();
+
+      if (city === "") {
+        alert("City is required");
+        return false;
+      }
+
+      if (pin === "") {
+        alert("Pincode is required");
+        return false;
+      }
+
+      if (brand === "") {
+        alert("Brand is required");
+        return false;
+      }
+
+      if (cycle === "") {
+        alert("Cycle type is required");
+        return false;
+      }
+
+      if (name === "") {
+        alert("Name is required");
+        return false;
+      }
+
+      const phonePattern = /^\d{10}$/;
+      if (!phonePattern.test(phone)) {
+        alert("Please enter a valid 10-digit phone number");
+        return false;
+      }
+
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailPattern.test(email)) {
+        alert("Please enter a valid email address");
+        return false;
+      }
+
+      return true;
+    }
+
+    const validPincodes = {
+      Visakhapatnam: ["530001", "530002", "530003", "530004", "530005", "530007", "530008", "530009", "530011", "530012", "530013", "530014", "530015", "530016", "530017", "530018", "530020", "530022", "53024"],
+      Vijayawada: ["520002", "520003", "520004", "520005", "520006", "520007", "520008", "520009", "520010", "520011", "520012", "520013", "520014", "520015", "520016", "521104", "521107", "521108", "521134", "521137"],
+      Guntur: ["522001", "522002", "522003", "522004", "522005", "522006", "522007", "522008", "522009", "522010", "522011", "522012", "522013", "522014", "522015", "522016", "522017", "522018", "522019", "522020"],
+      Nellore: ["524001", "524002", "524003", "524004", "524005", "524006", "524007", "524008", "524009", "524010", "524011", "524012", "524013", "524014", "524015", "524016", "524017", "524018", "524019", "524020"],
+      Kurnool: ["518001", "518002", "518003", "518004", "518005", "518006", "518007", "518008", "518009", "518010", "518011", "518012", "518013", "518014", "518015", "518016", "518017", "518018", "518019", "518020"],
+      Rajahmundry: ["533101", "533102", "533103", "533104", "533105", "533106", "533107", "533108", "533109", "533110", "533111", "533112", "533113", "533114", "533115", "533116", "533117", "533118", "533119", "533120"],
+      Tirupati: ["517501", "517502", "517503", "517504", "517505", "517506", "517507", "517508", "517509", "517510", "517511", "517512", "517513", "517514", "517515", "517516", "517517", "517518", "517519", "517520"],
+      Kakinada: ["533001", "533002", "533003", "533004", "533005", "533006", "533007", "533008", "533009", "533010", "533011", "533012", "533013", "533014", "533015", "533016", "533017", "533018", "533019", "533020"],
+      Anantapur: ["515001", "515002", "515003", "515004", "515005", "515006", "515007", "515008", "515009", "515010", "515011", "515012", "515013", "515014", "515015", "515016", "515017", "515018", "515019", "515020"],
+      Eluru: ["534001", "534002", "534003", "534004", "534005", "534006", "534007", "534008", "534009", "534010", "534011", "534012", "534013", "534014", "534015", "534016", "534017", "534018", "534019", "534020"]
+    };
+
+    function validatePincode() {
+      const city = document.getElementById('city').value;
+      const pincode = document.getElementById('Pincode').value;
+      const pincodeError = document.getElementById('pincode-error');
+
+      if (city && pincode) {
+        if (!validPincodes[city] || !validPincodes[city].includes(pincode)) {
+          pincodeError.style.display = 'block';
+          pincodeError.innerText = "Enter a valid pincode for the specified city.";
+          set = 0;
+        } else {
+          pincodeError.style.display = 'none';
+          pincodeError.innerText = "";
+          set = 1;
+        }
+      }
+    }
+
+    function handleSubmit(event) {
+      event.preventDefault();
+      if (validatePincode() && action2() && set === 1) {
+        action1();
+        action3();
+      }
+    }
+
+
+</script>
 </body>
 </html>

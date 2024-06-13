@@ -114,12 +114,12 @@ select
 {
 box-shadow:0px 3px 5px rgba(248, 242, 242, 1.0);
 }
-#addr
+#Address
 {
 letter-spacing: 0.01cm;
 width:500px;
 height:48px;
-border-radius:35px;
+border-radius:45px;
 padding:5px;
 font-size: 17px;
 border: 2px solid rgb(11, 1, 1);
@@ -161,8 +161,8 @@ h1
 { 
   width:7%;
   height:5%;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   margin: left 10px;
   background-color:#161414;
  border-radius: 10px;
@@ -225,18 +225,30 @@ button
   text-decoration: none;
   color: #ffffff;
 }
+.footer-left
+{
+  margin-top: 15px;
 
+  width:700px;
+}
 footer {
 background-color: #050505fb;
 padding-block: 60px;
 top:1500px;
-height:600px;
+height:500px;
 left:0px;
 right:0px;
 bottom:0px;
 position: absolute;
 font-family: Rubik;
+
 }
+.ving
+{
+  width:300px;
+
+}
+
 .footer-container a{
 text-decoration: none;
 display: inline-block;
@@ -247,7 +259,7 @@ width: 1285px;
 margin-inline: auto;
 padding: 20px;
 overflow: hidden;
-margin-left: 50px;
+margin-left: 120px;
 
 }
 
@@ -279,14 +291,7 @@ margin-top: 40px;
 display: flex;
 gap: 10px;
 }
-.link-column3
-{
 
-flex-direction: column;
-align-items: flex-start;
-margin-top: 100px;
-
-}
 .link-column {
 flex-direction: column;
 align-items: flex-start;
@@ -294,8 +299,8 @@ margin-top: 40px;
 }
 
 .link-column2 {
-min-width: 180px;
-}
+width: 500px;
+} 
 .footer-heading {
 color: white;
 }
@@ -307,38 +312,56 @@ margin-top: 0px;
 .link {
 color: white;
 margin-top: 20px;
+
+
 }
-#ui
+
+.contact-1 a 
 {
-margin-top: 20px;
+  margin-left: 0px;
 }
 .fas {
-margin-top: 15px;
+margin-top: 20px;
 }
 
 .location{
-margin-top: -70px;
-padding-right: 20px;
+margin-top: -10px;
+padding-right: 15px;
 }
-
-.hr-footer{
+ 
+/* .hr-footer{
 margin-top: 50px;
 margin-bottom: -50px;
-}
+} */
 
 .sub-footer-collective {
 display: flex;
-gap: 470px;
+background-color: #000000;
+width: 1520px;
+margin-top: 445px;
+margin-left: 0px;
 }
 .sub-footer-collective p
 {
-margin-top:13px;
+margin-top:3px;
 }
 .sub-footer {
 color: white;
-margin-top: 50px;
+margin-top: 0px;
 }
-
+.sub-footer1
+{
+  margin-left: 120px;
+}
+.sub-footer2
+{
+  margin-left: 600px;
+}
+.footer-det
+{
+  width:800px;
+  
+}
 .copyright {
 font-size: medium;
 }
@@ -353,28 +376,16 @@ position: fixed;
 top:660px;
 margin-left: 1400px;
 scroll-behavior: auto;
-background-color: #2828f5;
 border-radius: 5px;
 }
-.hr-footer
-{
-margin-top: 550px;
-}
-.sub-footer-collective
-{
-margin-left: 40px;
-} 
 
 .Services {
   margin-left: 0px;
-    margin-top: 1280px;
+    margin-top: 1080px;
   
     color:#000000;
   }
-  .brands h1
-  {
-    color:#000000;
-  }
+  
    .scroll
   {
     margin-left: 35px;
@@ -396,7 +407,7 @@ margin-left: 40px;
   .logo{
     height: 100px;
     margin-right: 30px;
-    margin-top: 0px;
+    margin-top: 50px;
   }
   .logos {
     flex-wrap: wrap;
@@ -405,12 +416,14 @@ margin-left: 40px;
 
 
 /***********************************************************************************************************************************/
-@media (min-width:769px) and (max-width:1025px)
+@media screen and (min-width:769px) and (max-width:1026px)
 {
-  #font1
+  
+
+#font1
   {
     position:absolute;
-    height:1880px;
+    height:1900px;
     width:2000px;
     margin-top: 100px;
    border: 1px solid rgb(13, 12, 12);
@@ -422,6 +435,7 @@ margin-left: 40px;
   {
     width:2020px;
     margin-top: 47px;
+ 
   }
   h1{
     margin-left: 270px;
@@ -436,18 +450,18 @@ margin-left: 40px;
    width: 1300px;
    height: 100px;
    letter-spacing: 0.08cm;
-   font-size:50px;
+   font-size:40px;
   }
   .hr-footer
   {
     color: #ffffff;
 
   }
-  #addr
+  #Address
   {
     width: 1300px;
-    height: 110px;
-    font-size:50px;
+    height: 100px;
+    font-size:40px;
   }
   #pages
   {
@@ -457,18 +471,20 @@ margin-left: 40px;
     font-size: xx-large;
     margin-bottom: 80px;
     border: 2px solid white;
+    margin-top: 30px;
   }
   #pages img
   {
-    width: 40px;
-    height:40px;
+    width: 50px;
+    height:50px;
   }
+  
 h2
 {
   width:1200px;
   margin-left:450px;
   margin-top: 50px;
-  font-size:90px;
+  font-size:80px;
   letter-spacing: 0.04cm;
 }
 #hu
@@ -480,11 +496,11 @@ h2
 #ser
 {
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   height: 80px;
   width:180px;
-  font-size:50px;
+  font-size:40px;
 }
 #ser img
 {
@@ -510,7 +526,7 @@ nav
 }
 .sub-footer-collective 
   {
-   margin-top: 2458px;
+   margin-top: 4158px;
    background-color: #000000;
    width: 2000px;
    margin-left: 0px;
@@ -520,31 +536,26 @@ nav
  {
   font-size:28px;
   margin-top: 50px;
-  font-weight: bold;
+  
   margin-bottom: 10px;
  }
- .sub-footer
- {
-   margin-top: 0px;
-   margin-left:100px ;
-   height: 40px;
- }
+
  .sub-footer1
  {
    margin-top: 0px;
-   margin-left:40px ;
+   margin-left:30px ;
  } 
+ .sub-footer2
+ {
+  margin-left: 700px;
+ }
  .socialicons
  {
    margin-top: 20px;
    margin-left: 30px;
    margin-bottom: 60px;
  }
- .hr-footer{
-   margin-top: 1050px;
-   border:2px solid black;
-   color:#fdfcfc;
- }
+ 
 footer
 {
   width:0px;
@@ -552,7 +563,7 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:2650px;
+  margin-top:3350px;
   background-color: #090909;
   font-size: 25px;
   width: 2000px;
@@ -561,18 +572,18 @@ height:0px;
  flex-direction: row;
 }
 
-.footer-container ul 
+/* .footer-container ul 
 {
   margin-left: 30px;
-}
+} */
 .logo {
   height: 300px;
   width:400px;
 }
 
 .scroll,.scroll1 {
-  font-size: 10px;
-  padding: 10px;
+  font-size: 0px;
+  padding: 0px;
   color: #ffffff;
 }
 
@@ -582,23 +593,18 @@ margin-left: 90px;
 margin-top: 0px;
 padding-top: 0px;
 }
-.container1 {
-  max-width: 1490px;
-  margin-inline: auto;
-  padding: 20px;
-  overflow: hidden;
-}
 
 .brands
 {
-  
-  width:690px;
-  margin-top: 600px;
-  margin-left: 680px;
+ 
+  width:730px;
+  margin-top: 2300px;
+  margin-left: 725px;
+
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
+  margin-top: 0px;
 font-size: 78px;
 margin-left: 0px;
 width:600px;
@@ -610,22 +616,28 @@ h4
 }
 .location
 {
-  margin-top: -110px;
+  margin-top: -0px;
   margin-bottom: 40px;
+  margin-left: 3px;
+}
+
+.footer-left
+{
+  width:650px;
 }
 .footer-left img
 {
-  width:380px;
-  height:410px;
-  margin-left: 5px;
-  margin-top: 0px;
+  width:280px;
+  height:310px;
+  margin-left: 15px;
+  margin-top: 60px;
 }
 #contact-img
 {
-  margin-top: 620px;
-  width:100px;
-  height:100px;
-  margin-left: 1850px;
+  margin-top: 40px;
+  width:250px;
+  height:250px;
+  margin-left: 1750px;
 }
 .footer-para
 {
@@ -634,33 +646,32 @@ h4
   width:550px;
   margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+  
   margin-right: 100px;
 }
 .link-column
 {
-  height:400px;
-  width:250px;
-  margin-left: 60px;
+  
+  margin-left: 10px;
   font-size: larger;
-  font-weight: bold;
-  margin-top: 40px;
+
+  margin-top: 140px;
 }
 .link-column2
 {
   height: 570px;
-  width:350px;
-  margin-left: 0px;
+  width:400px;
+  margin-left: 50px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
   height: 570px;
   width:600px;
-  margin-left: 30px;
+  margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+  
 }
 .footer-det a
 {
@@ -671,10 +682,7 @@ h4
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.footer-det .link-column
-{
-  margin-left: 0px;
-}
+
 .navlinks
 {
   margin-top: 50px;
@@ -683,8 +691,10 @@ h4
 .contact-1
 {
   font-size:28px;
-  font-weight: bold;
+ 
 }
+
+
 }
 /********************************************************************************************************************************/
 
@@ -705,8 +715,11 @@ h4
       height: 60px;
       margin-top: 140px;
   }
- 
-  
+.fa-solid
+{
+  font-size: x-large;
+}
+
    .navlinks{
       position: absolute;
       background-color: rgb(0, 0, 0);
@@ -726,20 +739,22 @@ h4
 
   .navlinks ul {
       flex-direction: column;
-     
+     font-size: 30px;
   }
 
   
 } 
+
+
 /********************************************************************************************************************************/
 
 
-@media (min-width:426px) and (max-width:769px)
+@media screen and (min-width:500px) and (max-width:769px)
 {
   #font1
   {
     position:absolute;
-    height:1880px;
+    height:1900px;
     width:2000px;
     margin-top: 100px;
    border: 1px solid rgb(13, 12, 12);
@@ -751,7 +766,9 @@ h4
   {
     width:2020px;
     margin-top: 47px;
+   
   }
+ 
   h1{
     margin-left: 270px;
     width:850px;
@@ -765,18 +782,18 @@ h4
    width: 1300px;
    height: 100px;
    letter-spacing: 0.08cm;
-   font-size:50px;
+   font-size:40px;
   }
   .hr-footer
   {
     color: #ffffff;
 
   }
-  #addr
+  #Address
   {
     width: 1300px;
-    height: 110px;
-    font-size:50px;
+    height: 100px;
+    font-size:40px;
   }
   #pages
   {
@@ -786,18 +803,20 @@ h4
     font-size: xx-large;
     margin-bottom: 80px;
     border: 2px solid white;
+    margin-top: 30px;
   }
   #pages img
   {
-    width: 40px;
-    height:40px;
+    width: 50px;
+    height:50px;
   }
+  
 h2
 {
   width:1200px;
   margin-left:450px;
   margin-top: 50px;
-  font-size:90px;
+  font-size:80px;
   letter-spacing: 0.04cm;
 }
 #hu
@@ -809,11 +828,11 @@ h2
 #ser
 {
   margin-left: 0px;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   height: 80px;
   width:180px;
-  font-size:50px;
+  font-size:40px;
 }
 #ser img
 {
@@ -839,7 +858,7 @@ nav
 }
 .sub-footer-collective 
   {
-   margin-top: 2458px;
+   margin-top: 4158px;
    background-color: #000000;
    width: 2000px;
    margin-left: 0px;
@@ -849,31 +868,26 @@ nav
  {
   font-size:28px;
   margin-top: 50px;
-  font-weight: bold;
+  
   margin-bottom: 10px;
  }
- .sub-footer
- {
-   margin-top: 0px;
-   margin-left:100px ;
-   height: 40px;
- }
+
  .sub-footer1
  {
    margin-top: 0px;
-   margin-left:40px ;
+   margin-left:30px ;
  } 
+ .sub-footer2
+ {
+  margin-left: 700px;
+ }
  .socialicons
  {
    margin-top: 20px;
    margin-left: 30px;
    margin-bottom: 60px;
  }
- .hr-footer{
-   margin-top: 1050px;
-   border:2px solid black;
-   color:#fdfcfc;
- }
+ 
 footer
 {
   width:0px;
@@ -881,7 +895,7 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:2650px;
+  margin-top:3350px;
   background-color: #090909;
   font-size: 25px;
   width: 2000px;
@@ -890,18 +904,15 @@ height:0px;
  flex-direction: row;
 }
 
-.footer-container ul 
-{
-  margin-left: 30px;
-}
+
 .logo {
   height: 300px;
   width:400px;
 }
 
 .scroll,.scroll1 {
-  font-size: 10px;
-  padding: 10px;
+  font-size: 0px;
+  padding: 0px;
   color: #ffffff;
 }
 
@@ -911,23 +922,18 @@ margin-left: 90px;
 margin-top: 0px;
 padding-top: 0px;
 }
-.container1 {
-  max-width: 1490px;
-  margin-inline: auto;
-  padding: 20px;
-  overflow: hidden;
-}
 
 .brands
 {
-  
-  width:690px;
-  margin-top: 600px;
-  margin-left: 680px;
+ 
+  width:730px;
+  margin-top: 2300px;
+  margin-left: 725px;
+
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
+  margin-top: 0px;
 font-size: 78px;
 margin-left: 0px;
 width:600px;
@@ -939,22 +945,28 @@ h4
 }
 .location
 {
-  margin-top: -110px;
-  margin-bottom: 40px;
+  margin-top: 70px;
+  margin-bottom: 0px;
+  margin-left: 3px;
+}
+
+.footer-left
+{
+  width:650px;
 }
 .footer-left img
 {
-  width:380px;
-  height:410px;
-  margin-left: 5px;
-  margin-top: 0px;
+  width:280px;
+  height:310px;
+  margin-left: 15px;
+  margin-top: 60px;
 }
 #contact-img
 {
-  margin-top: 1120px;
-  width:100px;
-  height:100px;
-  margin-left: 1830px;
+  margin-top: 400px;
+  width:250px;
+  height:250px;
+  margin-left: 1750px;
 }
 .footer-para
 {
@@ -963,33 +975,32 @@ h4
   width:550px;
   margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+  
   margin-right: 100px;
 }
 .link-column
 {
-  height:400px;
-  width:250px;
-  margin-left: 60px;
+  
+  margin-left: 10px;
   font-size: larger;
-  font-weight: bold;
-  margin-top: 40px;
+
+  margin-top: 140px;
 }
 .link-column2
 {
   height: 570px;
-  width:350px;
-  margin-left: 0px;
+  width:400px;
+  margin-left: 50px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
   height: 570px;
   width:600px;
-  margin-left: 30px;
+  margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+  
 }
 .footer-det a
 {
@@ -1000,37 +1011,30 @@ h4
   padding-bottom: 10px;
   padding-top: 10px;
 }
-.footer-det .link-column
-{
-  margin-left: 0px;
-}
+
 .navlinks
 {
-  margin-top: 50px;
+  margin-top: 0px;
   font-size: x-large;
 }
 .contact-1
 {
   font-size:28px;
-  font-weight: bold;
-}
+ 
 }
 
+}
 
 /********************************************************************************************************************************/
 
 
-@media (min-width:376px) and (max-width:426px)
+@media screen and (min-width:426px) and (max-width:500px)
 {
   .location
   {
-    margin-bottom: 200px;
-    height: 350px;
+    margin-top: -110px;
   }
-  .footer-det .link-column
-  {
-    margin-left: 0px;
-  }
+
   .fas
   {
     margin-right: 20px;
@@ -1038,19 +1042,21 @@ h4
   #font1
   {
     position:absolute;
-    height:1630px;
+    
     width:1500px;
-    margin-top: 100px;
+    margin-top: 530px;
    border: 1px solid rgb(13, 12, 12);
    left: 0px;
    right: 0px;
    background-color: #0b0808;
-  height: 1850px;
+  height: 1870px;
   }
   .image
   {
     width:1520px;
-    margin-top: 100px;
+    margin-top: 113px;
+    height: 600px;
+    
   }
   h1{
     margin-left: 270px;
@@ -1072,32 +1078,36 @@ h4
     color: #ffffff;
 
   }
-  #addr
+  #Address
   {
     width: 1300px;
-    height: 110px;
+    height: 100px;
     font-size:50px;
   }
   #pages
   {
-    width: 1200px;
-    margin-left: 160px;
+    width: 1300px;
+    margin-left: 105px;
     height:100px;
     font-size: xx-large;
     margin-bottom: 80px;
     border: 2px solid white;
+    flex-direction: row;
+    margin-top: 20px;
+   
   }
   #pages img
   {
     width: 40px;
     height:40px;
   }
+ 
 h2
 {
-  width:1200px;
-  margin-left:170px;
-  margin-top: 50px;
-  font-size:90px;
+  width:360px;
+  margin-left:570px;
+  margin-top: 150px;
+  font-size:70px;
   letter-spacing: 0.04cm;
 }
 #hu
@@ -1109,8 +1119,8 @@ h2
 #ser
 {
   margin-left: 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 40px;
   height: 80px;
   width:180px;
   font-size:50px;
@@ -1118,34 +1128,37 @@ h2
 form
 {
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 6220px;
+  flex-direction:column;
+  margin-top: 7720px;
   background-color: #000000;
   width: 1500px;
   margin-left: 0px;
-  height: 600px;
+  height: 500px;
 }
 .sub-footer-collective p 
 {
- font-size:58px;
+ font-size:50px;
  margin-top: 60px;
- font-weight: bold;
+
 }
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 100px;
-}
+
 .sub-footer1
 {
-  margin-top: 0px;
-  margin-bottom: 270px;
+  margin-top: 50px;
+ margin-left: 20px;
+  width:1440px;
+
+}
+.sub-footer2
+{
+margin-left: 500px;
+width:700px;
+margin-top: 50px;
+ margin-left: 400px;
 }
 .socialicons
 {
@@ -1165,9 +1178,22 @@ nav
 }
 .main-nav img
 {
-  width: 280px;
-  height:250px;
+  width: 250px;
+  height:300px;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+.hover-links
+{
   margin-top: 80px;
+ 
+  font-size: xx-large;
+}
+.main-nav
+{
+  
+  height:170px;
 }
 footer
 {
@@ -1176,7 +1202,7 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:3200px;
+  margin-top:3700px;
   background-color: #000000;
   font-size: 50px;
   width: 1500px;
@@ -1220,7 +1246,7 @@ padding-top: 0px;
 {
   
   width:690px;
-  margin-top: 600px;
+  margin-top: 1000px;
   margin-left: 450px;
 }
 .Services {
@@ -1235,11 +1261,7 @@ h4
 {
   margin-bottom: 20px;
 }
-.location
-{
-  margin-top: -30px;
-  margin-bottom: 40px;
-}
+
 .footer-left img
 {
   width:380px;
@@ -1248,19 +1270,24 @@ h4
 }
 #contact-img
 {
-  margin-top: 1380px;
-  width:100px;
-  height:100px;
-  margin-left: 1300px;
+  margin-top: 250px;
+  width:250px;
+  height:250px;
+  margin-left: 1230px;
 }
+
 .footer-para
 {
   margin-top:350px;
   height: 500px;
   width:1350px;
-  margin-left: 30px;
+  margin-left: 50px;
   font-size: larger;
-  font-weight: bold;
+ 
+}
+.footer-left
+{
+  margin-left: 10px;
 }
 .link-column
 {
@@ -1268,15 +1295,15 @@ h4
   width:350px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+  
 }
 .link-column2
 {
   height: 800px;
-  width:540px;
+  width:680px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
@@ -1284,12 +1311,305 @@ h4
   width:1200px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+form option 
+{
+  font-size: medium;
+}
+}
+
+
+/********************************************************************************************************************************/
+
+
+@media (min-width:376px) and (max-width:426px)
+{
+  
+  .location
+  {
+    margin-top: -110px;
+  }
+
+  .fas
+  {
+    margin-right: 20px;
+  }
+  #font1
+  {
+    position:absolute;
+    
+    width:1500px;
+    margin-top: 530px;
+   border: 1px solid rgb(13, 12, 12);
+   left: 0px;
+   right: 0px;
+   background-color: #0b0808;
+  height: 1870px;
+  }
+  .image
+  {
+    width:1520px;
+    margin-top: 113px;
+    height: 600px;
+    
+  }
+  h1{
+    margin-left: 270px;
+    width:850px;
+    margin-bottom:30px;
+    margin-top: 40px;
+    font-size: 44px;
+  }
+  input[type=text],select,input[type=email]
+  {
+    margin-bottom: 40px;
+   width: 1300px;
+   height: 100px;
+   letter-spacing: 0.08cm;
+   font-size:50px;
+  }
+  .hr-footer
+  {
+    color: #ffffff;
+
+  }
+  #Address
+  {
+    width: 1300px;
+    height: 100px;
+    font-size:50px;
+  }
+  #pages
+  {
+    width: 1300px;
+    margin-left: 105px;
+    height:100px;
+    font-size: xx-large;
+    margin-bottom: 80px;
+    border: 2px solid white;
+    flex-direction: row;
+    margin-top: 20px;
+   
+  }
+  #pages img
+  {
+    width: 40px;
+    height:40px;
+  }
+ 
+h2
+{
+  width:360px;
+  margin-left:570px;
+  margin-top: 150px;
+  font-size:70px;
+  letter-spacing: 0.04cm;
+}
+#hu
+{
+  width:1498px;
+  margin-left: 0px;
+  border-radius: unset;
+}
+#ser
+{
+  margin-left: 0px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  height: 80px;
+  width:180px;
+  font-size:50px;
+}
+form
+{
+  margin-left: 10px;
+  margin-top: 80px;
+}
+.sub-footer-collective {
+  display: flex;
+  flex-direction:column;
+  margin-top: 7720px;
+  background-color: #000000;
+  width: 1500px;
+  margin-left: 0px;
+  height: 500px;
+}
+.sub-footer-collective p 
+{
+ font-size:50px;
+ margin-top: 60px;
+
+}
+
+.sub-footer1
+{
+  margin-top: 50px;
+ margin-left: 20px;
+  width:1440px;
+
+}
+.sub-footer2
+{
+margin-left: 500px;
+width:700px;
+margin-top: 50px;
+ margin-left: 400px;
+}
+.socialicons
+{
+  margin-top: 0px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.hr-footer{
+  margin-top: 1050px;
+  border:2px solid black;
+  color:#fdfcfc;
+}
+nav
+{
+  width: 1500px;
+  height: 200px;
+}
+.main-nav img
+{
+  width: 250px;
+  height:300px;
+  margin-top: 130px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:3700px;
+  background-color: #000000;
+  font-size: 50px;
+  width: 1500px;
+  margin-left:0px;
+ height:4000px;
+ display: flex;
+ flex-direction: column;
+}
+.contact-1
+{
+  font-size: 56px;
+}
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 90px;
+margin-top: 0px;
+padding-top: 0px;
+}
+.container1 {
+  max-width: 1490px;
+  margin-inline: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.brands
+{
+  
+  width:690px;
+  margin-top: 1000px;
+  margin-left: 450px;
+}
+.Services {
+  text-align: center;
+  margin-top: 1620px;
+font-size: 85px;
+margin-left: 0px;
+width:fit-content;
+margin-bottom: 0px;
+}
+h4
+{
+  margin-bottom: 20px;
+}
+
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 5px;
+}
+#contact-img
+{
+  margin-top: 600px;
+  width:250px;
+  height:250px;
+  margin-left: 1230px;
+}
+
+.footer-para
+{
+  margin-top:350px;
+  height: 500px;
+  width:1350px;
+  margin-left: 50px;
+  font-size: larger;
+ 
+}
+.footer-left
+{
+  margin-left: 10px;
+}
+.link-column
+{
+  height:900px;
+  width:350px;
+  margin-left: 60px;
+  font-size: larger;
+  
+}
+.link-column2
+{
+  height: 800px;
+  width:680px;
+  margin-left: 60px;
+  font-size: larger;
+
+}
+.footer-det
+{
+  height: 670px;
+  width:1200px;
+  margin-left: 60px;
+  font-size: larger;
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+form option 
+{
+  font-size: medium;
 }
 }
 
@@ -1299,15 +1619,12 @@ h4
 
 @media (min-width:321px) and (max-width:376px)
 {
+  
   .location
   {
-    margin-bottom: 200px;
-    height: 350px;
+    margin-top: -110px;
   }
-  .footer-det .link-column
-  {
-    margin-left: 0px;
-  }
+
   .fas
   {
     margin-right: 20px;
@@ -1315,19 +1632,21 @@ h4
   #font1
   {
     position:absolute;
-    height:1630px;
-    width:1500px;
-    margin-top: 100px;
+    
+    width:1285px;
+    margin-top: 530px;
    border: 1px solid rgb(13, 12, 12);
    left: 0px;
    right: 0px;
    background-color: #0b0808;
-  height: 1850px;
+  height: 1870px;
   }
   .image
   {
-    width:1520px;
-    margin-top: 100px;
+    width:1305px;
+    margin-top: 113px;
+    height: 600px;
+    
   }
   h1{
     margin-left: 270px;
@@ -1339,90 +1658,103 @@ h4
   input[type=text],select,input[type=email]
   {
     margin-bottom: 40px;
-   width: 1300px;
+   width: 900px;
    height: 100px;
    letter-spacing: 0.08cm;
    font-size:50px;
+   margin-left: 10px;
   }
   .hr-footer
   {
     color: #ffffff;
 
   }
-  #addr
+  #Address
   {
-    width: 1300px;
-    height: 110px;
+    width: 900px;
+    height: 100px;
     font-size:50px;
+   
   }
   #pages
   {
     width: 1200px;
-    margin-left: 160px;
+    margin-left: 43px;
     height:100px;
     font-size: xx-large;
     margin-bottom: 80px;
     border: 2px solid white;
+    flex-direction: row;
+    margin-top: 20px;
+   
   }
   #pages img
   {
     width: 40px;
     height:40px;
   }
+ 
 h2
 {
-  width:1200px;
-  margin-left:170px;
-  margin-top: 50px;
-  font-size:90px;
+  width:360px;
+  margin-left:470px;
+  margin-top: 170px;
+  font-size:70px;
   letter-spacing: 0.04cm;
 }
 #hu
 {
-  width:1498px;
+  width:1283px;
   margin-left: 0px;
   border-radius: unset;
+  
 }
 #ser
 {
   margin-left: 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 40px;
   height: 80px;
   width:180px;
   font-size:50px;
 }
 form
 {
-  margin-left: 10px;
-  margin-top: 50px;
+  margin-left: 0px;
+  margin-top: 80px;
+  width:1285px;
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 6120px;
+  flex-direction:column;
+  margin-top: 7720px;
   background-color: #000000;
-  width: 1500px;
+  width: 1285px;
   margin-left: 0px;
-  height: 600px;
+  height: 500px;
+ 
 }
 .sub-footer-collective p 
 {
- font-size:58px;
- margin-top: 80px;
- font-weight: bold;
+ font-size:40px;
+ margin-top: 60px;
+
 }
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 100px;
-}
+
 .sub-footer1
 {
-  margin-top: 0px;
-  margin-bottom: 270px;
+  margin-top: 50px;
+ margin-left: 50px;
+  width:1160px;
+ 
+}
+.sub-footer2
+{
+margin-left: 500px;
+width:700px;
+margin-top: 50px;
+ margin-left: 350px;
+
 }
 .socialicons
 {
@@ -1430,22 +1762,21 @@ form
   margin-left: 60px;
   margin-bottom: 60px;
 }
-.hr-footer{
-  margin-top: 1050px;
-  border:2px solid black;
-  color:#fdfcfc;
-}
+
 nav
 {
-  width: 1500px;
+  width: 1285px;
   height: 200px;
 }
 .main-nav img
 {
-  width: 280px;
-  height:250px;
-  margin-top: 80px;
+  width: 250px;
+  height:300px;
+  margin-top: 130px;
+  margin-left: 60px;
+  margin-bottom: 0px;
 }
+
 footer
 {
   width:0px;
@@ -1453,12 +1784,12 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:3200px;
+  margin-top:3700px;
   background-color: #000000;
   font-size: 50px;
-  width: 1500px;
+  width: 1285px;
   margin-left:0px;
- height:3900px;
+ height:4000px;
  display: flex;
  flex-direction: column;
 }
@@ -1487,22 +1818,17 @@ margin-left: 90px;
 margin-top: 0px;
 padding-top: 0px;
 }
-.container1 {
-  max-width: 1490px;
-  margin-inline: auto;
-  padding: 20px;
-  overflow: hidden;
-}
+
 .brands
 {
-  
+
   width:690px;
-  margin-top: 600px;
-  margin-left: 450px;
+  margin-top: 2600px;
+  margin-left: 330px;
 }
 .Services {
   text-align: center;
-  margin-top: 1620px;
+  margin-top: 0px;
 font-size: 85px;
 margin-left: 0px;
 width:fit-content;
@@ -1512,11 +1838,7 @@ h4
 {
   margin-bottom: 20px;
 }
-.location
-{
-  margin-top: -30px;
-  margin-bottom: 40px;
-}
+
 .footer-left img
 {
   width:380px;
@@ -1525,19 +1847,24 @@ h4
 }
 #contact-img
 {
-  margin-top: 1800px;
-  width:100px;
-  height:100px;
-  margin-left: 1300px;
+  margin-top: 570px;
+  width:250px;
+  height:250px;
+  margin-left: 1000px;
 }
 .footer-para
 {
   margin-top:350px;
-  height: 500px;
-  width:1350px;
-  margin-left: 30px;
+  height: 600px;
+  width:1250px;
+  margin-left: 50px;
   font-size: larger;
-  font-weight: bold;
+ 
+}
+.footer-left
+{
+  margin-left: 10px;
+ 
 }
 .link-column
 {
@@ -1545,15 +1872,16 @@ h4
   width:350px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+ 
+  
 }
 .link-column2
 {
-  height: 670px;
-  width:670px;
+  height: 800px;
+  width:680px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
@@ -1561,12 +1889,16 @@ h4
   width:1200px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+form option 
+{
+  font-size: medium;
 }
 }
 
@@ -1576,22 +1908,35 @@ h4
 
 @media (max-width:320px)
 {
+  
+  
+  .location
+  {
+    margin-top: -110px;
+  }
+
+  .fas
+  {
+    margin-right: 20px;
+  }
   #font1
   {
     position:absolute;
-    height:1630px;
-    width:1500px;
-    margin-top: 100px;
+    
+    width:1283px;
+    margin-top: 530px;
    border: 1px solid rgb(13, 12, 12);
    left: 0px;
    right: 0px;
    background-color: #0b0808;
-  height: 1850px;
+  height: 1870px;
   }
   .image
   {
-    width:1520px;
-    margin-top: 100px;
+    width:1303px;
+    margin-top: 113px;
+    height: 600px;
+    
   }
   h1{
     margin-left: 270px;
@@ -1603,89 +1948,103 @@ h4
   input[type=text],select,input[type=email]
   {
     margin-bottom: 40px;
-   width: 1300px;
+   width: 900px;
    height: 100px;
    letter-spacing: 0.08cm;
    font-size:50px;
+   margin-left: 10px;
   }
   .hr-footer
   {
     color: #ffffff;
 
   }
-  #addr
+  #Address
   {
-    width: 1300px;
-    height: 110px;
+    width: 900px;
+    height: 100px;
     font-size:50px;
+   
   }
   #pages
   {
     width: 1200px;
-    margin-left: 160px;
+    margin-left: 43px;
     height:100px;
     font-size: xx-large;
     margin-bottom: 80px;
     border: 2px solid white;
+    flex-direction: row;
+    margin-top: 20px;
+   
   }
   #pages img
   {
     width: 40px;
     height:40px;
   }
+ 
 h2
 {
-  width:1200px;
-  margin-left:170px;
-  margin-top: 50px;
-  font-size:90px;
+  width:360px;
+  margin-left:470px;
+  margin-top: 170px;
+  font-size:70px;
   letter-spacing: 0.04cm;
 }
 #hu
 {
-  width:1498px;
+  width:1280px;
   margin-left: 0px;
   border-radius: unset;
+  
 }
 #ser
 {
   margin-left: 0px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 40px;
   height: 80px;
   width:180px;
   font-size:50px;
 }
 form
 {
-  margin-left: 10px;
-  margin-top: 50px;
+  margin-left: 0px;
+  margin-top: 80px;
+  width:1283px;
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 6220px;
+  flex-direction:column;
+  margin-top: 7720px;
   background-color: #000000;
-  width: 1500px;
+  width: 1283px;
   margin-left: 0px;
+  height: 500px;
+ 
 }
 .sub-footer-collective p 
 {
- font-size:58px;
- margin-top: 0px;
- font-weight: bold;
+ font-size:40px;
+ margin-top: 60px;
+
 }
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 100px;
-}
+
 .sub-footer1
 {
-  margin-top: 0px;
-  margin-bottom: 270px;
+  margin-top: 50px;
+ margin-left: 50px;
+  width:1160px;
+ 
+}
+.sub-footer2
+{
+margin-left: 500px;
+width:700px;
+margin-top: 50px;
+ margin-left: 350px;
+
 }
 .socialicons
 {
@@ -1693,22 +2052,21 @@ form
   margin-left: 60px;
   margin-bottom: 60px;
 }
-.hr-footer{
-  margin-top: 1050px;
-  border:2px solid black;
-  color:#fdfcfc;
-}
+
 nav
 {
-  width: 1500px;
+  width: 1283px;
   height: 200px;
 }
 .main-nav img
 {
-  width: 280px;
-  height:250px;
-  margin-top: 80px;
+  width: 250px;
+  height:300px;
+  margin-top: 130px;
+  margin-left: 60px;
+  margin-bottom: 0px;
 }
+
 footer
 {
   width:0px;
@@ -1716,12 +2074,12 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:3200px;
+  margin-top:3700px;
   background-color: #000000;
   font-size: 50px;
-  width: 1500px;
+  width: 1283px;
   margin-left:0px;
- height:4500px;
+ height:4000px;
  display: flex;
  flex-direction: column;
 }
@@ -1750,24 +2108,20 @@ margin-left: 90px;
 margin-top: 0px;
 padding-top: 0px;
 }
-.container1 {
-  max-width: 1490px;
-  margin-inline: auto;
-  padding: 20px;
-  overflow: hidden;
-}
+
 .brands
 {
-  
+
   width:690px;
-  margin-top: 560px;
-  margin-left: 450px;
+  margin-top: 2600px;
+  margin-left: 330px;
+
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
+  margin-top: 0px;
 font-size: 85px;
-margin-left: 0px;
+margin-left: 20px;
 width:fit-content;
 margin-bottom: 0px;
 }
@@ -1775,11 +2129,7 @@ h4
 {
   margin-bottom: 20px;
 }
-.location
-{
-  margin-top: -30px;
-  margin-bottom: 40px;
-}
+
 .footer-left img
 {
   width:380px;
@@ -1788,19 +2138,24 @@ h4
 }
 #contact-img
 {
-  margin-top: 1880px;
-  width:100px;
-  height:100px;
-  margin-left: 1100px;
+  margin-top: 870px;
+  width:250px;
+  height:250px;
+  margin-left: 1000px;
 }
 .footer-para
 {
   margin-top:350px;
-  height: 500px;
-  width:1350px;
-  margin-left: 30px;
+  height: 600px;
+  width:1250px;
+  margin-left: 50px;
   font-size: larger;
-  font-weight: bold;
+ 
+}
+.footer-left
+{
+  margin-left: 10px;
+ 
 }
 .link-column
 {
@@ -1808,15 +2163,16 @@ h4
   width:350px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+ 
+  
 }
 .link-column2
 {
-  height: 670px;
-  width:670px;
+  height: 800px;
+  width:680px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
@@ -1824,12 +2180,16 @@ h4
   width:1200px;
   margin-left: 60px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+}
+form option 
+{
+  font-size: medium;
 }
 }
 

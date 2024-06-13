@@ -303,144 +303,7 @@ h3{
     margin-top:30px;
     border:1.7px solid black;
 }
-footer {
-  background-color: #050505fb;
-  padding-block: 60px;
-  top:1500px;
-  height:600px;
-  left:0px;
-  right:0px;
-  bottom:0px;
-  position: absolute;
-  font-family: Rubik;
-}
-.footer-container a{
-text-decoration: none;
-display: inline-block;
-}
-.container {
-position: absolute;
-width: 1285px;
-margin-inline: auto;
-padding: 20px;
-overflow: hidden;
-margin-left: 50px;
 
-}
-
-.footer-container {
-display: flex;
-align-items: center;
-}
-.footer-container {
-align-items: flex-start;
-gap: 130px;
-}
-
-.company-logo img {
-width: 120px;
-height:110px;
-margin-bottom:20px;
-}
-
-.footer-companylog img{
-margin-left: -15px;
-}
-.footer-para {
-color: rgb(252, 247, 247);
-margin-top: 30px;
-margin-left: 0px;
-}
-.socialicons {
-margin-top: 40px;
-display: flex;
-gap: 10px;
-}
-.link-column3
-{
-  
-  flex-direction: column;
-align-items: flex-start;
-margin-top: 100px;
-
-}
-.link-column {
-flex-direction: column;
-align-items: flex-start;
-margin-top: 40px;
-}
-
-.link-column2 {
-min-width: 180px;
-}
-.footer-heading {
-color: white;
-}
-
-.foot-links {
-margin-left: 20px;
-margin-top: 0px;
-}
-.link {
-color: white;
-margin-top: 20px;
-}
-#ui
-{
-  margin-top: 20px;
-}
-.fas {
-margin-top: 15px;
-}
-
-.location{
-margin-top: -70px;
-padding-right: 20px;
-}
-
-.hr-footer{
-margin-top: 50px;
-margin-bottom: -50px;
-}
-
-.sub-footer-collective {
-display: flex;
-gap: 470px;
-}
-.sub-footer-collective p
-{
-margin-top:13px;
-}
-.sub-footer {
-color: white;
-margin-top: 50px;
-}
-
-.copyright {
-font-size: medium;
-}
-.contact
-{
-margin-top: 20px;
-}
-#contact-img{
-width: 40px;
-height: 40px;
-position: fixed;
-top:660px;
-margin-left: 1400px;
-scroll-behavior: auto;
-background-color: #2828f5;
-border-radius: 5px;
-}
-.hr-footer
-{
-margin-top: 550px;
-}
-.sub-footer-collective
-{
-margin-left: 40px;
-} 
 
   .Services {
     margin-left: 0px;
@@ -448,16 +311,14 @@ margin-left: 40px;
     
       color:#000000;
     }
-    .brands h1
-    {
-      color:#000000;
-    }
+   
      .scroll
     {
       margin-left: 35px;
       font-size: 30px;
       padding: 20px;
       margin-right: 40px;
+      color: #f6eeee;
     } 
     .scroll1
     {
@@ -465,6 +326,7 @@ margin-left: 40px;
       padding: 20px;
       margin-right: 10px; 
       margin-left: 5px;
+      color: #fefcfc;
     }
     .flex {
       display: flex;
@@ -478,10 +340,181 @@ margin-left: 40px;
     .logos {
       flex-wrap: wrap;
     }
+    .footer-left
+{
+  margin-top: 0px;
+  
+  width:1000px;
+}
+footer {
+background-color: #050505fb;
+padding-block: 60px;
+top:1500px;
+height:400px;
+left:0px;
+right:0px;
+bottom:0px;
+position: absolute;
+font-family: Rubik;
+
+}
+.ving
+{
+  width:300px;
+
+}
+
+.footer-container a{
+text-decoration: none;
+display: inline-block;
+}
+.container {
+position: absolute;
+width: 1285px;
+margin-inline: auto;
+padding: 20px;
+overflow: hidden;
+margin-left: 120px;
+
+}
+
+.footer-container {
+display: flex;
+align-items: center;
+}
+.footer-container {
+align-items: flex-start;
+gap: 130px;
+}
+
+.footer-left img {
+width: 120px;
+height:110px;
+margin-top: 0px;
+
+}
+
+.footer-companylog img{
+margin-left: -15px;
+}
+.footer-para {
+color: rgb(252, 247, 247);
+margin-top: 40px;
+margin-left: 0px;
+}
+.socialicons {
+margin-top: 40px;
+display: flex;
+gap: 10px;
+}
+
+.link-column {
+flex-direction: column;
+align-items: flex-start;
+margin-top: 20px;
+
+}
+
+.link-column2 {
+width: 800px;
+} 
+.footer-heading {
+color: white;
+margin-bottom: 0px;
+
+
+}
+.link-column2 .footer-heading
+{
+  margin-left: 23px;
+}
+.ving .footer-heading
+{
+  margin-left: 23px;
+}
+.foot-links {
+margin-left: 0px;
+margin-top: 0px;
+
+}
+.link {
+color: white;
+margin-top: 20px;
+}
+.foot-links ul
+{
+  margin-top: 0px;
+}
+.contact-1 a 
+{
+  margin-left: 0px;
+}
+.fas {
+margin-top: 20px;
+}
+
+.location{
+margin-top: -10px;
+padding-right: 15px;
+}
+
+
+.sub-footer-collective {
+display: flex;
+background-color: #000000;
+width: 1480px;
+margin-top: 465px;
+margin-left: 0px;
+}
+.sub-footer-collective p
+{
+margin-top:3px;
+}
+.sub-footer {
+color: white;
+margin-top: 0px;
+}
+.sub-footer1
+{
+  margin-left: 100px;
+  
+}
+.sub-footer2
+{
+  margin-left: 550px;
+
+}
+.footer-det
+{
+  width:1000px;
+  
+}
+.copyright {
+font-size: medium;
+}
+.contact
+{
+margin-top: 20px;
+}
+#contact-img{
+width: 110px;
+height: 110px;
+position: fixed;
+top:520px;
+margin-left: 1350px;
+scroll-behavior: auto;
+
+border-radius: 5px;
+}
+.hr-footer
+{
+margin-top: 400px;
+}
+
 /********************************************************************************************************************************/
 
 
-@media (min-width:769px) and (max-width:1024px)
+@media screen and (min-width:769px) and (max-width:1025px)
 {
   .image
   {
@@ -490,7 +523,7 @@ margin-left: 40px;
   }
   .sub-footer-collective 
   {
-   margin-top: 2048px;
+   margin-top: 3048px;
    background-color: #000000;
    width: 2000px;
    margin-left: 0px;
@@ -509,10 +542,12 @@ margin-left: 40px;
    margin-left:100px ;
    height: 40px;
  }
+
  .sub-footer1
  {
    margin-top: 0px;
-   margin-left:40px ;
+   margin-left:10px ;
+   margin-right: 450px;
  } 
  .socialicons
  {
@@ -520,11 +555,7 @@ margin-left: 40px;
    margin-left: 30px;
    margin-bottom: 60px;
  }
- .hr-footer{
-   margin-top: 1050px;
-   border:2px solid black;
-   color:#fdfcfc;
- }
+
  nav
  {
    width: 2040px;
@@ -544,7 +575,7 @@ margin-left: 40px;
      #pages
      {
        width: 1630px;
-       margin-left:230px;
+       margin-left:220px;
        height:110px;
        font-size: xx-large;
        margin-bottom: 0px;
@@ -571,6 +602,10 @@ margin-left: 40px;
     {
       width:150px;
       height: 70px;
+    }
+    .calendar-container button 
+    {
+      font-size: large;
     }
     h3
     {
@@ -632,6 +667,7 @@ margin-left: 40px;
         width: 620px;
         height: 50px;
         font-size: xx-large;
+        margin-top: 70px;
     }
     .bookingdate button 
     {
@@ -685,12 +721,13 @@ padding-top: 0px;
 {
   
   width:690px;
-  margin-top: 600px;
+  margin-top: 1700px;
   margin-left: 680px;
+  font-family: serif;
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
+  margin-top: 0px;
 font-size: 78px;
 margin-left: 0px;
 width:200px;
@@ -707,17 +744,17 @@ h4
 }
 .footer-left img
 {
-  width:380px;
-  height:410px;
+  width:350px;
+  height:380px;
   margin-left: 5px;
   margin-top: 0px;
 }
 #contact-img
 {
-  margin-top: 620px;
-  width:100px;
-  height:100px;
-  margin-left: 1890px;
+  margin-top: 160px;
+  width:250px;
+  height:250px;
+  margin-left: 1770px;
 }
 .footer-para
 {
@@ -726,23 +763,24 @@ h4
   width:550px;
   margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+ 
 }
+
 .link-column
 {
   height:400px;
   width:250px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ margin-top: 80px;
 }
 .link-column2
 {
   height: 570px;
-  width:1180px;
+  width:1480px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
@@ -750,8 +788,9 @@ h4
   width:1500px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+
 }
+
 .footer-det a
 {
   margin-left: 15px;
@@ -770,15 +809,22 @@ h4
 .contact-1
 {
   font-size:28px;
-  font-weight: bold;
+ 
+}
+.link-column .footer-heading
+{
+  margin-left: 40px;
+}
+.footer-det .footer-heading
+{
+  margin-left: 0px;
 }
 }
 
 
-/********************************************************************************************************************************/
+
 
 /********************************************************************************************************************************/
-
 
 
 @media (min-width:120px) and (max-width:990px) {
@@ -794,10 +840,14 @@ h4
         margin-right: 20px;
         width:100px;
         height: 60px;
-        margin-top: 90px;
+        margin-top: 50px;
+       
     }
-   
-    
+  .fa-solid
+  {
+    font-size: x-large;
+  }
+  
      .navlinks{
         position: absolute;
         background-color: rgb(0, 0, 0);
@@ -806,18 +856,18 @@ h4
         width: 100%;
         padding-block: 20px;
         transition: 0.4s ease-in-out;
-       
+        margin-top: 140px;
     }
     
   
     .navlinks.active{
         left: 0;
-      
+       
     }
   
     .navlinks ul {
         flex-direction: column;
-       
+       font-size: 30px;
     }
   
     
@@ -826,7 +876,7 @@ h4
   
   
 
-@media (min-width:426px) and (max-width:768px)
+@media screen and (min-width:500px) and (max-width:769px)
 { 
   .image
   {
@@ -835,7 +885,7 @@ h4
   }
   .sub-footer-collective 
   {
-   margin-top: 2048px;
+   margin-top: 3048px;
    background-color: #000000;
    width: 2000px;
    margin-left: 0px;
@@ -854,10 +904,12 @@ h4
    margin-left:100px ;
    height: 40px;
  }
+
  .sub-footer1
  {
    margin-top: 0px;
-   margin-left:40px ;
+   margin-left:10px ;
+   margin-right: 450px;
  } 
  .socialicons
  {
@@ -865,11 +917,7 @@ h4
    margin-left: 30px;
    margin-bottom: 60px;
  }
- .hr-footer{
-   margin-top: 1050px;
-   border:2px solid black;
-   color:#fdfcfc;
- }
+
  nav
  {
    width: 2040px;
@@ -889,7 +937,7 @@ h4
      #pages
      {
        width: 1630px;
-       margin-left:230px;
+       margin-left:220px;
        height:110px;
        font-size: xx-large;
        margin-bottom: 0px;
@@ -916,6 +964,10 @@ h4
     {
       width:150px;
       height: 70px;
+    }
+    .calendar-container button 
+    {
+      font-size: large;
     }
     h3
     {
@@ -977,6 +1029,7 @@ h4
         width: 620px;
         height: 50px;
         font-size: xx-large;
+        margin-top: 70px;
     }
     .bookingdate button 
     {
@@ -1030,12 +1083,13 @@ padding-top: 0px;
 {
   
   width:690px;
-  margin-top: 360px;
+  margin-top: 1700px;
   margin-left: 680px;
+  font-family: serif;
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
+  margin-top: 0px;
 font-size: 78px;
 margin-left: 0px;
 width:200px;
@@ -1052,17 +1106,17 @@ h4
 }
 .footer-left img
 {
-  width:380px;
-  height:410px;
+  width:350px;
+  height:380px;
   margin-left: 5px;
   margin-top: 0px;
 }
 #contact-img
 {
-  margin-top: 1130px;
-  width:100px;
-  height:100px;
-  margin-left: 1890px;
+  margin-top: 500px;
+  width:300px;
+  height:300px;
+  margin-left: 1730px;
 }
 .footer-para
 {
@@ -1071,23 +1125,24 @@ h4
   width:550px;
   margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+ 
 }
+
 .link-column
 {
   height:400px;
   width:250px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ margin-top: 80px;
 }
 .link-column2
 {
   height: 570px;
-  width:1180px;
+  width:1480px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .footer-det
 {
@@ -1095,8 +1150,9 @@ h4
   width:1500px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+
 }
+
 .footer-det a
 {
   margin-left: 15px;
@@ -1115,7 +1171,15 @@ h4
 .contact-1
 {
   font-size:28px;
-  font-weight: bold;
+ 
+}
+.link-column .footer-heading
+{
+  margin-left: 40px;
+}
+.footer-det .footer-heading
+{
+  margin-left: 0px;
 }
 }
 
@@ -1123,38 +1187,50 @@ h4
 /********************************************************************************************************************************/
 
 
-@media (min-width:376px) and (max-width:426px)
-{ .image
+@media screen and (min-width:426px) and (max-width:500px)
+{
+   .image
   {
     width:1712px;
-    margin-top: 47px;
+    margin-top: 117px;
+    height:600px;
   }
  nav
  {
    width: 1702px;
-   height: 150px;
+   height: 200px;
  }
+ 
  .main-nav img
- {
-   width: 280px;
-   height:250px;
-   margin-top: 80px;
- }
-    #pages img
-    {
-      width: 60px;
-      height:60px;
-    }
-     #pages
-     {
-       width: 1230px;
-       margin-left:230px;
-       height:110px;
-       font-size: xx-large;
-       margin-bottom: 0px;
-       border: 1px solid rgb(15, 14, 14);
-       margin-top: 5px;
-     }
+{
+  width: 280px;
+  height:350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.main-nav
+{
+
+  height:170px;
+}
+#pages
+{
+  width: 1500px;
+  margin-left: 105px;
+  height:100px;
+  font-size: xx-large;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  flex-direction: row;
+  margin-top: 20px;
+ 
+}
+#pages img
+{
+  width: 40px;
+  height:40px;
+}
      h1
     {
        margin-left:200px;
@@ -1165,10 +1241,11 @@ h4
     }
     h2
     {
-        margin-left: 380px;
-        width:960px;
-        margin-top: 50px;
-        font-size: 58px;
+      width:360px;
+      margin-left:680px;
+      margin-top: 170px;
+      font-size:70px;
+      letter-spacing: 0.04cm;
     }
     #submit1 button
     {
@@ -1179,6 +1256,7 @@ h4
     {
       margin-left: 750px;
       margin-top: 70px;
+      font-size: larger;
     }
     #submit1 a 
     {
@@ -1197,6 +1275,7 @@ h4
       width:1700px;
       font-family: rubik;
       font-size: xx-large;
+      margin-top: 535px;
     }
     .calendar-container
     {
@@ -1236,6 +1315,7 @@ h4
         width: 1520px;
         height: 50px;
         font-size: xx-large;
+        margin-top: 60px;
     }
     .bookingdate button 
     {
@@ -1251,56 +1331,55 @@ h4
 }
 .brands
 {
-  width:690px;
-  margin-top: 1000px;
-  margin-left: 580px;
+  width:750px;
+  margin-top: 2900px;
+  margin-left: 500px;
+ 
+  font-family:serif;
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
-font-size: 78px;
+  margin-top: 0px;
+font-size: 92px;
 margin-left: 0px;
-width:200px;
+width:420px;
 margin-bottom: 0px;
+
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 5860px;
+  flex-direction:column;
+  margin-top: 7660px;
   background-color: #000000;
   width: 1660px;
   margin-left: 0px;
-  height:500px;
+  height:300px;
 }
 .sub-footer-collective p 
 {
- font-size:58px;
+ font-size:40px;
  margin-top: 20px;
- font-weight: bold;
-}
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 150px;
+
 }
 .sub-footer1
 {
-  margin-top: 0px;
+  margin-top: 20px;
+  width:1280px;
+  height: 40px;
+  margin-left: 250px;
+}
+.sub-footer2
+{
+  margin-top: 80px;
   margin-bottom: 270px;
 }
 .socialicons
 {
   margin-top: 0px;
-  margin-left: 60px;
+  margin-left: 40px;
   margin-bottom: 60px;
 }
-.hr-footer{
-  margin-top: 1050px;
-  border:2px solid black;
-  color:#fdfcfc;
-}
+
 footer
 {
   width:0px;
@@ -1308,7 +1387,7 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:2800px;
+  margin-top:3600px;
   background-color: #000000;
   font-size: 50px;
   width: 1660px;
@@ -1319,8 +1398,10 @@ height:0px;
 }
 .contact-1
 {
-  font-size: 56px;
+  font-size: 66px;
+  margin-left: 30px;
 }
+
 .footer-container ul 
 {
   margin-left: 30px;
@@ -1328,6 +1409,7 @@ height:0px;
 .logo {
   height: 300px;
   width:400px;
+  margin-top: 20px;
 }
 
 .scroll,.scroll1 {
@@ -1338,14 +1420,14 @@ height:0px;
 
 .logos {
   flex-wrap: wrap;
-margin-left: 90px;
-margin-top: 0px;
-padding-top: 0px;
+margin-left: 110px;
+margin-top: 30px;
+padding-top: 20px;
 }
 .navlinks
 {
-  margin-top: 50px;
-  font-size: x-large;
+  margin-top: 0px;
+  font-size: 40px;
 }
 
 .bookingdate
@@ -1353,66 +1435,68 @@ padding-top: 0px;
   display: flex;
   flex-direction: column;
 }
-h4
-{
-  margin-bottom: 20px;
-}
+
 .location
 {
-  margin-top: -260px;
-  margin-bottom: 40px;
+  margin-top: -120px;
+
 }
 .footer-left img
 {
   width:380px;
   height:410px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 #contact-img
 {
-  margin-top: 1880px;
-  width:100px;
-  height:100px;
-  margin-left: 1480px;
+  margin-top: 780px;
+  width:300px;
+  height:300px;
+  margin-left: 1380px;
 }
 .footer-para
 {
   margin-top:350px;
   height: 500px;
   width:1350px;
-  margin-left: 0px;
-  font-size: larger;
-  font-weight: bold;
+  margin-left: 30px;
+  font-size: 66px;
+  
 }
 .link-column
 {
   height:900px;
-  width:750px;
+  width:400px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
 }
 .link-column2
 {
   height: 670px;
-  width:550px;
+  width:750px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
   margin-bottom: 70px;
 }
 .footer-det
 {
   height: 670px;
   width:1200px;
-  margin-left: 60px;
+  margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 66px;
+}
+.footer-heading
+{
+  margin-bottom:  20px;
 }
 }
 
@@ -1420,39 +1504,50 @@ h4
 /********************************************************************************************************************************/
 
 
-@media (min-width:321px) and (max-width:376px)
+@media screen and (min-width:376px) and (max-width:426px)
 {
   .image
   {
-    width:1512px;
-    margin-top: 47px;
+    width:1518px;
+    margin-top: 117px;
+    height:600px;
   }
  nav
  {
-   width: 1498px;
-   height: 150px;
+   width: 1508px;
+   height: 200px;
  }
+ 
  .main-nav img
- {
-   width: 280px;
-   height:250px;
-   margin-top: 80px;
- }
-    #pages img
-    {
-      width: 60px;
-      height:60px;
-    }
-     #pages
-     {
-       width: 1230px;
-       margin-left:130px;
-       height:110px;
-       font-size: xx-large;
-       margin-bottom: 0px;
-       border: 1px solid rgb(15, 14, 14);
-       margin-top: 5px;
-     }
+{
+  width: 280px;
+  height:350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.main-nav
+{
+
+  height:170px;
+}
+#pages
+{
+  width: 1300px;
+  margin-left: 105px;
+  height:100px;
+  font-size: xx-large;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  flex-direction: row;
+  margin-top: 20px;
+ 
+}
+#pages img
+{
+  width: 40px;
+  height:40px;
+}
      h1
     {
        margin-left:200px;
@@ -1463,10 +1558,11 @@ h4
     }
     h2
     {
-        margin-left: 280px;
-        width:960px;
-        margin-top: 50px;
-        font-size: 58px;
+      width:360px;
+      margin-left:560px;
+      margin-top: 170px;
+      font-size:70px;
+      letter-spacing: 0.04cm;
     }
     #submit1 button
     {
@@ -1475,8 +1571,9 @@ h4
     }
     h3
     {
-      margin-left: 630px;
-      margin-top: 70px;
+      margin-left: 640px;
+      margin-top: 50px;
+      font-size: larger;
     }
     #submit1 a 
     {
@@ -1484,32 +1581,53 @@ h4
     }
     #alldt
     {
-        margin-left:0.2px;   
-        width: 1495px;
+        margin-left:0px;   
+        width: 1503px;
         margin-right: 45px;
         margin-bottom: 10px;
-        height: 1350px;
+        height: 1600px;
+    }
+    .calendar-header
+    {
+      font-size: larger;
+      
+    }
+    .bookingdate
+    {
+      margin-left: 150px;
+      
     }
     #hu
     {
-      width:1500px;
+      width:1508px;
       font-family: rubik;
       font-size: xx-large;
+      margin-top: 535px;
+      height: 2100px;
+    }
+    .calendar-container button 
+    {
+      width:100px;
+      height:50px;
+      font-size: larger;
+
     }
     .calendar-container
     {
         margin-left:60px;
-        margin-right: 60px;
-        width:1540px;
-        height: 450px;
+        width:1100px;
+        height: 700px;
+        
     }
     #time
     {
-        margin-left:50px;
-        width:1503px;
+        margin-right: 110px;
+        width:1120px;
         height:450px;
-        font-size: xx-large;
-        margin-top: 50px;
+        font-size: 40px;
+        margin-top: 80px;
+        font-weight: 300;
+     
     }
    
     .brands h1
@@ -1518,22 +1636,27 @@ h4
     }
     .calendarday
     {
-      font-size: x-large;
+      font-size: xx-large;
+      height: 80px;
     }
     #bi
     {
-        margin-right:1060px;
+      margin-left: 150px;
+      margin-right: 820px;
     }
     #submit1
     {
         margin-left: 60px;
+       
+        margin-top: 70px;
     }
     #input
     {
-        margin-left: 10px;
-        width: 1470px;
+        margin-left: 210px;
+        width: 1120px;
         height: 50px;
         font-size: xx-large;
+        margin-top: 60px;
     }
     .bookingdate button 
     {
@@ -1549,56 +1672,56 @@ h4
 }
 .brands
 {
-  width:690px;
-  margin-top: 1000px;
-  margin-left: 380px;
+  width:700px;
+  margin-top: 3000px;
+  margin-left: 450px;
+ 
+  font-family:serif;
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
-font-size: 78px;
+  margin-top: 0px;
+font-size: 92px;
 margin-left: 0px;
-width:200px;
+width:420px;
 margin-bottom: 0px;
+
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 5850px;
+  flex-direction:column;
+  margin-top: 7660px;
   background-color: #000000;
-  width: 1460px;
+  width: 1470px;
   margin-left: 0px;
-  height: 500px;
+  height:300px;
 }
 .sub-footer-collective p 
 {
- font-size:58px;
- margin-top: 0px;
- font-weight: bold;
-}
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 0px;
+ font-size:40px;
+ margin-top: 20px;
+
 }
 .sub-footer1
 {
-  margin-top: 0px;
-  margin-bottom: 270px;
+  margin-top: 20px;
+  width:1280px;
+  height: 40px;
+  margin-left: 150px;
+}
+.sub-footer2
+{
+  margin-top: 80px;
+  
+  margin-left: 430px;
 }
 .socialicons
 {
   margin-top: 0px;
-  margin-left: 60px;
+  margin-left: 40px;
   margin-bottom: 60px;
 }
-.hr-footer{
-  margin-top: 1050px;
-  border:2px solid black;
-  color:#fdfcfc;
-}
+
 footer
 {
   width:0px;
@@ -1606,7 +1729,7 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:2800px;
+  margin-top:3600px;
   background-color: #000000;
   font-size: 50px;
   width: 1470px;
@@ -1614,12 +1737,13 @@ height:0px;
  height:4000px;
  display: flex;
  flex-direction: column;
- border:1px solid red;
 }
 .contact-1
 {
-  font-size: 56px;
+  font-size: 66px;
+  margin-left: 10px;
 }
+
 .footer-container ul 
 {
   margin-left: 30px;
@@ -1627,6 +1751,7 @@ height:0px;
 .logo {
   height: 300px;
   width:400px;
+  margin-top: 20px;
 }
 
 .scroll,.scroll1 {
@@ -1637,14 +1762,14 @@ height:0px;
 
 .logos {
   flex-wrap: wrap;
-margin-left: 90px;
-margin-top: 0px;
-padding-top: 0px;
+margin-left: 110px;
+margin-top: 20px;
+padding-top: 20px;
 }
 .navlinks
 {
-  margin-top: 50px;
-  font-size: x-large;
+  margin-top: 0px;
+  font-size: 40px;
 }
 
 .bookingdate
@@ -1652,105 +1777,117 @@ padding-top: 0px;
   display: flex;
   flex-direction: column;
 }
-h4
-{
-  margin-bottom: 20px;
-}
+
 .location
 {
-  margin-top: -260px;
-  margin-bottom: 40px;
+  margin-top: -120px;
+  
 }
 .footer-left img
 {
   width:380px;
   height:410px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 #contact-img
 {
-  margin-top: 2280px;
-  width:100px;
-  height:100px;
-  margin-left: 1300px;
+  margin-top: 880px;
+  width:250px;
+  height:250px;
+  margin-left: 1180px;
 }
 .footer-para
 {
   margin-top:350px;
   height: 500px;
   width:1350px;
-  margin-left: 0px;
-  font-size: larger;
-  font-weight: bold;
+  margin-left: 30px;
+  font-size: 66px;
+  
 }
 .link-column
 {
-  height:1000px;
-  width:750px;
+  height:900px;
+  width:400px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
 }
 .link-column2
 {
-  height: 770px;
-  width:550px;
+  height: 670px;
+  width:750px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
+  margin-bottom: 70px;
 }
 .footer-det
 {
   height: 670px;
   width:1200px;
-  margin-left: 60px;
+  margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 66px;
 }
-
+.footer-heading
+{
+  margin-bottom:  20px;
+}
 }
 
 /********************************************************************************************************************************/
 
-
-@media (max-width:320px)
+@media screen and (min-width:321px) and (max-width:376px)
 { 
   .image
   {
-    width:1512px;
-    margin-top: 47px;
+    width:1295px;
+    margin-top: 117px;
+    height:600px;
   }
  nav
  {
-   width: 1498px;
-   height: 150px;
+   width: 1285px;
+   height: 200px;
  }
+ 
  .main-nav img
- {
-   width: 280px;
-   height:250px;
-   margin-top: 80px;
- }
-    #pages img
-    {
-      width: 60px;
-      height:60px;
-    }
-     #pages
-     {
-       width: 1230px;
-       margin-left:130px;
-       height:110px;
-       font-size: xx-large;
-       margin-bottom: 0px;
-       border: 1px solid rgb(15, 14, 14);
-       margin-top: 5px;
-     }
+{
+  width: 280px;
+  height:350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.main-nav
+{
+
+  height:170px;
+}
+#pages
+{
+  width: 1200px;
+  margin-left: 43px;
+  height:100px;
+  font-size: xx-large;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  flex-direction: row;
+  margin-top: 20px;
+ 
+}
+#pages img
+{
+  width: 40px;
+  height:40px;
+}
      h1
     {
        margin-left:200px;
@@ -1761,10 +1898,11 @@ h4
     }
     h2
     {
-        margin-left: 280px;
-        width:960px;
-        margin-top: 50px;
-        font-size: 58px;
+      width:360px;
+      margin-left:500px;
+      margin-top: 170px;
+      font-size:70px;
+      letter-spacing: 0.04cm;
     }
     #submit1 button
     {
@@ -1773,8 +1911,9 @@ h4
     }
     h3
     {
-      margin-left: 630px;
-      margin-top: 70px;
+      margin-left: 520px;
+      margin-top: 50px;
+      font-size: larger;
     }
     #submit1 a 
     {
@@ -1782,32 +1921,53 @@ h4
     }
     #alldt
     {
-        margin-left:0.2px;   
-        width: 1495px;
+        margin-left:0px;   
+        width: 1283px;
         margin-right: 45px;
         margin-bottom: 10px;
-        height: 1350px;
+        height: 1600px;
+    }
+    .calendar-header
+    {
+      font-size: larger;
+      
+    }
+    .bookingdate
+    {
+      margin-left: 150px;
+      
     }
     #hu
     {
-      width:1500px;
+      width:1285px;
       font-family: rubik;
       font-size: xx-large;
+      margin-top: 535px;
+      height: 2100px;
+    }
+    .calendar-container button 
+    {
+      width:100px;
+      height:50px;
+      font-size: larger;
+
     }
     .calendar-container
     {
-        margin-left:60px;
-        margin-right: 60px;
-        width:1540px;
-        height: 450px;
+        margin-right:253px;
+        width:1100px;
+        height: 700px;
+        
     }
     #time
     {
-        margin-left:50px;
-        width:1503px;
+        margin-right: 113px;
+        width:1120px;
         height:450px;
-        font-size: xx-large;
-        margin-top: 50px;
+        font-size: 40px;
+        margin-top: 80px;
+        font-weight: 300;
+     
     }
    
     .brands h1
@@ -1816,22 +1976,27 @@ h4
     }
     .calendarday
     {
-      font-size: x-large;
+      font-size: xx-large;
+      height: 80px;
     }
     #bi
     {
-        margin-right:1060px;
+      margin-left: 60px;
+      margin-right: 820px;
     }
     #submit1
     {
-        margin-left: 60px;
+        margin-left: 40px;
+       
+        margin-top: 70px;
     }
     #input
     {
-        margin-left: 10px;
-        width: 1470px;
+        margin-left: 95px;
+        width: 1120px;
         height: 50px;
         font-size: xx-large;
+        margin-top: 60px;
     }
     .bookingdate button 
     {
@@ -1847,56 +2012,56 @@ h4
 }
 .brands
 {
-  width:690px;
-  margin-top: 1000px;
-  margin-left: 380px;
+  width:700px;
+  margin-top: 3000px;
+  margin-left: 300px;
+ 
+  font-family:serif;
 }
 .Services {
   text-align: center;
-  margin-top: 1420px;
-font-size: 78px;
+  margin-top: 0px;
+font-size: 92px;
 margin-left: 0px;
-width:200px;
+width:420px;
 margin-bottom: 0px;
+
 }
 .sub-footer-collective {
   display: flex;
-  flex-direction:row;
-  margin-top: 5850px;
+  flex-direction:column;
+  margin-top: 7660px;
   background-color: #000000;
-  width: 1460px;
+  width: 1245px;
   margin-left: 0px;
-  height: 500px;
+  height:300px;
 }
 .sub-footer-collective p 
 {
- font-size:58px;
- margin-top: 0px;
- font-weight: bold;
-}
-.sub-footer
-{
-  margin-top: 0px;
-  width:1280px;
-  height: 40px;
-  margin-left: 0px;
+ font-size:40px;
+ margin-top: 20px;
+
 }
 .sub-footer1
 {
-  margin-top: 0px;
-  margin-bottom: 270px;
+  margin-top: 20px;
+  width:1280px;
+  height: 40px;
+  margin-left: 40px;
+}
+.sub-footer2
+{
+  margin-top: 80px;
+  
+  margin-left: 360px;
 }
 .socialicons
 {
   margin-top: 0px;
-  margin-left: 60px;
+  margin-left: 40px;
   margin-bottom: 60px;
 }
-.hr-footer{
-  margin-top: 1050px;
-  border:2px solid black;
-  color:#fdfcfc;
-}
+
 footer
 {
   width:0px;
@@ -1904,20 +2069,21 @@ height:0px;
 }
 .footer-container
 {
-  margin-top:2800px;
+  margin-top:3600px;
   background-color: #000000;
   font-size: 50px;
-  width: 1470px;
+  width: 1245px;
   margin-left:0px;
  height:4000px;
  display: flex;
  flex-direction: column;
- border:1px solid red;
 }
 .contact-1
 {
-  font-size: 56px;
+  font-size: 66px;
+  margin-left: 10px;
 }
+
 .footer-container ul 
 {
   margin-left: 30px;
@@ -1925,6 +2091,7 @@ height:0px;
 .logo {
   height: 300px;
   width:400px;
+  margin-top: 20px;
 }
 
 .scroll,.scroll1 {
@@ -1935,14 +2102,14 @@ height:0px;
 
 .logos {
   flex-wrap: wrap;
-margin-left: 90px;
-margin-top: 0px;
-padding-top: 0px;
+margin-left: 110px;
+margin-top: 20px;
+padding-top: 20px;
 }
 .navlinks
 {
-  margin-top: 50px;
-  font-size: x-large;
+  margin-top: 0px;
+  font-size: 40px;
 }
 
 .bookingdate
@@ -1950,65 +2117,408 @@ padding-top: 0px;
   display: flex;
   flex-direction: column;
 }
-h4
-{
-  margin-bottom: 20px;
-}
+
 .location
 {
-  margin-top: -260px;
-  margin-bottom: 40px;
+  margin-top: -120px;
+
 }
 .footer-left img
 {
   width:380px;
   height:410px;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 #contact-img
 {
-  margin-top: 1880px;
-  width:100px;
-  height:100px;
-  margin-left: 1100px;
+  margin-top: 880px;
+  width:250px;
+  height:250px;
+  margin-left: 1000px;
 }
 .footer-para
 {
   margin-top:350px;
   height: 500px;
   width:1350px;
-  margin-left: 0px;
-  font-size: larger;
-  font-weight: bold;
+  margin-left: 25px;
+  font-size: 64px;
+  
 }
 .link-column
 {
-  height:1000px;
-  width:750px;
+  height:900px;
+  width:400px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
 }
 .link-column2
 {
-  height: 770px;
-  width:550px;
+  height: 670px;
+  width:750px;
   margin-left: 0px;
   font-size: larger;
-  font-weight: bold;
+ 
+  margin-bottom: 70px;
 }
 .footer-det
 {
   height: 670px;
   width:1200px;
-  margin-left: 60px;
+  margin-left: 30px;
   font-size: larger;
-  font-weight: bold;
+
 }
 .link-column li
 {
   padding-bottom: 10px;
   padding-top: 10px;
+  font-size: 64px;
+}
+.footer-heading
+{
+  margin-bottom:  20px;
+}
+}
+
+
+/******************************************************************************************************************************/
+@media screen and (max-width:320px)
+{ 
+  .image
+  {
+    width:1295px;
+    margin-top: 117px;
+    height:600px;
+  }
+ nav
+ {
+   width: 1285px;
+   height: 200px;
+ }
+ 
+ .main-nav img
+{
+  width: 280px;
+  height:350px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.main-nav
+{
+
+  height:170px;
+}
+#pages
+{
+  width: 1200px;
+  margin-left: 43px;
+  height:100px;
+  font-size: xx-large;
+  margin-bottom: 0px;
+  border: 2px solid white;
+  flex-direction: row;
+  margin-top: 20px;
+ 
+}
+#pages img
+{
+  width: 40px;
+  height:40px;
+}
+     h1
+    {
+       margin-left:200px;
+       margin-top:40px;
+       width:1100px;
+       font-size: 58px;
+       margin-bottom: 20px;
+    }
+    h2
+    {
+      width:360px;
+      margin-left:500px;
+      margin-top: 170px;
+      font-size:70px;
+      letter-spacing: 0.04cm;
+    }
+    #submit1 button
+    {
+      width:150px;
+      height: 70px;
+    }
+    h3
+    {
+      margin-left: 520px;
+      margin-top: 50px;
+      font-size: larger;
+    }
+    #submit1 a 
+    {
+      font-size: xx-large;
+    }
+    #alldt
+    {
+        margin-left:0px;   
+        width: 1283px;
+        margin-right: 45px;
+        margin-bottom: 10px;
+        height: 1600px;
+    }
+    .calendar-header
+    {
+      font-size: larger;
+      
+    }
+    .bookingdate
+    {
+      margin-left: 150px;
+      
+    }
+    #hu
+    {
+      width:1285px;
+      font-family: rubik;
+      font-size: xx-large;
+      margin-top: 535px;
+      height: 2100px;
+    }
+    .calendar-container button 
+    {
+      width:100px;
+      height:50px;
+      font-size: larger;
+
+    }
+    .calendar-container
+    {
+        margin-right:253px;
+        width:1100px;
+        height: 700px;
+        
+    }
+    #time
+    {
+        margin-right: 113px;
+        width:1120px;
+        height:450px;
+        font-size: 40px;
+        margin-top: 80px;
+        font-weight: 300;
+     
+    }
+   
+    .brands h1
+    {
+      width:700px;
+    }
+    .calendarday
+    {
+      font-size: xx-large;
+      height: 80px;
+    }
+    #bi
+    {
+      margin-left: 60px;
+      margin-right: 820px;
+    }
+    #submit1
+    {
+        margin-left: 40px;
+       
+        margin-top: 70px;
+    }
+    #input
+    {
+        margin-left: 95px;
+        width: 1120px;
+        height: 50px;
+        font-size: xx-large;
+        margin-top: 60px;
+    }
+    .bookingdate button 
+    {
+      width:50px;
+      height: 50px;
+    }
+
+.container1 {
+  max-width: 1490px;
+  margin-inline: auto;
+  padding: 20px;
+  overflow: hidden;
+}
+.brands
+{
+  width:700px;
+  margin-top: 3000px;
+  margin-left: 300px;
+ 
+  font-family:serif;
+}
+.Services {
+  text-align: center;
+  margin-top: 0px;
+font-size: 92px;
+margin-left: 0px;
+width:420px;
+margin-bottom: 0px;
+
+}
+.sub-footer-collective {
+  display: flex;
+  flex-direction:column;
+  margin-top: 7660px;
+  background-color: #000000;
+  width: 1245px;
+  margin-left: 0px;
+  height:300px;
+}
+.sub-footer-collective p 
+{
+ font-size:40px;
+ margin-top: 20px;
+
+}
+.sub-footer1
+{
+  margin-top: 20px;
+  width:1280px;
+  height: 40px;
+  margin-left: 40px;
+}
+.sub-footer2
+{
+  margin-top: 80px;
+  
+  margin-left: 360px;
+}
+.socialicons
+{
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+
+footer
+{
+  width:0px;
+height:0px;
+}
+.footer-container
+{
+  margin-top:3600px;
+  background-color: #000000;
+  font-size: 50px;
+  width: 1245px;
+  margin-left:0px;
+ height:4000px;
+ display: flex;
+ flex-direction: column;
+}
+.contact-1
+{
+  font-size: 66px;
+  margin-left: 10px;
+}
+
+.footer-container ul 
+{
+  margin-left: 30px;
+}
+.logo {
+  height: 300px;
+  width:400px;
+  margin-top: 20px;
+}
+
+.scroll,.scroll1 {
+  font-size: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.logos {
+  flex-wrap: wrap;
+margin-left: 110px;
+margin-top: 20px;
+padding-top: 20px;
+}
+.navlinks
+{
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+.bookingdate
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.location
+{
+  margin-top: -120px;
+ 
+}
+.footer-left img
+{
+  width:380px;
+  height:410px;
+  margin-left: 0px;
+}
+#contact-img
+{
+  margin-top: 880px;
+  width:250px;
+  height:250px;
+  margin-left: 1000px;
+}
+.footer-para
+{
+  margin-top:350px;
+  height: 500px;
+  width:1350px;
+  margin-left: 25px;
+  font-size: 64px;
+  
+}
+.link-column
+{
+  height:900px;
+  width:400px;
+  margin-left: 0px;
+  font-size: larger;
+ 
+}
+.link-column2
+{
+  height: 670px;
+  width:750px;
+  margin-left: 0px;
+  font-size: larger;
+ 
+  margin-bottom: 70px;
+}
+.footer-det
+{
+  height: 670px;
+  width:1200px;
+  margin-left: 30px;
+  font-size: larger;
+
+}
+.link-column li
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 64px;
+}
+.footer-heading
+{
+  margin-bottom:  20px;
 }
 }
 
